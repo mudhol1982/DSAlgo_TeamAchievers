@@ -33,7 +33,7 @@ public class Driver_SetUp {
         // Set WebDriver configurations (timeouts, window size, cookies)
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
         driver.manage().window().maximize();
-        driver.manage().deleteAllCookies();
+       // driver.manage().deleteAllCookies();
 
         return driver; // Return the WebDriver instance
     }
