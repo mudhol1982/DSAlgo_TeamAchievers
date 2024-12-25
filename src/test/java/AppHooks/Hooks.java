@@ -3,16 +3,17 @@ package AppHooks;
 import DriverManager.Driver_SetUp;  // Import Driver_SetUp class
 import Utilities.ConfigReader;      // Import ConfigReader
 import io.cucumber.java.Before;
+import io.cucumber.java.BeforeAll;
 import io.cucumber.java.After;
 import org.openqa.selenium.WebDriver;
 
 public class Hooks {
 
-    private WebDriver driver;
+    private static WebDriver driver;
 
     // This hook runs before each scenario to initialize the WebDriver
-    @Before
-    public void setUp() throws Exception {
+    @BeforeAll
+    public static void setUp() throws Exception {
         // Load the configuration values from config.properties
         ConfigReader.loadConfig();
 
@@ -28,12 +29,12 @@ public class Hooks {
     }
 
     // This hook runs after each scenario to quit the WebDriver
-   // @After
-   // public void tearDown() {
-   //     if (driver != null) {
+  //  @After
+  //  public void tearDown() {
+  //    if (driver != null) {
    //         Driver_SetUp.closeDriver();  // Close the browser after the test
-   //     }
-   // }
+   //   }
+  //  }
 
     // Getter for WebDriver (useful in step definitions)
     public WebDriver getDriver() {
