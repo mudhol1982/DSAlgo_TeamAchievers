@@ -2,6 +2,8 @@ package PageObjectModel;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
 import DriverManager.Driver_SetUp;
 
 public class IntroductionPagePom {
@@ -13,22 +15,18 @@ public class IntroductionPagePom {
 	public By dataStructure = By.cssSelector("a.dropdown-toggle");
 	public By dsDropdown = By.cssSelector("a.dropdown-item");
 	
-	//Drop Down values of Data Structures Web Element 
-	public By dsDropdownItem1 = By.cssSelector("a.dropdown-item[href='/array']");
-	public By dsDropdownItem2 = By.cssSelector("a.dropdown-item[href='/linked-list']");
-	public By dsDropdownItem3 = By.cssSelector("a.dropdown-item[href='/stack']");
-	public By dsDropdownItem4 = By.cssSelector("a.dropdown-item[href='/queue']");
-	public By dsDropdownItem5 = By.cssSelector("a.dropdown-item[href='/tree']");
-	public By dsDropdownItem6 = By.cssSelector("a.dropdown-item[href='/graph']");
+	public By dropDownArrayItem = By.cssSelector("a.dropdown-item[href='/array']");
+	public By dropDownLinkedListItem = By.cssSelector("a.dropdown-item[href='/linked-list']");
+	public By dropDownStackItem = By.cssSelector("a.dropdown-item[href='/stack']");
+	public By dropDownQueueItem = By.cssSelector("a.dropdown-item[href='/queue']");
+	public By dropDownTreeItem = By.cssSelector("a.dropdown-item[href='/tree']");
+	public By dropDownGraphItem = By.cssSelector("a.dropdown-item[href='/graph']");
 	
-	//Other Web Elements of the Introduction Page  (how to use this in method?)
-	
-	//public By arrayCard = By.cssSelector("div.card-body:has(h5.card-title:contains('Array'))");
 	public By cardBody = By.cssSelector("div.card-body");
 	public By cardTitle = By.cssSelector("h5.card-title");
 	public By cardText = By.cssSelector("p.card-text");
 	
-	//we can have specific get started buttons for each -> purpose of having this >? 
+
 	public By getStartedButtonOnCard = By.cssSelector("a.btn-primary");
 	public By signInLink = By.cssSelector("a[href='/login']");
 	public By registerLink = By.cssSelector("a[href='/register']");
@@ -46,37 +44,90 @@ public class IntroductionPagePom {
 	public By authenticationmsg  =  By.cssSelector("div.alert.alert-primary");
 	
 	//Different Methods for the Actions performed on the Introduction Home Page
-	public void clickDataStructuredropdown() {
-	driver.findElement(dataStructure).click();
+	//public void clickDataStructuredropdown() {
+	//driver.findElement(dataStructure).click();
 		
-			}
-	public void clickDataStructureItem1dropdown() {
-	driver.findElement(dsDropdownItem1).click();
+			//}
+	//methods to click different drop down options - Array 
+//	public void dropDownArrayItem() {
+//	 WebElement arraysOption = driver.findElement(dropDownArrayItem));  
+//	 arraysOption.click();
+//	 
+//	}
+//	 
+	// Method to click on the dropdown toggle
+    public void clickDropdownToggle() {
+        WebElement toggle = driver.findElement(dataStructure);
+        toggle.click();
+    }
+
+    // Method to click on the 'Array' dropdown item
+    public void clickDropdownItemArray() {
+        WebElement arrayItem = driver.findElement(dropDownArrayItem);
+        arrayItem.click();
+    }
+      
+ // Method to click on the 'Linked List' dropdown item
+    public void clickDropdownItemLinkedList() {
+        WebElement linkedListItem = driver.findElement(dropDownLinkedListItem);
+        linkedListItem.click();
+    }
+    
+ // Method to click on the 'Stack' dropdown item
+    public void clickDropdownItemStack() {
+        WebElement stackItem = driver.findElement(dropDownStackItem);
+        stackItem.click();
+    }
+ // Method to click on the 'Queue' dropdown item
+    public void clickDropdownItemQueue() {
+        WebElement queueItem = driver.findElement(dropDownQueueItem);
+        queueItem.click();
+    }
+    
+    
+ // Method to click on the 'Tree' dropdown item
+    public void clickDropdownItemTree() {
+        WebElement treeItem = driver.findElement(dropDownTreeItem);
+        treeItem.click();
+    }
+    
+ // Method to click on the 'Graph' dropdown item
+    public void clickDropdownItemGraph() {
+        WebElement graphItem = driver.findElement(dropDownGraphItem);
+        graphItem.click();
+    }
+    
+	
+	//get count of drop down elements
+	public Integer getElementCnt(By locator) {
+		Integer elementCount = driver.findElements(locator).size();
+		return elementCount;
 	}
 	
-	public void clickDataStructureItem2dropdown() {
-	driver.findElement(dsDropdownItem2).click();
+	//get the text for Array Elements 
+	public String getTextForArrayElements(By locator, Integer posInteger) {
+		String elementText = driver.findElements(locator).get(posInteger).getText();
+		return elementText;
 	}
 	
-	public void clickDataStructureItem3dropdown() {
-		driver.findElement(dsDropdownItem3).click();
+	//get the text after each item selected - for authentication error 
+	public String getTextForElement(By locator) {
+		String elementText = driver.findElement(locator).getText();
+		return elementText;
 	}
 	
-	public void clickDataStructureItem4dropdown() {
-		driver.findElement(dsDropdownItem4).click();
+	public Integer getElementSize(By locator) {
+		Integer elementCount = driver.findElements(locator).size();
+		return elementCount;
 	}
 	
-	public void clickDataStructureItem5dropdown() {
-		driver.findElement(dsDropdownItem5).click();
+	//Element Displayed 
+	public Boolean validateElementDisplayed(By locator) {
+		return driver.findElement(locator).isDisplayed();
 	}
-	
-	public void clickDataStructureItem6dropdown() {
-		driver.findElement(dsDropdownItem6).click();
-	}
-	
-	public void authenticationMsgDisplay(){
-		System.out.println("authenticationmsg");
-	}
+
+//	public void authenticationMsgDisplay(){
+//		WebElement authMessage = driver.findElement(authenticationmsg);
 	
 	public void clickOnDataStructuresGetStartedBtn() {
 		driver.findElement(dsIntroductionGetStartedBtn).click();
@@ -112,11 +163,19 @@ public class IntroductionPagePom {
 	public void clickOnSignInlink() {
 		driver.findElement(signInLink).click();
 	}
+
+//	public void clickDropdownOptionByText(String optionText) {
+//	    List<WebElement> dropdownOptions = dsDropdown.findElements(By.tagName("li")); // Adjust locator if needed
+//	    for (WebElement option : dropdownOptions) {
+//	        if (option.getText().trim().equals(optionText)) {
+//	            option.click(); // Click the matching option
+//	            return;
+//	        }
+//	    }
+//	    throw new NoSuchElementException("Option '" + optionText + "' not found in the dropdown.");
+//	}
+//	
 	
-	public Boolean validateElementDisplayed(By locator) {
-		return driver.findElement(locator).isDisplayed();
-	}
-		
 }
 	
 	
