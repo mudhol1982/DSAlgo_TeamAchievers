@@ -1,5 +1,7 @@
 package StepDefinitions;
 
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -9,6 +11,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import PageObjectModel.HomePom;
 import PageObjectModel.IntroductionPagePom;
+import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When; 
 
@@ -17,7 +20,6 @@ public class Step_HomePage {
 
 	public HomePom hp = new HomePom();
 	public IntroductionPagePom ip = new IntroductionPagePom();
-
 
 
 	//TC01
@@ -80,12 +82,14 @@ public class Step_HomePage {
 		Assert.assertEquals(ip.getTextForArrayElements(ip.dsDropdown,5), "Graph");
 
 	}
-	//	TC04
+	//TC04
+
 	@When("The user selects Arrays from the drop down without Sign in")
 	public void the_user_selects_arrays_from_the_drop_down_without_sign_in(){
 
-	//	ip.clickDropdownItemArray(ip.getTextForArrayElements(ip.dsDropdown,0);
-		}
+		ip.clickDropdownItemArray();
+	}
+
 
 	@Then("The user should able to see an warning message You are not logged in for Array drop down option")
 	public void the_user_should_able_to_see_an_warning_message_you_are_not_logged_in_for_array_drop_down_option() {
@@ -95,75 +99,98 @@ public class Step_HomePage {
 
 	}
 
-	//	//TC05	
-	//	@When("The user selects Linked List from the drop down without Sign in.")
-	//	public void the_user_selects_linked_list_from_the_drop_down_without_sign_in() {
-	//		// Click Drop Down Toggle for Linked List
-	//		ip.clickDropdownItemLinkedList();
-	//	}
-	//
-	//	@Then("The user should able to see an warning message You are not logged in for Linked List drop down option")
-	//	public void the_user_should_able_to_see_an_warning_message_you_are_not_logged_in_for_linked_list_drop_down_option() {
-	//		Assert.assertTrue(ip.validateElementDisplayed(ip.authenticationmsg));
-	//		Assert.assertEquals(ip.getTextForElement(ip.authenticationmsg), "You are not logged in");
-	//		Assert.assertEquals(ip.getElementSize(ip.authenticationmsg), 1);
-	//	}
-	//	
-	//	//TC06
-	//	@When("The user selects Stack from the drop down without Sign in")
-	//	public void the_user_selects_stack_from_the_drop_down_without_sign_in() {
-	//		// Click Drop Down Toggle for Stack
-	//				ip.clickDropdownItemStack();
-	//	}
-	//
-	//	@Then("The user should able to see an warning message You are not logged in for Stack drop down option")
-	//	public void the_user_should_able_to_see_an_warning_message_you_are_not_logged_in_for_stack_drop_down_option() {
-	//		Assert.assertTrue(ip.validateElementDisplayed(ip.authenticationmsg));
-	//		Assert.assertEquals(ip.getTextForElement(ip.authenticationmsg), "You are not logged in");
-	//		Assert.assertEquals(ip.getElementSize(ip.authenticationmsg), 1);
-	//	}
-	//
-	//	//TC07
-	//	@When("The user selects Queue from the drop down without Sign in.")
-	//	public void the_user_selects_queue_from_the_drop_down_without_sign_in() {
-	//		// Click Drop Down Toggle for Queue
-	//				ip.clickDropdownItemQueue();
-	//	}
-	//
-	//	@Then("The user should able to see an warning message You are not logged in for Queue drop down option")
-	//	public void the_user_should_able_to_see_an_warning_message_you_are_not_logged_in_for_queue_drop_down_option() {
-	//		Assert.assertTrue(ip.validateElementDisplayed(ip.authenticationmsg));
-	//		Assert.assertEquals(ip.getTextForElement(ip.authenticationmsg), "You are not logged in");
-	//		Assert.assertEquals(ip.getElementSize(ip.authenticationmsg), 1);
-	//	}
-	//
-	//	//TC08
-	//	@When("The user selects Tree from the drop down without Sign in.")
-	//	public void the_user_selects_tree_from_the_drop_down_without_sign_in() {
-	//		// Click Drop Down Toggle for Tree
-	//				ip.clickDropdownItemTree();
-	//	}
-	//
-	//	@Then("The user should able to see an warning message You are not logged in for Tree drop down option")
-	//	public void the_user_should_able_to_see_an_warning_message_you_are_not_logged_in_for_tree_drop_down_option() {
-	//	    Assert.assertTrue(ip.validateElementDisplayed(ip.authenticationmsg));
-	//		Assert.assertEquals(ip.getTextForElement(ip.authenticationmsg), "You are not logged in");
-	//		Assert.assertEquals(ip.getElementSize(ip.authenticationmsg), 1);
-	//	}
-	//
-	//	//TC09
-	//	@When("The user selects Graph from the drop down without Sign in.")
-	//	public void the_user_selects_graph_from_the_drop_down_without_sign_in() {
-	//		// Click Drop Down Toggle for Graph
-	//				ip.clickDropdownItemGraph();
-	//	}
-	//
-	//	@Then("The user should able to see an warning message You are not logged in for Graph drop down option")
-	//	public void the_user_should_able_to_see_an_warning_message_you_are_not_logged_in_for_graph_drop_down_option() {
-	//		Assert.assertTrue(ip.validateElementDisplayed(ip.authenticationmsg));
-	//		Assert.assertEquals(ip.getTextForElement(ip.authenticationmsg), "You are not logged in");
-	//		Assert.assertEquals(ip.getElementSize(ip.authenticationmsg), 1);
-	//	}
+	//TC05
+
+	@Given("The user clicks Data Structures drop down")
+	public void the_user_clicks_data_structures_drop_down() {
+		ip.clickDropdownToggle();
+
+	}
+
+	@When("The user selects Linked List from the drop down without Sign in")
+	public void the_user_selects_linked_list_from_the_drop_down_without_sign_in() {
+		ip.clickDropdownItemLinkedList();
+	}
+
+	@Then("The user should able to see an warning message You are not logged in for Linked List drop down option")
+	public void the_user_should_able_to_see_an_warning_message_you_are_not_logged_in_for_linked_list_drop_down_option() {
+		Assert.assertTrue(ip.validateElementDisplayed(ip.authenticationmsg));
+		Assert.assertEquals(ip.getTextForElement(ip.authenticationmsg), "You are not logged in");
+		Assert.assertEquals(ip.getElementSize(ip.authenticationmsg), 1);
+
+	}
+
+	//TC06
+
+	@When("The user selects Stack from the drop down without Sign in")
+	public void the_user_selects_stack_from_the_drop_down_without_sign_in() {
+		ip.clickDropdownItemStack();
+	}
+
+	@Then("The user should able to see an warning message You are not logged in for Stack drop down option")
+	public void the_user_should_able_to_see_an_warning_message_you_are_not_logged_in_for_stack_drop_down_option() {
+		Assert.assertTrue(ip.validateElementDisplayed(ip.authenticationmsg));
+		Assert.assertEquals(ip.getTextForElement(ip.authenticationmsg), "You are not logged in");
+		Assert.assertEquals(ip.getElementSize(ip.authenticationmsg), 1);
+	}
+//TC07
+	
+	@When("The user selects Queue from the drop down without Sign in")
+	public void the_user_selects_queue_from_the_drop_down_without_sign_in() {
+	    // Write code here that turns the phrase above into concrete actions
+		ip.clickDropdownItemQueue();
+	}
+
+	@Then("The user should able to see an warning message You are not logged in for Queue drop down option")
+	public void the_user_should_able_to_see_an_warning_message_you_are_not_logged_in_for_queue_drop_down_option() {
+	    // Write code here that turns the phrase above into concrete actions
+		Assert.assertTrue(ip.validateElementDisplayed(ip.authenticationmsg));
+		Assert.assertEquals(ip.getTextForElement(ip.authenticationmsg), "You are not logged in");
+		Assert.assertEquals(ip.getElementSize(ip.authenticationmsg), 1);
+	}
+	
+//TC08
+
+@When("The user selects Tree from the drop down without Sign in")
+public void the_user_selects_tree_from_the_drop_down_without_sign_in() {
+    // Write code here that turns the phrase above into concrete actions
+	ip.clickDropdownItemTree();
+}
+
+@Then("The user should able to see an warning message You are not logged in for Tree drop down option")
+public void the_user_should_able_to_see_an_warning_message_you_are_not_logged_in_for_tree_drop_down_option() {
+	Assert.assertTrue(ip.validateElementDisplayed(ip.authenticationmsg));
+	Assert.assertEquals(ip.getTextForElement(ip.authenticationmsg), "You are not logged in");
+	Assert.assertEquals(ip.getElementSize(ip.authenticationmsg), 1);
+}
+
+//TC09
+@When("The user selects Graph from the drop down without Sign in")
+public void the_user_selects_graph_from_the_drop_down_without_sign_in() {
+    ip.clickDropdownItemGraph();
+}
+
+@Then("The user should able to see an warning message You are not logged in for Graph drop down option")
+public void the_user_should_able_to_see_an_warning_message_you_are_not_logged_in_for_graph_drop_down_option() {
+	Assert.assertTrue(ip.validateElementDisplayed(ip.authenticationmsg));
+	Assert.assertEquals(ip.getTextForElement(ip.authenticationmsg), "You are not logged in");
+	Assert.assertEquals(ip.getElementSize(ip.authenticationmsg), 1);
+}
+
+}
+//	//TC09
+//	@When("The user selects Graph from the drop down without Sign in.")
+//	public void the_user_selects_graph_from_the_drop_down_without_sign_in() {
+//		// Click Drop Down Toggle for Graph
+//				ip.clickDropdownItemGraph();
+//	}
+//
+//	@Then("The user should able to see an warning message You are not logged in for Graph drop down option")
+//	public void the_user_should_able_to_see_an_warning_message_you_are_not_logged_in_for_graph_drop_down_option() {
+//		Assert.assertTrue(ip.validateElementDisplayed(ip.authenticationmsg));
+//		Assert.assertEquals(ip.getTextForElement(ip.authenticationmsg), "You are not logged in");
+//		Assert.assertEquals(ip.getElementSize(ip.authenticationmsg), 1);
+//	}
 //
 //		@When("The user clicks Get Started buttons of Data Structures-Introduction on the homepage without Sign in")
 //		public void the_user_clicks_get_started_buttons_of_data_structures_introduction_on_the_homepage_without_sign_in() {
@@ -177,4 +204,3 @@ public class Step_HomePage {
 //			Assert.assertEquals(ip.getElementSize(ip.authenticationmsg), 1);
 //		}
 
-}

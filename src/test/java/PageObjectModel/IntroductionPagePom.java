@@ -1,8 +1,14 @@
 package PageObjectModel;
 
+import java.time.Duration;
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import DriverManager.Driver_SetUp;
 
@@ -10,13 +16,16 @@ public class IntroductionPagePom {
 	
 	public WebDriver driver = Driver_SetUp.getDriver();
 	
+	WebDriverWait wait = new WebDriverWait(driver, Duration.ofMillis(50000)); // Timeout in second
+	
 	//Web elements of the Introduction page 	
 	public By numpyNinja = By.cssSelector("a[href='/home']");
 	public By dataStructure = By.cssSelector("a.dropdown-toggle");
 	public By dsDropdown = By.cssSelector("a.dropdown-item");
 	
-	public By dropDownArrayItem = By.cssSelector("a.dropdown-item[href='/array']");
+	//Web Elements for each drop down items 
 	public By dropDownLinkedListItem = By.cssSelector("a.dropdown-item[href='/linked-list']");
+	public By dropDownArrayItem = By.cssSelector("a.dropdown-item[href='/array']");
 	public By dropDownStackItem = By.cssSelector("a.dropdown-item[href='/stack']");
 	public By dropDownQueueItem = By.cssSelector("a.dropdown-item[href='/queue']");
 	public By dropDownTreeItem = By.cssSelector("a.dropdown-item[href='/tree']");
@@ -63,39 +72,63 @@ public class IntroductionPagePom {
 
     // Method to click on the 'Array' dropdown item
     public void clickDropdownItemArray() {
-        WebElement arrayItem = driver.findElement(dropDownArrayItem);
-        arrayItem.click();
+   
+        driver.findElement(dropDownArrayItem).click();
+     	System.out.println("Dropdown selected -->"+driver.findElement(dropDownArrayItem));
+       //wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(dropDownArrayItem)));
+       
+       
     }
       
  // Method to click on the 'Linked List' dropdown item
     public void clickDropdownItemLinkedList() {
-        WebElement linkedListItem = driver.findElement(dropDownLinkedListItem);
-        linkedListItem.click();
+    	
+       //wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(dropDownLinkedListItem)));
+    	wait.until(ExpectedConditions.elementToBeClickable(dropDownLinkedListItem));
+    	driver.findElement(dropDownLinkedListItem).click();
+        System.out.println("Dropdown selected1 -->"+driver.findElement(dropDownLinkedListItem));
     }
     
- // Method to click on the 'Stack' dropdown item
+ // Method to click on the 'Stack' drop down item
     public void clickDropdownItemStack() {
-        WebElement stackItem = driver.findElement(dropDownStackItem);
-        stackItem.click();
-    }
- // Method to click on the 'Queue' dropdown item
+  	wait.until(ExpectedConditions.elementToBeClickable(dropDownStackItem));
+	driver.findElement(dropDownStackItem).click();
+    System.out.println("Dropdown selected1 -->"+driver.findElement(dropDownStackItem));
+    
+        }
+    
+  // public void clickDropdownItemStack() {
+        //WebElement stackItem = driver.findElement(dropDownStackItem);
+//        stackItem.click();
+//        System.out.println("Dropdown selected1 -->"+driver.findElement(dropDownStackItem));
+//    }
+    
+    
+ // Method to click on the 'Queue' drop down item
     public void clickDropdownItemQueue() {
-        WebElement queueItem = driver.findElement(dropDownQueueItem);
-        queueItem.click();
-    }
+      	wait.until(ExpectedConditions.elementToBeClickable(dropDownQueueItem));
+    	driver.findElement(dropDownQueueItem).click();
+        System.out.println("Dropdown selected1 -->"+driver.findElement(dropDownQueueItem));
+        
+            }
+        
     
     
- // Method to click on the 'Tree' dropdown item
+ // Method to click on the 'Tree' drop down item
     public void clickDropdownItemTree() {
-        WebElement treeItem = driver.findElement(dropDownTreeItem);
-        treeItem.click();
-    }
+      	wait.until(ExpectedConditions.elementToBeClickable(dropDownTreeItem));
+    	driver.findElement(dropDownTreeItem).click();
+        System.out.println("Dropdown selected1 -->"+driver.findElement(dropDownTreeItem));
+        
+            }
     
- // Method to click on the 'Graph' dropdown item
+ // Method to click on the 'Graph' drop down item
     public void clickDropdownItemGraph() {
-        WebElement graphItem = driver.findElement(dropDownGraphItem);
-        graphItem.click();
-    }
+      	wait.until(ExpectedConditions.elementToBeClickable(dropDownGraphItem));
+    	driver.findElement(dropDownGraphItem).click();
+        System.out.println("Dropdown selected1 -->"+driver.findElement(dropDownGraphItem));
+        
+            }
     
 	
 	//get count of drop down elements
