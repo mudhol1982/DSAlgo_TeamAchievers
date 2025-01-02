@@ -177,30 +177,97 @@ public void the_user_should_able_to_see_an_warning_message_you_are_not_logged_in
 	Assert.assertEquals(ip.getElementSize(ip.authenticationmsg), 1);
 }
 
-}
-//	//TC09
-//	@When("The user selects Graph from the drop down without Sign in.")
-//	public void the_user_selects_graph_from_the_drop_down_without_sign_in() {
-//		// Click Drop Down Toggle for Graph
-//				ip.clickDropdownItemGraph();
-//	}
-//
-//	@Then("The user should able to see an warning message You are not logged in for Graph drop down option")
-//	public void the_user_should_able_to_see_an_warning_message_you_are_not_logged_in_for_graph_drop_down_option() {
-//		Assert.assertTrue(ip.validateElementDisplayed(ip.authenticationmsg));
-//		Assert.assertEquals(ip.getTextForElement(ip.authenticationmsg), "You are not logged in");
-//		Assert.assertEquals(ip.getElementSize(ip.authenticationmsg), 1);
-//	}
-//
-//		@When("The user clicks Get Started buttons of Data Structures-Introduction on the homepage without Sign in")
-//		public void the_user_clicks_get_started_buttons_of_data_structures_introduction_on_the_homepage_without_sign_in() {
-//		    		ip.clickOnDataStructuresGetStartedBtn();
-//		}
-//	
-//		@Then("The user should able to see an warning message You are not logged in")
-//		public void the_user_should_able_to_see_an_warning_message_you_are_not_logged_in() {
-//			Assert.assertTrue(ip.validateElementDisplayed(ip.authenticationmsg));
-//		    Assert.assertEquals(ip.getTextForElement(ip.authenticationmsg), "You are not logged in");
-//			Assert.assertEquals(ip.getElementSize(ip.authenticationmsg), 1);
-//		}
+//TC10
 
+@When("The user clicks Get Started buttons of Data Structures-Introduction on the homepage without Sign in")
+public void the_user_clicks_get_started_buttons_of_data_structures_introduction_on_the_homepage_without_sign_in() {
+	// On the Introduction Page - validate Register and Sign in links are clickable and enabled
+	ip.clickOnDataStructuresGetStartedBtn();
+			
+}
+
+@Then("The user should able to see an warning message You are not logged in for DS Introduction")
+public void the_user_should_able_to_see_an_warning_message_you_are_not_logged_in_for_ds_introduction() {
+	Assert.assertTrue(ip.validateElementDisplayed(ip.authenticationmsg));
+	Assert.assertEquals(ip.getTextForElement(ip.authenticationmsg), "You are not logged in");
+	Assert.assertEquals(ip.getElementSize(ip.authenticationmsg), 1);
+}
+//TC11
+@When("The user clicks Get Started buttons of Array on the homepage without Sign in")
+public void the_user_clicks_get_started_buttons_of_array_on_the_homepage_without_sign_in() {
+	ip.clickOnArrayGetStartedBtn();
+}
+
+@Then("The user should able to see an warning message You are not logged in for Array")
+public void the_user_should_able_to_see_an_warning_message_you_are_not_logged_in_for_array() {
+	Assert.assertTrue(ip.validateElementDisplayed(ip.authenticationmsg));
+	Assert.assertEquals(ip.getTextForElement(ip.authenticationmsg), "You are not logged in");
+	Assert.assertEquals(ip.getElementSize(ip.authenticationmsg), 1);
+}
+
+//TC12
+@When("The user clicks Get Started buttons of Linked List on the homepage without Sign in")
+public void the_user_clicks_get_started_buttons_of_linked_list_on_the_homepage_without_sign_in() {
+	ip.clickOnLinkedListGetStartedBtn();
+}
+
+@Then("The user should able to see an warning message You are not logged in for Linked List")
+public void the_user_should_able_to_see_an_warning_message_you_are_not_logged_in_for_linked_list() {
+	Assert.assertTrue(ip.validateElementDisplayed(ip.authenticationmsg));
+	Assert.assertEquals(ip.getTextForElement(ip.authenticationmsg), "You are not logged in");
+	Assert.assertEquals(ip.getElementSize(ip.authenticationmsg), 1);
+}
+
+//TC13
+@When("The user clicks Get Started buttons of Stack on the homepage without Sign in")
+public void the_user_clicks_get_started_buttons_of_stack_on_the_homepage_without_sign_in() {
+	ip.clickOnStackGetStartedBtn();
+}
+
+@Then("The user should able to see an warning message You are not logged in for Stack")
+public void the_user_should_able_to_see_an_warning_message_you_are_not_logged_in_for_stack() {
+	Assert.assertTrue(ip.validateElementDisplayed(ip.authenticationmsg));
+	Assert.assertEquals(ip.getTextForElement(ip.authenticationmsg), "You are not logged in");
+	Assert.assertEquals(ip.getElementSize(ip.authenticationmsg), 1);
+}
+//TC14
+@When("The user clicks Get Started buttons of Queue on the homepage without Sign in")
+public void the_user_clicks_get_started_buttons_of_queue_on_the_homepage_without_sign_in() {
+	ip.clickOnQueueGetStartedBtn();
+}
+
+@Then("The user should able to see an warning message You are not logged in for Queue")
+public void the_user_should_able_to_see_an_warning_message_you_are_not_logged_in_for_queue() {
+	Assert.assertTrue(ip.validateElementDisplayed(ip.authenticationmsg));
+	Assert.assertEquals(ip.getTextForElement(ip.authenticationmsg), "You are not logged in");
+	Assert.assertEquals(ip.getElementSize(ip.authenticationmsg), 1);
+}
+
+//TC15
+@When("The user clicks Get Started buttons of Tree on the homepage without Sign in")
+public void the_user_clicks_get_started_buttons_of_tree_on_the_homepage_without_sign_in() {
+	ip.clickOnTreeGetStartedBtn();
+}
+
+@Then("The user should able to see an warning message You are not logged in for Tree")
+public void the_user_should_able_to_see_an_warning_message_you_are_not_logged_in_for_tree() {
+	Assert.assertTrue(ip.validateElementDisplayed(ip.authenticationmsg));
+	Assert.assertEquals(ip.getTextForElement(ip.authenticationmsg), "You are not logged in");
+	Assert.assertEquals(ip.getElementSize(ip.authenticationmsg), 1);
+}
+
+//TC16
+@When("The user clicks Get Started buttons of Graph on the homepage without Sign in")
+public void the_user_clicks_get_started_buttons_of_graph_on_the_homepage_without_sign_in() {
+	ip.clickOnGraphGetStartedBtn();
+}
+
+@Then("The user should able to see an warning message You are not logged in for Graph")
+public void the_user_should_able_to_see_an_warning_message_you_are_not_logged_in_for_graph() {
+    // Write code here that turns the phrase above into concrete actions
+	Assert.assertTrue(ip.validateElementDisplayed(ip.authenticationmsg));
+	Assert.assertEquals(ip.getTextForElement(ip.authenticationmsg), "You are not logged in");
+	Assert.assertEquals(ip.getElementSize(ip.authenticationmsg), 1);
+}
+
+}

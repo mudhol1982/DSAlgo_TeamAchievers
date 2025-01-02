@@ -40,7 +40,7 @@ public class IntroductionPagePom {
 	public By signInLink = By.cssSelector("a[href='/login']");
 	public By registerLink = By.cssSelector("a[href='/register']");
 	
-	//Get Started button of all the data structures on the Introduction page 
+	//Get Started button of all the data structures on the Introduction page / Home page
     public By dsIntroductionGetStartedBtn = By.cssSelector("a[href='data-structures-introduction']");
 	public By arrayGetStartedBtn = By.cssSelector("a[href='array']");
 	public By linkedListGetStartedBtn = By.cssSelector("a[href='linked-list']");
@@ -76,8 +76,7 @@ public class IntroductionPagePom {
         driver.findElement(dropDownArrayItem).click();
      	System.out.println("Dropdown selected -->"+driver.findElement(dropDownArrayItem));
        //wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(dropDownArrayItem)));
-       
-       
+            
     }
       
  // Method to click on the 'Linked List' dropdown item
@@ -162,31 +161,41 @@ public class IntroductionPagePom {
 //	public void authenticationMsgDisplay(){
 //		WebElement authMessage = driver.findElement(authenticationmsg);
 	
+	//Methods to click on Get Started button for all 6 elements on the Introduction or Home page
 	public void clickOnDataStructuresGetStartedBtn() {
 		driver.findElement(dsIntroductionGetStartedBtn).click();
+		System.out.println("GetStartedButtonOfDS selected1 -->"+driver.findElement(dsIntroductionGetStartedBtn));
 	}
 	
 	public void clickOnArrayGetStartedBtn() {
 		driver.findElement(arrayGetStartedBtn).click();
+		System.out.println("GetStartedButtonOfArray selected1 -->"+driver.findElement(arrayGetStartedBtn));
 	}
 	
 	public void clickOnLinkedListGetStartedBtn() {
 		driver.findElement(linkedListGetStartedBtn).click();
+		System.out.println("GetStartedButtonOfLinkedList selected1 -->"+driver.findElement(linkedListGetStartedBtn));
 	}
 
 	public void clickOnStackGetStartedBtn() {
 		driver.findElement(stackGetStartedBtn).click();
+		System.out.println("GetStartedButtonOfStack selected1 -->"+driver.findElement(stackGetStartedBtn));
 	}
 
 	public void clickOnQueueGetStartedBtn() {
 		driver.findElement(queueGetStartedBtn).click();
+		System.out.println("GetStartedButtonOfQueue selected1 -->"+driver.findElement(queueGetStartedBtn));
 	}
 	public void clickOnTreeGetStartedBtn() {
 		driver.findElement(treeGetStartedBtn).click();
+		System.out.println("GetStartedButtonOfTree selected1 -->"+driver.findElement(treeGetStartedBtn));
+			
 	}
 	
 	public void clickOnGraphGetStartedBtn() {
 		driver.findElement(graphGetStartedBtn).click();
+		System.out.println("GetStartedButtonOfGraph selected1 -->"+driver.findElement(graphGetStartedBtn));
+		
 	}
 	
 	public void clickOnRegisterlink() {

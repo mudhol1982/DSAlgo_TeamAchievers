@@ -1,5 +1,5 @@
 Feature: DSportal App HomePage
-
+  
   Given The user clicks Data Structures drop down
 
   Scenario: Verify that user is able to open the dsAlgo Portal-home page
@@ -45,5 +45,36 @@ Feature: DSportal App HomePage
     Then The user should able to see an warning message You are not logged in for Graph drop down option
 
   Scenario: Verify that user able to see warning message on clicking Get Started buttons of Data Structures-Introduction on the home page without Sign in
+    Given The user should land in Data Structure Introduction Page with register and Sign in links
     When The user clicks Get Started buttons of Data Structures-Introduction on the homepage without Sign in
-    Then The user should able to see an warning message You are not logged in
+    Then The user should able to see an warning message You are not logged in for DS Introduction
+
+  Scenario: Verify that user able to see warning message on clicking Get Started buttons of Array on the home page without Sign in
+    Given The user should land in Data Structure Introduction Page with register and Sign in links
+    When The user clicks Get Started buttons of Array on the homepage without Sign in
+    Then The user should able to see an warning message You are not logged in for Array
+
+  Scenario: Verify that user able to see warning message on clicking Get Started buttons of Linked List on the home page without Sign in
+    Given The user should land in Data Structure Introduction Page with register and Sign in links
+    When The user clicks Get Started buttons of Linked List on the homepage without Sign in
+    Then The user should able to see an warning message You are not logged in for Linked List
+
+  Scenario: Verify that user able to see warning message on clicking Get Started buttons of Stack on the home page without Sign in
+    Given The user should land in Data Structure Introduction Page with register and Sign in links
+    When The user clicks Get Started buttons of Stack on the homepage without Sign in
+    Then The user should able to see an warning message You are not logged in for Stack
+
+  Scenario: Verify that user able to see warning message on clicking Get Started buttons of Queue on the home page without Sign in
+    Given The user should land in Data Structure Introduction Page with register and Sign in links
+    When The user clicks Get Started buttons of Queue on the homepage without Sign in
+    Then The user should able to see an warning message You are not logged in for Queue
+
+  Scenario: Verify that user able to see warning message on clicking Get Started buttons of Tree on the home page without Sign in
+    Given The user should land in Data Structure Introduction Page with register and Sign in links
+    When The user clicks Get Started buttons of Tree on the homepage without Sign in
+    Then The user should able to see an warning message You are not logged in for Tree
+
+  Scenario: Verify that user able to see warning message on clicking Get Started buttons of Graph on the home page without Sign in
+    Given The user should land in Data Structure Introduction Page with register and Sign in links
+    When The user clicks Get Started buttons of Graph on the homepage without Sign in
+    Then The user should able to see an warning message You are not logged in for Graph
