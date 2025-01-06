@@ -8,6 +8,8 @@ import io.cucumber.java.After;
 import org.openqa.selenium.WebDriver;
 
 public class Hooks {
+	
+//	Driver_SetUp driverManager = new Driver_SetUp();
 
     private static WebDriver driver;
 
@@ -21,11 +23,11 @@ public class Hooks {
         String browser = ConfigReader.getBrowserType();
 
         // Initialize the WebDriver based on the browser type
-        driver = Driver_SetUp.initializeBrowser(browser);
+       driver = Driver_SetUp.initializeBrowser(browser);
 
         // Get the URL from the config file and navigate to it
-        String url = ConfigReader.getUrl();
-        driver.get(url);  // Open the application URL
+       // String url = ConfigReader.getUrl();
+       // driver.get(url);  // Open the application URL
     }
 
     // This hook runs after each scenario to quit the WebDriver

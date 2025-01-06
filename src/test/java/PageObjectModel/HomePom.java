@@ -25,13 +25,14 @@ public class HomePom {
 	
 	
     public void openURL() {
-    	
+    	System.out.println("Inside openURL");
     	driver.get(ConfigReader.getUrl());
     	   	
     }
     
     public void ClickHomePageGetStartedButton() {
     	
+    	System.out.println("Inside ClickHomePageGetStartedButton");
     	driver.findElement(getStartedButton).click();
     }
     
