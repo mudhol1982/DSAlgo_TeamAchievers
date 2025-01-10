@@ -119,11 +119,22 @@ public class RegisterPom {
 		this.clickRegisterLink_getStartedPage();
 	}
 
-    //validate browser message
+    //validate error message returned in the browser for invalid or missing fields 
 	public String switchToElementAndGetValidationMessage() {
 		WebElement activeElement = driver.switchTo().activeElement();
-		String browserValidationmsg = activeElement.getAttribute("validationMessage");
-		return browserValidationmsg;
+		
+//		//adding null check before printing active element 
+//		if (activeElement != null) {
+//		    System.out.println("Active element: " + activeElement);
+//		} else {
+//		    System.out.println("Active element is null.");
+//		}
+//		
+		//System.out.println("Active element: " + activeElement);
+		
+		String actualAlertMsg = activeElement.getAttribute("validationMessage");
+		 System.out.println("ValidationMessage" + actualAlertMsg);
+		return actualAlertMsg;
 	}
 
 }

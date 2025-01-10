@@ -116,7 +116,7 @@ public class IntroductionPagePom {
 		return elementText;
 	}
 
-	// get the text after each item selected - for authentication error
+	//AlertMessage on login page (Eg: Invalid Username and Password) 
 	public String getTextForElement(By locator) {
 		String elementText = driver.findElement(locator).getText();
 		return elementText;
@@ -192,7 +192,9 @@ public class IntroductionPagePom {
 //	    }
 //	    throw new NoSuchElementException("Option '" + optionText + "' not found in the dropdown.");
 //	}
+
 	
+	//get title
 	public String getPageTitle() {
 		String elementText = driver.getTitle();
 		return elementText;

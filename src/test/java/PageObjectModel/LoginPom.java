@@ -23,10 +23,15 @@ public class LoginPom {
 	
 	//X paths for web elements on login page 
 	
-	public By usernameTextBox = By.xpath("//input[@name='username']"); // user name text box field
-	public By passwordTextBox = By.xpath("//input[@name='password']"); // password text box field
-	public By loginBtn = By.xpath("//input[@type='submit' and @value='Login']"); // login button 
-	public By alertMsg = By.cssSelector("//div[@class='alert alert-primary']"); // alert message 
+//	public By usernameTextBox = By.xpath("//input[@name='username']"); // user name text box field
+//	public By passwordTextBox = By.xpath("//input[@name='password']"); // password text box field
+//	public By loginBtn = By.xpath("//input[@type='submit' and @value='Login']"); // login button 
+//	public By alertMsg = By.xpath("//div[@class='alert alert-primary']"); // alert message 
+	
+	public By usernameTextBox = By.id("id_username");
+	public By passwordTextBox = By.id("id_password");
+	public By loginBtn =   By.xpath("//input[@value='Login']");
+	public By alertMsg = By.cssSelector(".alert.alert-primary");
 	
 	//enter user name text box 
 	public void enterUsernameTxt(String username) {
