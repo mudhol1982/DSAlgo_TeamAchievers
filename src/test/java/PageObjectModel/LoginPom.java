@@ -74,4 +74,5 @@ public class LoginPom {
 			System.out.println("Fetched password from Excel: " + password);
 			enterPasswordTxt(password);
 		}	
+
 }
