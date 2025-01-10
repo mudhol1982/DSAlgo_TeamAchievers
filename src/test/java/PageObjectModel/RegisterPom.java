@@ -76,24 +76,13 @@ public class RegisterPom {
 			throws InvalidFormatException, IOException, OpenXML4JException, InterruptedException {
 
 		List<Map<String, String>> testdata = excelReader.getData("src/test/resources/Excel/TestData.xlsx", sheetname);
-		System.out.println("testdata ---------> "+testdata);
+		System.out.println("registertestdata ---------> "+testdata);
 		String username = testdata.get(row).get("username");
 		enterUsername(username);
 		String password = testdata.get(row).get("password");
 		enterPassword(password);
 		String passwordConfirm = testdata.get(row).get("password confirmation");
 		enterPasswordConfirmation(passwordConfirm);
-	}
-
-
-    //Fill Login Form 
-	public void fillLoginFormDataDriven(String sheetname, int row)
-			throws InvalidFormatException, IOException, OpenXML4JException, InterruptedException {
-		List<Map<String, String>> testdata = excelReader.getData("/src/test/resources/Excel/TestData.xlsx", sheetname);
-		String username = testdata.get(row).get("username");
-		enterUsername(username);
-		String password = testdata.get(row).get("password");
-		enterPassword(password);
 	}
 
     //Methods to invoke login process
@@ -130,11 +119,22 @@ public class RegisterPom {
 		this.clickRegisterLink_getStartedPage();
 	}
 
-    //validate browser message
+    //validate error message returned in the browser for invalid or missing fields 
 	public String switchToElementAndGetValidationMessage() {
 		WebElement activeElement = driver.switchTo().activeElement();
-		String browserValidationmsg = activeElement.getAttribute("validationMessage");
-		return browserValidationmsg;
+		
+//		//adding null check before printing active element 
+//		if (activeElement != null) {
+//		    System.out.println("Active element: " + activeElement);
+//		} else {
+//		    System.out.println("Active element is null.");
+//		}
+//		
+		//System.out.println("Active element: " + activeElement);
+		
+		String actualAlertMsg = activeElement.getAttribute("validationMessage");
+		 System.out.println("ValidationMessage" + actualAlertMsg);
+		return actualAlertMsg;
 	}
 
 }
