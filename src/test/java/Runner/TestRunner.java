@@ -8,6 +8,7 @@ import org.testng.annotations.DataProvider;
         features = "src/test/resources/features", // Path to your feature files
         glue = "StepDefinitions", // Path to your step definition classes
         monochrome = true, // Makes the console output more readable
+        dryRun=true,
         plugin = {
                 "pretty", // Pretty print for console output
                 "html:target/cucumber-reports/cucumber.html", // HTML report
