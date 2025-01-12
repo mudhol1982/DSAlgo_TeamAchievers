@@ -31,7 +31,6 @@ public class ConfigReader {
     public static String getUrl() {
         return properties.getProperty("url");
     }
-
    
 }
 
