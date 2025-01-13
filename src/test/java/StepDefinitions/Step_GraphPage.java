@@ -1,6 +1,7 @@
 package StepDefinitions;
 
 import static org.testng.Assert.assertFalse;
+import org.testng.Assert;
 import static org.testng.Assert.assertTrue;
 
 import java.io.IOException;
@@ -16,7 +17,6 @@ import DriverManager.Driver_SetUp;
 import PageObjectModel.GraphPom;
 import PageObjectModel.TreePom;
 import PageObjectModel.TryEditorPage;
-import dev.failsafe.internal.util.Assert;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -71,8 +71,9 @@ TryEditorPage tryEditor = new TryEditorPage();
 	//topics covered - link1
 	
 	@Given("the user is on the Graph page after signing in")
-	public void the_user_is_on_the_graph_page_after_signing_in() {
+	public void the_user_is_on_the_graph_page_after_signing_in() throws InterruptedException {
 	    // Write code here that turns the phrase above into concrete actions
+		driver.get("https://dsportalapp.herokuapp.com/graph/");
 	    //throw new io.cucumber.java.PendingException();
 	}
 
@@ -86,7 +87,18 @@ TryEditorPage tryEditor = new TryEditorPage();
 	@Then("the user should be redirected to the topics covered Graph page")
 	public void the_user_should_be_redirected_to_the_topics_covered_graph_page() throws InterruptedException {
 	    // Write code here that turns the phrase above into concrete actions
+		//graphPage.getStartedGraph();
 		
+		
+
+		String pageTitle = driver.getTitle();
+		System.out.println("title is+"+pageTitle);
+
+	    // Validate that the page title contains the expected phrase "Graph Representations"
+
+		Assert.assertTrue(pageTitle.toLowerCase().contains("graph".toLowerCase()), 
+                "Page title does not contain 'Graph' . Found: " + pageTitle);
+
 	   // throw new io.cucumber.java.PendingException();
 		
 		
@@ -107,7 +119,7 @@ TryEditorPage tryEditor = new TryEditorPage();
 		    // Write code here that turns the phrase above into concrete actions
 			graphPage.clickTryhere();
 			//Thread.sleep(5000);
-		    //throw new io.cucumber.java.PendingException();
+		    
 		}
 
 		@Then("The user is redirected to a page having Editor with run button for Graph")
@@ -200,16 +212,39 @@ TryEditorPage tryEditor = new TryEditorPage();
 	@Then("the user should be redirected to the Graph Representations page")
 	public void the_user_should_be_redirected_to_the_graph_representations_page() {
 	    // Write code here that turns the phrase above into concrete actions
+		
+		String pageTitle = driver.getTitle();
+		System.out.println("title is+"+pageTitle);
+
+	    // Validate that the page title contains the expected phrase "Graph Representations"
+
+		Assert.assertTrue(pageTitle.toLowerCase().contains("graph representations".toLowerCase()), 
+                "Page title does not contain 'Graph Representations'. Found: " + pageTitle);
+
 	   // throw new io.cucumber.java.PendingException();
 	}
+	
+	
+	// try here for Graph representations
+	
+	
+	@When("The user clicks Try Here button on the Graph representations page")
+	public void the_user_clicks_try_here_button_on_the_graph_representations_page() throws InterruptedException {
+	    // Write code here that turns the phrase above into concrete actions
+		graphPage.clickTryhere();
+	   
+	}
+
+
 	
 	
 	//link -3 Practice questions
 	
 	@Given("The user is on the Graph Representations page")
 	public void the_user_is_on_the_graph_representations_page() {
-	    // Write code here that turns the phrase above into concrete actions
-	   // throw new io.cucumber.java.PendingException();
+	
+		driver.get("https://dsportalapp.herokuapp.com/graph/graph-representations/");
+	  
 	}
 
 	@When("The user clicks Practice Questions link for Graph")
