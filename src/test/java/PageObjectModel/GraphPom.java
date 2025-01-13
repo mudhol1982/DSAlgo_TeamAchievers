@@ -11,7 +11,7 @@ public WebDriver driver = Driver_SetUp.getDriver();
 	
 	By graph_getStarted = By.xpath("//a[@href='graph']");
 	By graph_topicsCovered = By.linkText("Graph");
-	By graphRepresentations = By.linkText("Graph Representations");
+	By graphRepresentations = By.xpath("//a[@href='graph-representations']");
 	By graphPractice = By.xpath("//a[@href='/graph/practice']");
     By clickTryhere = By.linkText("Try here>>>");
 
