@@ -19,7 +19,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 import io.cucumber.core.internal.com.fasterxml.jackson.databind.exc.InvalidFormatException;
 
-public class ExcelReader {
+public class ExcelReader1 {
 
 	public static int totalRow;
 

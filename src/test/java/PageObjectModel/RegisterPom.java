@@ -14,10 +14,12 @@ import com.fasterxml.jackson.databind.exc.InvalidFormatException;
 
 import DriverManager.Driver_SetUp;
 import Utilities.ExcelReader;
+import Utilities.ExcelReader1;
 
 public class RegisterPom {
 
 	WebDriver driver = Driver_SetUp.getDriver();
+	ExcelReader1 excelReader1 = new ExcelReader1();
 	ExcelReader excelReader = new ExcelReader();
 	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10)); //
 
@@ -75,7 +77,8 @@ public class RegisterPom {
 	public void fillRegistrationForm(String sheetname, int row)
 			throws InvalidFormatException, IOException, OpenXML4JException, InterruptedException {
 
-		List<Map<String, String>> testdata = excelReader.getData("src/test/resources/Excel/TestData.xlsx", sheetname);
+		//List<Map<String, String>> testdata = excelReader1.getData("src/test/resources/Excel/TestData.xlsx", sheetname);
+		List<Map<String, String>> testdata = excelReader.readFromExcel("src/test/resources/Excel/TestData.xlsx", sheetname);
 		System.out.println("registertestdata ---------> "+testdata);
 		String username = testdata.get(row).get("username");
 		enterUsername(username);
