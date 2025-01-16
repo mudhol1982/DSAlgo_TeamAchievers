@@ -1,0 +1,6 @@
+[INFO ] 2025-01-14 13:23:48.666 [main] LoggerLoad - <-------------Testing Info------------->
+[WARN ] 2025-01-14 13:23:48.669 [main] LoggerLoad - <-------------Testing Info------------->
+[WARN ] 2025-01-14 13:23:48.669 [main] LoggerLoad - <-------------Testing error------------->
+[INFO ] 2025-01-14 14:34:24.119 [main] LoggerLoad - <-------------Testing Info------------->
+[WARN ] 2025-01-14 14:34:24.121 [main] LoggerLoad - <-------------Testing Info------------->
+[WARN ] 2025-01-14 14:34:24.121 [main] LoggerLoad - <-------------Testing error------------->

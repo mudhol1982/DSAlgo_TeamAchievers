@@ -6,7 +6,9 @@ import org.testng.annotations.DataProvider;
 
 @CucumberOptions(
         features = "src/test/resources/features", // Path to your feature files
-        glue = "StepDefinitions", // Path to your step definition classes
+        //glue = "StepDefinitions", // Path to your step definition classes
+        glue = {"StepDefinitions"}, // Package containing step definitions
+        //glue = {"com.yourproject.StepDefinitions"},
         monochrome = true, // Makes the console output more readable
         plugin = {
                 "pretty", // Pretty print for console output
@@ -22,3 +24,5 @@ public class TestRunner extends AbstractTestNGCucumberTests {
         return super.scenarios(); // Get the scenarios from Cucumber
     }
 }
+
+

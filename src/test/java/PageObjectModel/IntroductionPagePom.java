@@ -31,7 +31,16 @@ public class IntroductionPagePom {
 	public By cardBody = By.cssSelector("div.card-body");
 	public By cardTitle = By.cssSelector("h5.card-title");
 	public By cardText = By.cssSelector("p.card-text");
+	
+	//All card title after login in 
+	public By dsCardTitle = By.xpath("//h5[text()='Data Structures-Introduction']");
+	public By arrayCardTitle = By.xpath("//h5[text()='Array']");
+	public By linkedListCardTitle = By.xpath("//h5[text()='Linked List']");
+	public By stackCardTitle = By.xpath("//h5[text()='Stack']");
+	public By queueCardTitle = By.xpath("//h5[text()='Queue']");
+	public By treeCardTitle = By.xpath("//h5[text()='Tree']");
 
+//////
 	public By getStartedButtonOnCard = By.cssSelector("a.btn-primary");
 	public By signInLink = By.cssSelector("a[href='/login']");
 	public By registerLink = By.cssSelector("a[href='/register']");

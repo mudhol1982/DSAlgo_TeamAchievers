@@ -25,7 +25,7 @@ public class HomePom {
 	
 	
     public void openURL() {
-    	System.out.println("Inside openURL");
+    	System.out.println("Inside openURL-->"+driver);
     	driver.get(ConfigReader.getUrl());
     	   	
     }
