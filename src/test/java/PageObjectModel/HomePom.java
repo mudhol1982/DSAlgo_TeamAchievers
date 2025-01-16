@@ -30,6 +30,16 @@ public class HomePom {
     	   	
     }
     
+    public void openHomeURL() {
+    	System.out.println("Inside openURL");
+    	driver.get(ConfigReader.getUrlHome());
+    		
+    }
+    public void openUrlTree() {
+    	
+    	driver.get(ConfigReader.getUrlTree());
+    		
+    }
     public void ClickHomePageGetStartedButton() {
     	
     	System.out.println("Inside ClickHomePageGetStartedButton");

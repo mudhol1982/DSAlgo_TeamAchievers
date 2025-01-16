@@ -32,6 +32,8 @@ public class TreePom {
 	By binarySearchTrees=By.xpath("//a[@href='binary-search-trees']");
 	By implementationOfbst=By.xpath("//a[@href='implementation-of-bst']");
 	By practiceQuestions = By.linkText("Practice Questions");
+	By clickTryhere = By.linkText("Try here>>>");
+
 	
 	public void getStartedTree() throws InterruptedException {
 		
@@ -100,6 +102,9 @@ public class TreePom {
 	}
 	public void practiceQuestions() {
 		driver.findElement(practiceQuestions).click();
+	}
+	public void clickTryhere()  {
+		driver.findElement(clickTryhere).click();
 	}
 }
 

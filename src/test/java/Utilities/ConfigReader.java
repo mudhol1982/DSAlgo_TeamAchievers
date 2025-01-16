@@ -31,6 +31,21 @@ public class ConfigReader {
     public static String getUrl() {
         return properties.getProperty("url");
     }
+    public static String getUrlTree() {
+    	
+    	return properties.getProperty("urlTree");
+    
+    }
+    
+    public static String getUrlHome() {
+        return properties.getProperty("urlHome");
+    }
+    public String getUserName() {
+		return properties.getProperty("username");
+	}
+	public String getPassword() {
+		return properties.getProperty("password");
+	}
    
 }
 

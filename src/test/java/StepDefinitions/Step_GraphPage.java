@@ -2,11 +2,15 @@ package StepDefinitions;
 
 import static org.testng.Assert.assertFalse;
 import org.testng.Assert;
+
+import com.fasterxml.jackson.databind.exc.InvalidFormatException;
+
 import static org.testng.Assert.assertTrue;
 
 import java.io.IOException;
 import java.time.Duration;
 
+import org.apache.poi.openxml4j.exceptions.OpenXML4JException;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -14,7 +18,12 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import DriverManager.Driver_SetUp;
+import PageObjectModel.DataStructureIntroPom;
 import PageObjectModel.GraphPom;
+import PageObjectModel.HomePom;
+import PageObjectModel.IntroductionPagePom;
+import PageObjectModel.LoginPom;
+import PageObjectModel.RegisterPom;
 import PageObjectModel.TreePom;
 import PageObjectModel.TryEditorPage;
 import io.cucumber.java.en.Given;
@@ -26,30 +35,40 @@ public class Step_GraphPage {
 	
 GraphPom graphPage = new GraphPom();
 TryEditorPage tryEditor = new TryEditorPage();
-	
+public HomePom hp = new HomePom();
+public LoginPom login = new LoginPom();
+public IntroductionPagePom ip = new IntroductionPagePom();
+public RegisterPom regPage = new RegisterPom();
+public DataStructureIntroPom dsintropage = new DataStructureIntroPom();
+
 	public WebDriver driver = Driver_SetUp.getDriver();
 	
 	
 	@Given("the user is in the Home page after signing in")
-	public void the_user_is_in_the_home_page_after_signing_in() {
+	public void the_user_is_in_the_home_page_after_signing_in() throws InvalidFormatException, IOException, OpenXML4JException, InterruptedException {
 	    // Write code here that turns the phrase above into concrete actions
-		
+		hp.openURL();
+        hp.ClickHomePageGetStartedButton();
+        ip.clickOnSignInlink();
+        login.enterLoginFormFields("login", 6);
+	     login.clickloginBtn();
 
-		driver.findElement(By.xpath("//a[@href='/home']")).click();
-	
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(120));
-
-		// Wait for the "Sign in" button to be clickable (visible and enabled)
-		WebElement signInButton = wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Sign in")));
-
-		// Click on the "Sign in" button once it is clickable
-		signInButton.click();
-
-
-		driver.findElement(By.id("id_username")).sendKeys("teamachievers");
-		driver.findElement(By.id("id_password")).sendKeys("Welcome@1");
-		driver.findElement(By.xpath("//input[@type='submit' and @value='Login']")).click();
-		System.out.println("finished login");
+//		driver.findElement(By.xpath("//a[@href='/home']")).click();
+//	
+//		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(120));
+//
+//		
+//		WebElement signInButton = wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Sign in")));
+//
+//		
+//		signInButton.click();
+//
+//		
+//
+//		driver.findElement(By.id("id_username")).sendKeys("teamachievers");
+//		driver.findElement(By.id("id_password")).sendKeys("Welcome@1");
+//		driver.findElement(By.xpath("//input[@type='submit' and @value='Login']")).click();
+//		System.out.println("finished login");
 
            
 	   // throw new io.cucumber.java.PendingException();
@@ -124,8 +143,7 @@ TryEditorPage tryEditor = new TryEditorPage();
 
 		@Then("The user is redirected to a page having Editor with run button for Graph")
 		public void the_user_is_redirected_to_a_page_having_editor_with_run_button_for_graph() {
-		    // Write code here that turns the phrase above into concrete actions
-		    //throw new io.cucumber.java.PendingException();
+		    
 		}
 	
 		//scenario - Write empty code in try editor
@@ -174,9 +192,6 @@ TryEditorPage tryEditor = new TryEditorPage();
 			
 			System.out.println("testcase then");
 			tryEditor.testInvalidCodeExecution();
-			
-		
-		
 			
 		}
 		
@@ -235,9 +250,6 @@ TryEditorPage tryEditor = new TryEditorPage();
 	   
 	}
 
-
-	
-	
 	//link -3 Practice questions
 	
 	@Given("The user is on the Graph Representations page")
@@ -252,7 +264,6 @@ TryEditorPage tryEditor = new TryEditorPage();
 	    // Write code here that turns the phrase above into concrete actions
 		graphPage.graphPractice();
 		
-	    //throw new io.cucumber.java.PendingException();
 	}
 
 	@Then("The user is redirected to Practice Questions page for Graph.")
