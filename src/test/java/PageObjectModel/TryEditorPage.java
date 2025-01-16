@@ -32,7 +32,7 @@ public class TryEditorPage {
     
     
   //div[@class='input']/div[1]/div[6]/div[1]/div/div/div/div[2]
-    private By runButton = By.xpath("//button[text()='Run']");
+    public By runButton = By.xpath("//button[text()='Run']");
     private By consoleOutput = By.xpath("//pre[@id='output']");
 
     // Constructor: You can still accept driver as a parameter, but it's optional
