@@ -40,6 +40,11 @@ public class HomePom {
     	driver.get(ConfigReader.getUrlTree());
     		
     }
+    public void openUrlGraph(){
+    	
+    	driver.get(ConfigReader.getUrlGraph());
+    	
+    }
     public void ClickHomePageGetStartedButton() {
     	
     	System.out.println("Inside ClickHomePageGetStartedButton");
