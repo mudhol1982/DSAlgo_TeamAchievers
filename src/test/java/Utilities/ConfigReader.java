@@ -37,6 +37,9 @@ public class ConfigReader {
     
     }
     
+    public static String getUrlGraph() {
+    	return properties.getProperty("urlGraph");
+    }
     public static String getUrlHome() {
         return properties.getProperty("urlHome");
     }

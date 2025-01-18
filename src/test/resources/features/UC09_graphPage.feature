@@ -15,8 +15,8 @@ Feature: Graph
    
     Scenario: Navigate to Try Editor for Graph Data Structure
 Given The user is on the Graph page in the DS Algo portal
-When The user clicks Try Here button on the Graph page
-Then The user is redirected to a page having Editor with run button for Graph
+When The user clicks Try Here button on the page
+Then The user is redirected to a page having Editor with run button
 
 
 Scenario: User clicks the Run button without entering any code
@@ -32,7 +32,7 @@ Scenario: User clicks the Run button without entering any code
    When the user writes invalid Python code in the editor and clicks the Run button
   Then the user should see an error message in an alert window
     
-     Scenario: User writes valid Python code and clicks Run button
+   Scenario: User writes valid Python code and clicks Run button
     
    Given the user is on the tryEditor page of Graph with an empty code editor
     When the user writes valid Python code in the editor and clicks the Run button
@@ -42,16 +42,16 @@ Scenario: User clicks the Run button without entering any code
    
    Scenario: Verify that the user is able to navigate to the Graph Representations page
   Given the user is on the Graph page after signing in
-   When the user clicks the Graph Representationslink
-   Then the user should be redirected to the Graph Representations page
+  When the user clicks the Graph Representationslink
+  Then the user should be redirected to the Graph Representations page
    
    
-   # try here - graph representations
+   # try here - graph representations(graph)
    
     Scenario: Navigate to Try Editor for Graph Data Structure
-Given The user is on the Graph page in the DS Algo portal
-When The user clicks Try Here button on the Graph representations page
-Then The user is redirected to a page having Editor with run button for Graph
+Given The user is on the Graph Representations page in the DS Algo portal
+When The user clicks Try Here button on the page
+Then The user is redirected to a page having Editor with run button
 
 
 Scenario: User clicks the Run button without entering any code
@@ -65,15 +65,15 @@ Scenario: User clicks the Run button without entering any code
     
   Given the user is on the tryEditor page of Graph with an empty code editor
    When the user writes invalid Python code in the editor and clicks the Run button
-  Then the user should see an error message in an alert window
+ Then the user should see an error message in an alert window
     
      Scenario: User writes valid Python code and clicks Run button
     
    Given the user is on the tryEditor page of Graph with an empty code editor
-    When the user writes valid Python code in the editor and clicks the Run button
-    Then the user should be able to see output in the console
+   When the user writes valid Python code in the editor and clicks the Run button
+   Then the user should be able to see output in the console
    
-     Scenario: Graph Practice Questions
+  Scenario: Graph Practice Questions
 
 Given The user is on the Graph Representations page
 When The user clicks Practice Questions link for Graph
