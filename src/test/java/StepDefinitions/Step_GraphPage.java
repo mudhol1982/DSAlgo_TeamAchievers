@@ -67,7 +67,22 @@ public DataStructureIntroPom dsintropage = new DataStructureIntroPom();
 		Assert.assertEquals(ip.getPageTitle(), "Graph");
 	    
 	}
+	//drop down
 	
+	@Given("the user is in the home page of DS Algo portal after signing in")
+	public void the_user_is_in_the_home_page_of_ds_algo_portal_after_signing_in() throws InterruptedException {
+	    hp.openHomeURL();
+		
+	}
+
+	@When("The user selects graph item from the drop down menu")
+	public void the_user_selects_graph_item_from_the_drop_down_menu() throws InterruptedException {
+	    // Write code here that turns the phrase above into concrete actions
+		ip.clickDropdownToggle();
+		ip.clickDropdownItemGraph();
+	    
+	}
+
 	//topics covered - link1
 	
 	@Given("the user is on the Graph page after signing in")
@@ -229,12 +244,5 @@ public DataStructureIntroPom dsintropage = new DataStructureIntroPom();
 	public void the_user_is_redirected_to_practice_questions_page_for_graph() {
 	   
 	}
-
-
-
-
-	 
-
-
 
 }
