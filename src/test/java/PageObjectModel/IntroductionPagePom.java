@@ -92,7 +92,7 @@ public class IntroductionPagePom {
 
 	// Method to click on the 'Tree' drop down item
 	public void clickDropdownItemTree() {
-		wait.until(ExpectedConditions.elementToBeClickable(dropDownTreeItem));
+		//wait.until(ExpectedConditions.elementToBeClickable(dropDownTreeItem));
 		driver.findElement(dropDownTreeItem).click();
 		System.out.println("Dropdown selected1 -->" + driver.findElement(dropDownTreeItem));
 	}

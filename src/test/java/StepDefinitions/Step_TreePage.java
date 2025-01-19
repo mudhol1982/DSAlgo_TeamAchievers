@@ -73,7 +73,20 @@ public class Step_TreePage {
 		
 		Assert.assertEquals(ip.getPageTitle(), "Tree");
 	}
-	  
+	
+	@Given("the user is in the home page after signing in")
+	public void the_user_is_in_the_home_page_after_signing_in() {
+	    // Write code here that turns the phrase above into concrete actions
+	   hp.openHomeURL();
+	}
+	
+	
+	@When("The user selects tree item from the drop down menu")
+	public void the_user_selects_tree_item_from_the_drop_down_menu() throws InterruptedException {
+	    ip.clickDropdownToggle();
+		ip.clickDropdownItemTree();
+	}
+  
 	// testcase 2  - overview of trees
 	@Given("the user is on the Tree page after signing in")
 	public void the_user_is_on_the_tree_page_after_signing_in() throws InterruptedException {

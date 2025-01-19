@@ -8,6 +8,12 @@ Feature: Graph
     When the user clicks the Get Started button in the Graph Panel
     Then the user must be redirected to the Graph data structure page
     
+     Scenario: Verify that user is able to navigate to graph data structure page through dropdown
+   Given the user is in the home page of DS Algo portal after signing in  
+    When The user selects graph item from the drop down menu
+    Then the user must be redirected to the Graph data structure page
+    
+    
     Scenario: Verify that the user is able to navigate to the topics Graph page
    Given the user is on the Graph page after signing in
     When the user clicks the Graph link
