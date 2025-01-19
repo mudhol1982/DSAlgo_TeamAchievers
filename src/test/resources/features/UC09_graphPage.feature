@@ -1,8 +1,5 @@
 Feature: Graph
 
- # Background: 
-  #  Given the user is in the Home page after signing in
-
   Scenario: Verify that the user is able to navigate to the Graph data structure page
     Given the user is in the Home page after signing in
     When the user clicks the Get Started button in the Graph Panel
