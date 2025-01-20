@@ -4,3 +4,674 @@
 [INFO ] 2025-01-14 14:34:24.119 [main] LoggerLoad - <-------------Testing Info------------->
 [WARN ] 2025-01-14 14:34:24.121 [main] LoggerLoad - <-------------Testing Info------------->
 [WARN ] 2025-01-14 14:34:24.121 [main] LoggerLoad - <-------------Testing error------------->
+[INFO ] 2025-01-17 00:04:15.031 [main] LoggerLoad - Clicking the try here link of DS Introduction page
+[INFO ] 2025-01-17 00:04:51.953 [main] LoggerLoad - Clicking the try here link of DS Introduction page
+[INFO ] 2025-01-17 00:06:40.824 [main] LoggerLoad - Clicking the try here link of DS Introduction page
+[INFO ] 2025-01-17 00:07:41.050 [main] LoggerLoad - Clicking the try here link of DS Introduction page
+[INFO ] 2025-01-17 00:08:38.320 [main] LoggerLoad - Clicking the try here link of DS Introduction page
+[INFO ] 2025-01-17 00:09:34.947 [main] LoggerLoad - Clicking the try here link of DS Introduction page
+[INFO ] 2025-01-17 00:11:14.537 [main] LoggerLoad - Clicking the try here link of DS Introduction page
+[INFO ] 2025-01-17 00:20:36.524 [main] LoggerLoad - Clicking the try here link of DS Introduction page
+[INFO ] 2025-01-17 00:32:17.647 [main] LoggerLoad - Clicking the try here link of DS Introduction page
+[INFO ] 2025-01-17 00:33:19.196 [main] LoggerLoad - Clicking the try here link of DS Introduction page
+[INFO ] 2025-01-17 00:35:12.681 [main] LoggerLoad - Clicking the try here link of DS Introduction page
+[INFO ] 2025-01-17 00:37:28.084 [main] LoggerLoad - Clicking the try here link of DS Introduction page
+[INFO ] 2025-01-17 00:40:33.126 [main] LoggerLoad - Clicking the try here link of DS Introduction page
+[INFO ] 2025-01-17 00:48:09.262 [main] LoggerLoad - Clicking the try here link of DS Introduction page
+[INFO ] 2025-01-17 00:50:18.549 [main] LoggerLoad - Clicking the try here link of DS Introduction page
+[INFO ] 2025-01-17 09:59:28.206 [main] LoggerLoad - Clicking the try here link of DS Introduction page
+[INFO ] 2025-01-17 10:05:27.092 [main] LoggerLoad - Clicking the try here link of DS Introduction page
+[INFO ] 2025-01-17 10:06:29.241 [main] LoggerLoad - Clicking the try here link of DS Introduction page
+[INFO ] 2025-01-17 10:09:40.512 [main] LoggerLoad - Clicking the try here link of DS Introduction page
+[INFO ] 2025-01-17 10:11:32.185 [main] LoggerLoad - Clicking the try here link of DS Introduction page
+[INFO ] 2025-01-17 10:33:31.009 [main] LoggerLoad - Clicking the try here link of DS Introduction page
+[INFO ] 2025-01-17 10:40:53.916 [main] LoggerLoad - Clicking the try here link of DS Introduction page
+[INFO ] 2025-01-17 10:42:10.351 [main] LoggerLoad - Clicking the try here link of DS Introduction page
+[INFO ] 2025-01-17 10:43:10.296 [main] LoggerLoad - Clicking the try here link of DS Introduction page
+[INFO ] 2025-01-17 10:48:03.829 [main] LoggerLoad - Clicking the try here link of DS Introduction page
+[INFO ] 2025-01-17 16:40:28.097 [main] LoggerLoad - Clicking the try here link of DS Introduction page
+[INFO ] 2025-01-17 16:47:01.040 [main] LoggerLoad - Clicking the try here link of DS Introduction page
+[INFO ] 2025-01-17 16:49:29.685 [main] LoggerLoad - Clicking the try here link of DS Introduction page
+[INFO ] 2025-01-17 16:56:00.295 [main] LoggerLoad - Clicking the try here link of DS Introduction page
+[INFO ] 2025-01-17 16:56:53.393 [main] LoggerLoad - Clicking the try here link of DS Introduction page
+[INFO ] 2025-01-17 16:58:26.632 [main] LoggerLoad - Clicking the try here link of DS Introduction page
+[INFO ] 2025-01-17 17:01:33.881 [main] LoggerLoad - Clicking the try here link of DS Introduction page
+[INFO ] 2025-01-17 17:03:10.689 [main] LoggerLoad - Clicking the try here link of DS Introduction page
+[INFO ] 2025-01-17 17:07:05.912 [main] LoggerLoad - Clicking the try here link of DS Introduction page
+[INFO ] 2025-01-18 12:03:47.076 [main] LoggerLoad - Clicking the try here link of DS Introduction page
+[INFO ] 2025-01-18 12:04:34.819 [main] LoggerLoad - Clicking the try here link of DS Introduction page
+[INFO ] 2025-01-18 12:07:32.611 [main] LoggerLoad - Clicking the try here link of DS Introduction page
+[INFO ] 2025-01-18 12:08:44.116 [main] LoggerLoad - Clicking the try here link of DS Introduction page
+[INFO ] 2025-01-18 12:12:56.805 [main] LoggerLoad - Clicking the try here link of DS Introduction page
+[INFO ] 2025-01-18 13:53:37.161 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-18 13:53:37.382 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 13:53:37.410 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-18 13:53:37.498 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 2
+[ERROR] 2025-01-18 13:53:39.052 [main] LoggerLoad - No code found for the specified row in the Excel sheet.
+[INFO ] 2025-01-18 13:53:39.064 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-18 14:04:45.300 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-18 14:04:45.601 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 14:04:45.633 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-18 14:04:45.742 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 2
+[ERROR] 2025-01-18 14:04:47.307 [main] LoggerLoad - No code found for the specified row in the Excel sheet.
+[INFO ] 2025-01-18 14:04:47.316 [main] LoggerLoad - No alert is present.
+[ERROR] 2025-01-18 14:04:47.318 [main] LoggerLoad - Expected alert message but none was displayed.
+[INFO ] 2025-01-18 14:07:20.482 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-18 14:07:20.756 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 14:07:20.776 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-18 14:07:20.908 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 2
+[ERROR] 2025-01-18 14:07:22.749 [main] LoggerLoad - No code found for the specified row in the Excel sheet.
+[INFO ] 2025-01-18 14:07:22.863 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 14:07:22.902 [main] LoggerLoad - No alert is present.
+[ERROR] 2025-01-18 14:07:22.902 [main] LoggerLoad - Expected alert message but none was displayed.
+[INFO ] 2025-01-18 14:37:27.512 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-18 14:37:27.795 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 14:37:27.818 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-18 14:37:27.918 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 2
+[ERROR] 2025-01-18 14:37:29.485 [main] LoggerLoad - No code found for the specified row in the Excel sheet.
+[INFO ] 2025-01-18 14:37:29.584 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 14:37:29.592 [main] LoggerLoad - No alert is present.
+[ERROR] 2025-01-18 14:37:29.592 [main] LoggerLoad - Expected alert message but none was displayed.
+[INFO ] 2025-01-18 14:42:47.217 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-18 14:42:47.482 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 14:42:47.509 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-18 14:42:47.618 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 2
+[ERROR] 2025-01-18 14:42:49.219 [main] LoggerLoad - No code found for the specified row in the Excel sheet.
+[INFO ] 2025-01-18 14:42:49.298 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 14:46:35.190 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-18 14:46:35.414 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 14:46:35.426 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-18 14:46:35.486 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 2
+[ERROR] 2025-01-18 14:46:36.113 [main] LoggerLoad - No code found for the specified row in the Excel sheet.
+[INFO ] 2025-01-18 14:46:36.208 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 14:49:10.827 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-18 14:49:11.092 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 14:49:11.113 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-18 14:49:11.224 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 2
+[ERROR] 2025-01-18 14:49:12.746 [main] LoggerLoad - No code found for the specified row in the Excel sheet.
+[INFO ] 2025-01-18 14:49:12.839 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 14:51:05.370 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-18 14:51:05.546 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 14:51:05.555 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-18 14:51:05.603 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 2
+[ERROR] 2025-01-18 14:51:06.184 [main] LoggerLoad - No code found for the specified row in the Excel sheet.
+[INFO ] 2025-01-18 14:51:06.291 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 14:53:54.073 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-18 14:53:54.394 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 14:53:54.422 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-18 14:53:54.530 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 2
+[ERROR] 2025-01-18 14:53:54.690 [main] LoggerLoad - No code found for the specified row in the Excel sheet.
+[INFO ] 2025-01-18 14:53:54.783 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 14:56:49.168 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-18 14:56:49.458 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 14:56:49.482 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-18 14:56:49.546 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 2
+[ERROR] 2025-01-18 14:56:49.702 [main] LoggerLoad - No code found for the specified row in the Excel sheet.
+[INFO ] 2025-01-18 14:56:49.820 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 15:02:18.577 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-18 15:02:18.758 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 15:02:18.770 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-18 15:02:18.817 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 2
+[ERROR] 2025-01-18 15:02:18.869 [main] LoggerLoad - No code found for the specified row in the Excel sheet.
+[INFO ] 2025-01-18 15:02:18.933 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 15:04:41.892 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-18 15:04:42.057 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 15:04:42.069 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-18 15:04:42.122 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 2
+[ERROR] 2025-01-18 15:04:42.173 [main] LoggerLoad - No code found for the specified row in the Excel sheet.
+[INFO ] 2025-01-18 15:04:42.287 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 15:06:38.203 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-18 15:06:38.487 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 15:06:38.505 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-18 15:06:38.581 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 2
+[ERROR] 2025-01-18 15:06:38.699 [main] LoggerLoad - No code found for the specified row in the Excel sheet.
+[INFO ] 2025-01-18 15:06:38.764 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 15:08:52.663 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-18 15:08:52.834 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 15:08:52.844 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-18 15:08:52.891 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 2
+[INFO ] 2025-01-18 15:10:35.982 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-18 15:10:36.147 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 15:10:36.158 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-18 15:10:36.210 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 2
+[ERROR] 2025-01-18 15:10:36.258 [main] LoggerLoad - No code found for the specified row in the Excel sheet.
+[INFO ] 2025-01-18 15:10:36.325 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 15:12:07.170 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-18 15:12:07.342 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 15:12:07.351 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-18 15:12:07.394 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 2
+[ERROR] 2025-01-18 15:12:07.439 [main] LoggerLoad - No code found for the specified row in the Excel sheet.
+[INFO ] 2025-01-18 15:12:07.498 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 15:14:12.152 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-18 15:14:12.535 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 15:14:12.575 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-18 15:14:12.683 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 2
+[INFO ] 2025-01-18 15:16:13.369 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-18 15:16:13.529 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 15:16:13.540 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-18 15:16:13.583 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 2
+[INFO ] 2025-01-18 15:17:19.355 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-18 15:17:19.621 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 15:17:19.643 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-18 15:17:19.757 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[ERROR] 2025-01-18 15:17:19.941 [main] LoggerLoad - No code found for the specified row in the Excel sheet.
+[INFO ] 2025-01-18 15:17:20.020 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 15:18:58.563 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-18 15:18:58.836 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 15:18:58.867 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-18 15:18:58.969 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-01-18 15:18:59.159 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-01-18 15:24:14.239 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-18 15:24:14.408 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 15:24:14.418 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-18 15:24:14.472 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-01-18 15:24:14.512 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-01-18 15:25:09.286 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-18 15:25:09.454 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 15:25:09.466 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-18 15:25:09.514 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-01-18 15:25:09.561 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-01-18 15:28:02.324 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-18 15:28:02.572 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 15:28:02.594 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-18 15:28:02.687 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-01-18 15:28:02.841 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-01-18 15:28:02.864 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-01-18 15:28:02.947 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 20:12:17.786 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-18 20:12:17.928 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 20:12:17.937 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-18 20:12:17.978 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-01-18 20:12:18.009 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-01-18 20:12:18.019 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-01-18 20:12:18.068 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 20:13:54.081 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-18 20:13:54.253 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 20:13:54.269 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-18 20:13:54.317 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-01-18 20:13:54.411 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-01-18 20:13:54.424 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-01-18 20:13:54.474 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 20:17:12.212 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-18 20:17:12.358 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 20:17:12.366 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-18 20:17:12.411 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-01-18 20:17:12.445 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-01-18 20:50:02.459 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-18 20:50:02.682 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 20:50:02.698 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-18 20:50:02.764 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-01-18 20:50:02.843 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-01-18 20:50:03.061 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-01-18 20:50:03.114 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 20:50:03.123 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-01-18 20:56:45.060 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-18 20:56:45.253 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 20:56:45.271 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-18 20:56:45.352 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-01-18 20:56:45.440 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-01-18 20:56:45.674 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-01-18 20:56:45.725 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 20:56:45.731 [main] LoggerLoad - Alert is present.
+[INFO ] 2025-01-18 20:56:45.739 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-01-18 21:00:32.058 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-18 21:00:32.242 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 21:00:32.258 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-18 21:00:32.377 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-01-18 21:00:32.458 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-01-18 21:00:32.702 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-01-18 21:00:32.768 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 21:00:32.778 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-01-18 21:01:21.165 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-18 21:01:21.316 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 21:01:21.326 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-18 21:01:21.381 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-01-18 21:01:21.430 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-01-18 21:01:21.615 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-01-18 21:01:21.675 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 21:01:21.679 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-01-18 21:05:38.121 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-18 21:05:38.285 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 21:05:38.302 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-18 21:05:38.365 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-01-18 21:05:38.440 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-01-18 21:05:38.691 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-01-18 21:05:38.749 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 21:05:38.755 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-01-18 21:05:38.778 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-18 21:07:42.914 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-18 21:07:43.060 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 21:07:43.069 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-18 21:07:43.115 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-01-18 21:07:43.151 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-01-18 21:07:43.360 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-01-18 21:07:43.420 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 21:07:43.431 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-01-18 21:07:43.449 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-18 21:08:37.872 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-18 21:08:38.022 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 21:08:38.028 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-18 21:08:38.069 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-01-18 21:08:38.109 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-01-18 21:08:38.293 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-01-18 21:08:38.352 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 21:08:38.361 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-01-18 21:08:38.378 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-18 21:09:51.455 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-18 21:09:51.591 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 21:09:51.598 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-18 21:09:51.639 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-01-18 21:09:51.718 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-01-18 21:09:51.977 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-01-18 21:09:52.052 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 21:09:52.058 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-01-18 21:09:52.076 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-18 21:13:46.234 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-18 21:13:46.382 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 21:13:46.389 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-18 21:13:46.428 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-01-18 21:13:46.459 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-01-18 21:13:46.625 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-01-18 21:13:46.679 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 21:13:46.684 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-01-18 21:13:46.701 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-18 21:15:06.140 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-18 21:15:06.294 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 21:15:06.303 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-18 21:15:06.340 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-01-18 21:15:06.378 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-01-18 21:15:06.558 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-01-18 21:15:06.625 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 21:15:06.630 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-01-18 21:15:06.643 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-18 21:16:35.936 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-18 21:16:36.115 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 21:16:36.130 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-18 21:16:36.177 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-01-18 21:16:36.257 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-01-18 21:16:36.664 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-01-18 21:16:36.741 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 21:16:36.747 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-01-18 21:16:36.768 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-18 21:21:09.584 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-18 21:21:09.733 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 21:21:09.743 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-18 21:21:09.785 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-01-18 21:21:09.821 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-01-18 21:21:10.053 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-01-18 21:21:10.119 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 21:21:10.129 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-01-18 21:21:10.150 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-18 21:26:26.879 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-18 21:26:27.028 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 21:26:27.036 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-18 21:26:27.077 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-01-18 21:26:27.115 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-01-18 21:26:27.308 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-01-18 21:26:27.368 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 21:26:27.373 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-01-18 21:30:36.066 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-18 21:30:36.227 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 21:30:36.280 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-01-18 21:30:36.323 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-01-18 21:30:36.552 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-01-18 21:30:36.607 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 21:30:36.620 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-01-18 21:31:05.952 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-18 21:31:06.086 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 21:31:06.094 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-18 21:31:06.135 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-01-18 21:31:06.168 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-01-18 21:31:06.359 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-01-18 21:31:06.422 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 21:31:06.427 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-01-18 22:43:26.042 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-18 22:43:26.244 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 22:43:26.265 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-18 22:43:26.332 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-01-18 22:43:26.418 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-01-18 22:43:26.649 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-01-18 22:43:26.702 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 22:43:26.709 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-01-18 22:50:38.631 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-18 22:50:38.766 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 22:50:38.773 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-18 22:50:38.807 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-01-18 22:50:38.866 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-01-18 22:50:39.075 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-01-18 22:50:39.125 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 22:50:39.136 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-01-18 22:55:40.881 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-18 22:55:41.016 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 22:55:41.023 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-18 22:55:41.057 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-01-18 22:55:41.096 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-01-18 22:55:41.299 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-01-18 22:55:41.361 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 22:55:41.367 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-01-18 22:55:41.418 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-01-18 22:55:41.485 [main] LoggerLoad - Fetched code from Excel: print("hello");
+[INFO ] 2025-01-18 22:55:41.680 [main] LoggerLoad - Entered code into the text area: print("hello");
+[INFO ] 2025-01-18 22:55:41.737 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 22:55:41.761 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-01-18 22:55:41.778 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-01-18 22:59:30.666 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-18 22:59:30.787 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 22:59:30.793 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-18 22:59:30.825 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-01-18 22:59:30.864 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-01-18 22:59:31.072 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-01-18 22:59:31.127 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 22:59:31.134 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-01-18 22:59:31.180 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-01-18 22:59:31.241 [main] LoggerLoad - Fetched code from Excel: print("hello");
+[INFO ] 2025-01-18 22:59:31.512 [main] LoggerLoad - Entered code into the text area: print("hello");
+[INFO ] 2025-01-18 22:59:31.578 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 23:00:21.177 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-18 23:00:21.303 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 23:00:21.310 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-18 23:00:21.339 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-01-18 23:00:21.375 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-01-18 23:00:21.578 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-01-18 23:00:21.628 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 23:00:21.633 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-01-18 23:00:21.672 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-01-18 23:00:21.707 [main] LoggerLoad - Fetched code from Excel: print("hello");
+[INFO ] 2025-01-18 23:00:21.904 [main] LoggerLoad - Entered code into the text area: print("hello");
+[INFO ] 2025-01-18 23:00:21.952 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 23:00:21.971 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-01-18 23:00:21.988 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-01-18 23:02:37.938 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-18 23:02:38.072 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 23:02:38.078 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-18 23:02:38.110 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-01-18 23:02:38.142 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-01-18 23:02:38.350 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-01-18 23:02:38.399 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 23:02:38.407 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-01-18 23:02:38.449 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-01-18 23:02:38.513 [main] LoggerLoad - Fetched code from Excel: print("hello");
+[INFO ] 2025-01-18 23:02:38.751 [main] LoggerLoad - Entered code into the text area: print("hello");
+[INFO ] 2025-01-18 23:02:38.797 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 23:02:38.814 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-01-18 23:02:38.828 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-01-18 23:03:49.103 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-18 23:03:49.267 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 23:03:49.279 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-18 23:03:49.334 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-01-18 23:03:49.415 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-01-18 23:03:49.624 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-01-18 23:03:49.670 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 23:03:49.678 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-01-18 23:03:49.721 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-01-18 23:03:49.785 [main] LoggerLoad - Fetched code from Excel: print("hello");
+[INFO ] 2025-01-18 23:03:50.013 [main] LoggerLoad - Entered code into the text area: print("hello");
+[INFO ] 2025-01-18 23:03:50.064 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-18 23:03:50.082 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-01-18 23:03:50.098 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-01-19 00:17:34.479 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-19 00:17:34.624 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-19 00:17:34.631 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-19 00:17:34.662 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-01-19 00:17:34.697 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-01-19 00:17:34.882 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-01-19 00:17:34.957 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-19 00:17:34.962 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-01-19 00:17:35.036 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-01-19 00:17:35.093 [main] LoggerLoad - Fetched code from Excel: print("hello");
+[INFO ] 2025-01-19 00:17:35.317 [main] LoggerLoad - Entered code into the text area: print("hello");
+[INFO ] 2025-01-19 00:17:35.381 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-19 00:17:35.401 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-01-19 00:17:35.415 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-01-19 00:19:00.964 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-19 00:19:01.153 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-19 00:19:01.166 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-19 00:19:01.213 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-01-19 00:19:01.282 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-01-19 00:19:01.665 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-01-19 00:19:01.789 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-19 00:19:01.794 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-01-19 00:19:01.851 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-01-19 00:19:01.916 [main] LoggerLoad - Fetched code from Excel: print("hello");
+[INFO ] 2025-01-19 00:19:02.224 [main] LoggerLoad - Entered code into the text area: print("hello");
+[INFO ] 2025-01-19 00:19:02.300 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-19 00:27:27.725 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-19 00:27:27.882 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-19 00:27:27.898 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-19 00:27:27.966 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-01-19 00:27:28.077 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-01-19 00:27:28.300 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-01-19 00:27:28.349 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-19 00:27:28.360 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-01-19 00:27:28.404 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-01-19 00:27:28.470 [main] LoggerLoad - Fetched code from Excel: print("hello");
+[INFO ] 2025-01-19 00:27:28.713 [main] LoggerLoad - Entered code into the text area: print("hello");
+[INFO ] 2025-01-19 00:27:28.766 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-19 00:28:22.956 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-19 00:28:23.078 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-19 00:28:23.094 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-19 00:28:23.148 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-01-19 00:28:23.220 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-01-19 00:28:23.442 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-01-19 00:28:23.492 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-19 00:28:23.501 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-01-19 00:28:23.546 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-01-19 00:28:23.605 [main] LoggerLoad - Fetched code from Excel: print("hello");
+[INFO ] 2025-01-19 00:28:23.859 [main] LoggerLoad - Entered code into the text area: print("hello");
+[INFO ] 2025-01-19 00:28:23.908 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-19 00:35:44.508 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-19 00:35:44.680 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-19 00:35:44.692 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-19 00:35:44.727 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-01-19 00:35:44.799 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-01-19 00:35:45.037 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-01-19 00:35:45.101 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-19 00:35:45.109 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-01-19 00:35:45.157 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-01-19 00:35:45.218 [main] LoggerLoad - Fetched code from Excel: print("hello");
+[INFO ] 2025-01-19 00:35:45.502 [main] LoggerLoad - Entered code into the text area: print("hello");
+[INFO ] 2025-01-19 00:35:45.560 [main] LoggerLoad - Clicked the Run button.
+[ERROR] 2025-01-19 00:35:45.572 [main] LoggerLoad - Error retrieving console output: unexpected alert open: {Alert text : NameError: name 'gdfgdgdfhdhd' is not defined on line 1}
+  (Session info: chrome=132.0.6834.84): NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2be145b8aa2045d34be61ed2cd42cc4e, findElement {value=//pre[@id='output'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.84, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: C:\Users\LAVANY~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58126}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58126/devtoo..., se:cdpVersion: 132.0.6834.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2be145b8aa2045d34be61ed2cd42cc4e
+[INFO ] 2025-01-19 00:37:33.239 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-19 00:37:33.381 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-19 00:37:33.394 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-19 00:37:33.460 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-01-19 00:37:33.528 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-01-19 00:37:33.750 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-01-19 00:37:33.800 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-19 00:37:33.810 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-01-19 00:37:33.860 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-01-19 00:37:33.921 [main] LoggerLoad - Fetched code from Excel: print("hello");
+[INFO ] 2025-01-19 00:37:34.160 [main] LoggerLoad - Entered code into the text area: print("hello");
+[INFO ] 2025-01-19 00:37:34.209 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-19 00:37:34.231 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-01-19 00:37:34.252 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-01-19 00:45:56.478 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-19 00:45:56.655 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-19 00:45:56.675 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-19 00:45:56.727 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-01-19 00:45:56.800 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-01-19 00:45:57.030 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-01-19 00:45:57.090 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-19 00:45:57.100 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-01-19 00:45:57.147 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-01-19 00:45:57.209 [main] LoggerLoad - Fetched code from Excel: print("hello");
+[INFO ] 2025-01-19 00:45:57.506 [main] LoggerLoad - Entered code into the text area: print("hello");
+[INFO ] 2025-01-19 00:45:57.562 [main] LoggerLoad - Clicked the Run button.
+[ERROR] 2025-01-19 00:45:57.580 [main] LoggerLoad - Error retrieving console output: unexpected alert open: {Alert text : NameError: name 'gdfgdgdfhdhd' is not defined on line 1}
+  (Session info: chrome=132.0.6834.84): NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c7ae14be82419a9cac03c4139d09ef84, findElement {using=xpath, value=//pre[@id='output']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.84, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: C:\Users\LAVANY~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58604}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58604/devtoo..., se:cdpVersion: 132.0.6834.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c7ae14be82419a9cac03c4139d09ef84
+[INFO ] 2025-01-19 00:46:45.427 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-19 00:46:45.585 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-19 00:46:45.599 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-19 00:46:45.660 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-01-19 00:46:45.747 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-01-19 00:46:45.988 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-01-19 00:46:46.051 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-19 00:46:46.062 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-01-19 00:46:46.115 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-01-19 00:46:46.169 [main] LoggerLoad - Fetched code from Excel: print("hello");
+[INFO ] 2025-01-19 00:46:46.488 [main] LoggerLoad - Entered code into the text area: print("hello");
+[INFO ] 2025-01-19 00:46:46.560 [main] LoggerLoad - Clicked the Run button.
+[ERROR] 2025-01-19 00:46:46.575 [main] LoggerLoad - Error retrieving console output: unexpected alert open: {Alert text : NameError: name 'gdfgdgdfhdhd' is not defined on line 1}
+  (Session info: chrome=132.0.6834.84): NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [67a40d665fbe5ac1be44c869896d199f, findElement {using=xpath, value=//pre[@id='output']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.84, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: C:\Users\LAVANY~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58649}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58649/devtoo..., se:cdpVersion: 132.0.6834.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 67a40d665fbe5ac1be44c869896d199f
+[INFO ] 2025-01-19 00:48:13.807 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-19 00:48:13.966 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-19 00:48:13.978 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-19 00:48:14.019 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-01-19 00:48:14.092 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-01-19 00:48:14.389 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-01-19 00:48:14.460 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-19 00:48:14.466 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-01-19 00:48:14.520 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-01-19 00:48:14.581 [main] LoggerLoad - Fetched code from Excel: print("hello");
+[INFO ] 2025-01-19 00:48:14.873 [main] LoggerLoad - Entered code into the text area: print("hello");
+[INFO ] 2025-01-19 00:48:14.937 [main] LoggerLoad - Clicked the Run button.
+[ERROR] 2025-01-19 00:48:14.951 [main] LoggerLoad - Error retrieving console output: unexpected alert open: {Alert text : NameError: name 'gdfgdgdfhdhd' is not defined on line 1}
+  (Session info: chrome=132.0.6834.84): NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [00e5e81b35ee38c222aa510fd4c7e63e, findElement {using=xpath, value=//pre[@id='output']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.84, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: C:\Users\LAVANY~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58752}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58752/devtoo..., se:cdpVersion: 132.0.6834.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 00e5e81b35ee38c222aa510fd4c7e63e
+[INFO ] 2025-01-19 00:49:36.433 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-19 00:49:36.585 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-19 00:49:36.598 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-19 00:49:36.643 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-01-19 00:49:36.724 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-01-19 00:49:36.965 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-01-19 00:49:37.029 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-19 00:49:37.039 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-01-19 00:49:37.097 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-01-19 00:49:37.158 [main] LoggerLoad - Fetched code from Excel: print("hello");
+[INFO ] 2025-01-19 00:49:37.438 [main] LoggerLoad - Entered code into the text area: print("hello");
+[INFO ] 2025-01-19 00:49:37.499 [main] LoggerLoad - Clicked the Run button.
+[ERROR] 2025-01-19 00:49:37.520 [main] LoggerLoad - Error retrieving console output: unexpected alert open: {Alert text : NameError: name 'gdfgdgdfhdhd' is not defined on line 1}
+  (Session info: chrome=132.0.6834.84): NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d32521f9afe0276ce9eb8aad38d0361a, findElement {value=//pre[@id='output'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.84, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: C:\Users\LAVANY~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58900}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58900/devtoo..., se:cdpVersion: 132.0.6834.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d32521f9afe0276ce9eb8aad38d0361a
+[INFO ] 2025-01-19 00:50:37.460 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-19 00:50:37.677 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-19 00:50:37.684 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-19 00:50:37.717 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-01-19 00:50:37.749 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-01-19 00:50:37.934 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-01-19 00:50:37.996 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-19 00:50:38.004 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-01-19 00:50:38.098 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-01-19 00:50:38.137 [main] LoggerLoad - Fetched code from Excel: print("hello");
+[INFO ] 2025-01-19 00:50:38.371 [main] LoggerLoad - Entered code into the text area: print("hello");
+[INFO ] 2025-01-19 00:50:38.430 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-19 00:50:38.465 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-01-19 00:50:38.497 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-01-19 00:51:07.051 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-19 00:51:07.211 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-19 00:51:07.224 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-19 00:51:07.269 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-01-19 00:51:07.337 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-01-19 00:51:07.660 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-01-19 00:51:07.747 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-19 00:51:07.755 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-01-19 00:51:07.816 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-01-19 00:51:07.903 [main] LoggerLoad - Fetched code from Excel: print("hello");
+[INFO ] 2025-01-19 00:51:08.210 [main] LoggerLoad - Entered code into the text area: print("hello");
+[INFO ] 2025-01-19 00:51:08.271 [main] LoggerLoad - Clicked the Run button.
+[ERROR] 2025-01-19 00:51:08.283 [main] LoggerLoad - Error retrieving console output: unexpected alert open: {Alert text : NameError: name 'gdfgdgdfhdhd' is not defined on line 1}
+  (Session info: chrome=132.0.6834.84): NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cfd5c84a2d51114eff77b42c22f83240, findElement {value=//pre[@id='output'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.84, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: C:\Users\LAVANY~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59146}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59146/devtoo..., se:cdpVersion: 132.0.6834.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cfd5c84a2d51114eff77b42c22f83240
+[INFO ] 2025-01-19 00:54:26.877 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-19 00:54:27.035 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-19 00:54:27.048 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-19 00:54:27.092 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-01-19 00:54:27.166 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-01-19 00:54:27.420 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-01-19 00:54:27.485 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-19 00:54:27.490 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-01-19 00:54:27.539 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-01-19 00:54:27.598 [main] LoggerLoad - Fetched code from Excel: print("hello");
+[INFO ] 2025-01-19 00:54:27.889 [main] LoggerLoad - Entered code into the text area: print("hello");
+[INFO ] 2025-01-19 00:54:27.946 [main] LoggerLoad - Clicked the Run button.
+[ERROR] 2025-01-19 00:54:27.959 [main] LoggerLoad - Error retrieving console output: unexpected alert open: {Alert text : NameError: name 'gdfgdgdfhdhd' is not defined on line 1}
+  (Session info: chrome=132.0.6834.84): NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [efde38eb5931b8cdf4cf207c2aa05bae, findElement {using=xpath, value=//pre[@id='output']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.84, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: C:\Users\LAVANY~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59439}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59439/devtoo..., se:cdpVersion: 132.0.6834.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: efde38eb5931b8cdf4cf207c2aa05bae
+[INFO ] 2025-01-19 00:57:26.367 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-19 00:57:26.523 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-19 00:57:26.536 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-19 00:57:26.580 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-01-19 00:57:26.649 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-01-19 00:57:26.897 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-01-19 00:57:26.955 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-19 00:57:26.959 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-01-19 00:57:27.006 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-01-19 00:57:27.059 [main] LoggerLoad - Fetched code from Excel: print("hello");
+[INFO ] 2025-01-19 00:57:27.351 [main] LoggerLoad - Entered code into the text area: print("hello");
+[INFO ] 2025-01-19 00:57:27.412 [main] LoggerLoad - Clicked the Run button.
+[ERROR] 2025-01-19 00:57:27.424 [main] LoggerLoad - Error retrieving console output: unexpected alert open: {Alert text : NameError: name 'gdfgdgdfhdhd' is not defined on line 1}
+  (Session info: chrome=132.0.6834.84): NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9c0399b33f250431a415948791d55ff6, findElement {using=xpath, value=//pre[@id='output']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.84, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: C:\Users\LAVANY~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59569}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59569/devtoo..., se:cdpVersion: 132.0.6834.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9c0399b33f250431a415948791d55ff6
+[INFO ] 2025-01-19 01:01:13.195 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-19 01:01:13.337 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-19 01:01:13.355 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-19 01:01:13.413 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-01-19 01:01:13.488 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-01-19 01:01:13.692 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-01-19 01:01:13.749 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-19 01:01:13.754 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-01-19 01:01:13.796 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-01-19 01:01:13.857 [main] LoggerLoad - Fetched code from Excel: print("hello");
+[INFO ] 2025-01-19 01:01:14.076 [main] LoggerLoad - Entered code into the text area: print("hello");
+[INFO ] 2025-01-19 01:01:14.125 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-19 01:01:14.150 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-01-19 01:01:14.170 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-01-19 01:02:46.959 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-01-19 01:02:47.081 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-19 01:02:47.088 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-01-19 01:02:47.127 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-01-19 01:02:47.164 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-01-19 01:02:47.364 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-01-19 01:02:47.412 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-19 01:02:47.415 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-01-19 01:02:47.450 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-01-19 01:02:47.482 [main] LoggerLoad - Fetched code from Excel: print("hello");
+[INFO ] 2025-01-19 01:02:47.682 [main] LoggerLoad - Entered code into the text area: print("hello");
+[INFO ] 2025-01-19 01:02:47.727 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-01-19 01:02:47.751 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-01-19 01:02:47.774 [main] LoggerLoad - Console output text retrieved: hello

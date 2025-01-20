@@ -50,8 +50,10 @@ public class Driver_SetUp {
 
 	// Method to close the WebDriver instance (close the browser)
 	public static void closeDriver() {
+		System.out.println("driver-->"+driver);
 		if (driver != null) {
-			driver.quit(); // Close the browser window
+		//	driver.quit(); // Close the browser window
+			System.out.println("driver.quit()-->");
 		}
 	}
 

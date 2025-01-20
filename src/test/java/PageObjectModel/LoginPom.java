@@ -32,8 +32,10 @@ public class LoginPom {
 	public By usernameTextBox = By.id("id_username");
 	public By passwordTextBox = By.id("id_password");
 	public By loginBtn =   By.xpath("//input[@value='Login']");
+	
 	//public By loginBtn = By.xpath("//a[@href='/login']");
 	//public By loginBtn = By.xpath("input[type='submit']");
+	
 	public By alertMsg = By.cssSelector(".alert.alert-primary");
 	
 	//enter user name text box 

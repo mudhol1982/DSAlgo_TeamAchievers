@@ -43,6 +43,7 @@ public class IntroductionPagePom {
 //////
 	public By getStartedButtonOnCard = By.cssSelector("a.btn-primary");
 	public By signInLink = By.cssSelector("a[href='/login']");
+	
 	public By registerLink = By.cssSelector("a[href='/register']");
 
 	// Get Started button of all the data structures on the Introduction page / Home
@@ -188,7 +189,14 @@ public class IntroductionPagePom {
 	}
 
 	public void clickOnSignInlink() {
-		driver.findElement(signInLink).click();
+		//driver.findElement(signInLink).click();
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(50));
+		//WebElement signInLink = wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("a[href='/login']")));
+//		WebElement signInLink = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@href='/login']")));
+		//WebElement signInLink = wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Login")));
+		WebElement signInLink = wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("a[href='/login']")));
+		
+		signInLink.click();
 	}
 
 //	public void clickDropdownOptionByText(String optionText) {

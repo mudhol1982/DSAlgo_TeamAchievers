@@ -19,6 +19,7 @@ public class Hooks {
 		String browser = ConfigReader.getBrowserType();
 		// Initialize the WebDriver based on the browser type
 		driver = Driver_SetUp.initializeBrowser(browser);
+		
 	}
 
 	// This hook runs after each scenario to quit the WebDriver

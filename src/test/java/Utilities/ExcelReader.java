@@ -66,7 +66,7 @@ public class ExcelReader {
 		for (int currentRow = 1; currentRow <= totalRow; currentRow++) { // reading rows
 			row = sheet.getRow(currentRow);
 			int totalColumn = row.getLastCellNum();
-			System.out.println("totalColumn--->" + totalColumn);
+			//System.out.println("totalColumn--->" + totalColumn);
 			LinkedHashMap<String, String> columnMapdata = new LinkedHashMap<>();
 
 			String data = null;

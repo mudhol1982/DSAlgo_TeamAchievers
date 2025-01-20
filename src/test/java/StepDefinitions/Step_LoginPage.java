@@ -3,6 +3,7 @@ package StepDefinitions;
 import java.io.IOException;
 
 import org.apache.poi.openxml4j.exceptions.OpenXML4JException;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
 import com.fasterxml.jackson.databind.exc.InvalidFormatException;
@@ -102,7 +103,96 @@ public void the_user_clicks_login_button_after_entering_valid_username_and_valid
 
 @Then("The user should land in Data Structure Home Page with message {string}")
 public void the_user_should_land_in_data_structure_home_page_with_message(String expectedAlertMessage) {
-	Assert.assertEquals(ip.getTextForElement(login.alertMsg), expectedAlertMessage);
+	Assert.assertTrue(ip.validateElementDisplayed(ip.authenticationmsg));
+	Assert.assertEquals(ip.getTextForElement(ip.authenticationmsg), "You are logged in");
+	Assert.assertEquals(ip.getElementSize(ip.authenticationmsg), 1);
+
+	 
+}
+
+//TC09
+
+@When("The user selects Arrays from the drop down after Sign in")
+public void the_user_selects_arrays_from_the_drop_down_after_sign_in() {
+	ip.clickDropdownItemArray();
+}
+
+@Then("The user should able to see Array details page")
+public void the_user_should_able_to_see_array_details_page() {
+	Assert.assertEquals("Array", ip.getPageTitle());
+	
+}
+//TC10
+
+@When("The user selects Linked List from the drop down after Sign in")
+public void the_user_selects_linked_list_from_the_drop_down_after_sign_in() {
+	ip.clickDropdownItemLinkedList();
+}
+
+@Then("The user should able to see Linked List details page")
+public void the_user_should_able_to_see_linked_list_details_page() {
+	Assert.assertEquals("Linked List", ip.getPageTitle());
+}
+
+//TC11
+@When("The user selects Stack from the drop down after Sign in")
+public void the_user_selects_stack_from_the_drop_down_after_sign_in() {
+	ip.clickDropdownItemStack();
+}
+
+@Then("The user should able to see Stack details page")
+public void the_user_should_able_to_see_stack_details_page() {
+	Assert.assertEquals("Stack", ip.getPageTitle());
+    
+    
+}
+
+//TC12
+@When("The user selects Queue from the drop down after Sign in")
+public void the_user_selects_queue_from_the_drop_down_after_sign_in() {
+	ip.clickDropdownItemQueue();
+}
+
+@Then("The user should able to see Queue details page")
+public void the_user_should_able_to_see_queue_details_page() {
+	Assert.assertEquals("Queue", ip.getPageTitle());
+}
+
+//TC13
+@When("The user selects Tree from the drop down after Sign in")
+public void the_user_selects_tree_from_the_drop_down_after_sign_in() {
+	ip.clickDropdownItemTree();
+}
+
+@Then("The user should able to see Tree details page")
+public void the_user_should_able_to_see_tree_details_page() {
+	Assert.assertEquals("Tree", ip.getPageTitle());
+}
+
+//TC14
+@When("The user selects Graph from the drop down after Sign in")
+public void the_user_selects_graph_from_the_drop_down_after_sign_in() {
+	  ip.clickDropdownItemGraph();
+}
+
+@Then("The user should able to see Graph details page")
+public void the_user_should_able_to_see_graph_details_page() {
+	Assert.assertEquals("Graph", ip.getPageTitle());
+}
+
+//TC15
+
+@When("The user clicks Sign Out link")
+public void the_user_clicks_sign_out_link() {
+	hp.clickSignOutLink();
+}
+
+@Then("The user should able to sign out successfully from ds algo portal")
+public void the_user_should_able_to_sign_out_successfully_from_ds_algo_portal() {
+	Assert.assertTrue(ip.validateElementDisplayed(ip.authenticationmsg));
+	Assert.assertEquals(ip.getTextForElement(ip.authenticationmsg), "Logged out successfully");
+	Assert.assertEquals(ip.getElementSize(ip.authenticationmsg), 1);
+
 }
 
 }
