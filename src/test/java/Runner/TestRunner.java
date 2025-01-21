@@ -1,4 +1,4 @@
-package Runner;
+package runner;
 
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
@@ -10,6 +10,7 @@ import org.testng.annotations.DataProvider;
         glue = {"StepDefinitions"}, // Package containing step definitions
         //glue = {"com.yourproject.StepDefinitions"},
         monochrome = true, // Makes the console output more readable
+        dryRun=true,
         plugin = {
                 "pretty", // Pretty print for console output
                 "html:target/cucumber-reports/cucumber.html", // HTML report

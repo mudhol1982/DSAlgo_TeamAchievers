@@ -40,7 +40,6 @@ public class HomePom {
 	public void openDSIntroductionUrl() {
 		driver.get(ConfigReader.geturlDataStructuresIntroduction());
 	}
-	
 	//Open Practice Questions page 
 		public void openPracticeQnsPageUrl() {
 			driver.get(ConfigReader.geturlPracticeQnsDSIntroPage());
@@ -52,12 +51,38 @@ public class HomePom {
 	}
 
 	public WebElement linkClickable(By locator) {
-
-		return wait.until(ExpectedConditions.elementToBeClickable(locator));
+    	return wait.until(ExpectedConditions.elementToBeClickable(locator));
 
 	}
 
-	public String getTextForElement(By locator) {
+    public void openURL() {
+    	System.out.println("Inside openURL");
+    	driver.get(ConfigReader.getUrl());
+    	   	
+    }
+    
+    public void openHomeURL() {
+    	System.out.println("Inside openURL");
+    	driver.get(ConfigReader.getUrlHome());
+    		
+    }
+    public void openUrlTree() {
+    	
+    	driver.get(ConfigReader.getUrlTree());
+    		
+    }
+    public void openUrlGraph(){
+    	
+    	driver.get(ConfigReader.getUrlGraph());
+    	
+    }
+    public void ClickHomePageGetStartedButton() {
+    	
+    	System.out.println("Inside ClickHomePageGetStartedButton");
+    	driver.findElement(getStartedButton).click();
+    }
+    
+ 	public String getTextForElement(By locator) {
 		String elementText = driver.findElement(locator).getText();
 		return elementText;
 	}

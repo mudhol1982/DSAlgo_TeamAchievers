@@ -31,6 +31,7 @@ public class ConfigReader {
     public static String getUrl() {
         return properties.getProperty("url");
     }
+
     // Get the Time Complexity URL from the config file
     public static String geturlTimeComplexity() {
         // Retrieve the value of "urlTimeComplexity" from the properties file
@@ -48,6 +49,26 @@ public class ConfigReader {
         	   // Retrieve the value of "urlDataStructuresIntroduction" from the properties file
             return properties.getProperty("urlDataStructuresIntroPracticeQns");
         }
+
+    public static String getUrlTree() {
+    	
+    	return properties.getProperty("urlTree");
+    
+    }
+    
+    public static String getUrlGraph() {
+    	return properties.getProperty("urlGraph");
+    }
+    public static String getUrlHome() {
+        return properties.getProperty("urlHome");
+    }
+    public String getUserName() {
+		return properties.getProperty("username");
+	}
+	public String getPassword() {
+		return properties.getProperty("password");
+	}
+
 }
 
 

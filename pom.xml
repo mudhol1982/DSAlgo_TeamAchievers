@@ -40,20 +40,22 @@
 			<artifactId>jna</artifactId>
 			<version>5.15.0</version>
 		</dependency>
-		<!-- TestNG dependency -->
-		<dependency>
-			<groupId>org.testng</groupId>
-			<artifactId>testng</artifactId>
-			<version>7.10.2</version>
-			<scope>test</scope>
-		</dependency>
+	        <!-- TestNG dependency -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.10.2</version>
+            <scope>test</scope>
+        </dependency>
+        
+        <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
+        <!--<dependency>
 
-		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
-		<!--<dependency>
     <groupId>io.cucumber</groupId>
     <artifactId>cucumber-testng</artifactId>
     <version>7.20.1</version>
 </dependency>-->
+    
 		<!-- WebDriver Manager dependency -->
 		<dependency>
 			<groupId>io.github.bonigarcia</groupId>
@@ -61,7 +63,6 @@
 			<version>5.9.2</version>
 			<scope>test</scope>
 		</dependency>
-
 		<!-- Apache POI for Data driven implementation -->
 		<dependency>
 			<groupId>org.apache.poi</groupId>
