@@ -14,6 +14,7 @@ import com.fasterxml.jackson.databind.exc.InvalidFormatException;
 
 import DriverManager.Driver_SetUp;
 import Utilities.ExcelReader;
+import Utilities.ExcelReader1;
 
 public class LoginPom {
 	
@@ -31,6 +32,10 @@ public class LoginPom {
 	public By usernameTextBox = By.id("id_username");
 	public By passwordTextBox = By.id("id_password");
 	public By loginBtn =   By.xpath("//input[@value='Login']");
+	
+	//public By loginBtn = By.xpath("//a[@href='/login']");
+	//public By loginBtn = By.xpath("input[type='submit']");
+	
 	public By alertMsg = By.cssSelector(".alert.alert-primary");
 	
 	//enter user name text box 
@@ -61,7 +66,8 @@ public class LoginPom {
 		public void enterLoginFormFields(String sheetname, int row)
 				throws InvalidFormatException, IOException, OpenXML4JException, InterruptedException {
 			System.out.println("Inside enterLoginFormFields");
-			List<Map<String, String>> testdata = excelReader.getData("src/test/resources/Excel/TestData.xlsx", sheetname);
+			//List<Map<String, String>> testdata = excelReader1.getData("src/test/resources/Excel/TestData.xlsx", sheetname);
+			List<Map<String, String>> testdata = excelReader.readFromExcel("src/test/resources/Excel/TestData.xlsx", sheetname);
 			System.out.println("logintestdata ---------> "+testdata);
 			
 			//Fetch and log the user name
