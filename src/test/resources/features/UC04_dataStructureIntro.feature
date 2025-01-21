@@ -48,6 +48,6 @@ Feature: Data Structures-Introduction
   #TC07
   Scenario: Verify that user is able to navigate to Practice Questions page
     #Given The user is on the Time Complexity Page of DS Introduction page
-    When The user clicks Practice Questions link
-    Then The user should be redirected to Practice Questions page 
+    When The user clicks Practice Questions link of DS page 
+    Then The user should be redirected to Practice Questions page  of DS 
     

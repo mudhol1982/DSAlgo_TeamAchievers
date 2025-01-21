@@ -55,11 +55,12 @@ public class HomePom {
 
 	}
 
-    public void openURL() {
-    	System.out.println("Inside openURL");
-    	driver.get(ConfigReader.getUrl());
-    	   	
-    }
+	/*
+	 * public void openURL() { System.out.println("Inside openURL");
+	 * driver.get(ConfigReader.getUrl());
+	 * 
+	 * }
+	 */
     
     public void openHomeURL() {
     	System.out.println("Inside openURL");
@@ -76,11 +77,12 @@ public class HomePom {
     	driver.get(ConfigReader.getUrlGraph());
     	
     }
-    public void ClickHomePageGetStartedButton() {
-    	
-    	System.out.println("Inside ClickHomePageGetStartedButton");
-    	driver.findElement(getStartedButton).click();
-    }
+	/*
+	 * public void ClickHomePageGetStartedButton() {
+	 * 
+	 * System.out.println("Inside ClickHomePageGetStartedButton");
+	 * driver.findElement(getStartedButton).click(); }
+	 */
     
  	public String getTextForElement(By locator) {
 		String elementText = driver.findElement(locator).getText();
