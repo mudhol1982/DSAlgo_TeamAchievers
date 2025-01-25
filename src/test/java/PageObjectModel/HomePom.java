@@ -77,6 +77,15 @@ public class HomePom {
     	driver.get(ConfigReader.getUrlGraph());
     	
     }
+    
+    public void openLinkedList() {
+    	driver.get(ConfigReader.getUrlLinkedList());
+    }
+    
+    public void openArray() {
+    	
+    	driver.get(ConfigReader.getUrlArray());
+    }
 	/*
 	 * public void ClickHomePageGetStartedButton() {
 	 * 

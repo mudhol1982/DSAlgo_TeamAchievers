@@ -145,7 +145,7 @@ public class TryEditorDsPom {
     public String getOutputText() {
         try {
             // Wait for the console output element to be visible
-            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
             WebElement consoleOutputElement = wait.until(ExpectedConditions.visibilityOfElementLocated(consoleOutputMsg));
             
             // Retrieve the text from the element

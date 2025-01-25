@@ -32,7 +32,7 @@ public class Hooks {
 	}
 
 	// Getter for WebDriver (useful in step definitions)
-	public WebDriver getDriver() {
+	public static WebDriver getDriver() {
 		return driver;
 	}
 	

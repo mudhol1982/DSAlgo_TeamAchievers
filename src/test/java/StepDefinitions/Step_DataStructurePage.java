@@ -67,8 +67,7 @@ public class Step_DataStructurePage {
 		Assert.assertEquals(dsIntro.getTextForElement(dsIntro.dsPageTitle), "Data Structures-Introduction");
 
 	}
-
-////	//TC02
+	// TC02
 
 	@Given("The user is on the Data Structure introduction Page of ds algo portal after sign in")
 	public void the_user_is_on_the_data_structure_introduction_page_of_ds_algo_portal_after_sign_in() {
@@ -177,12 +176,13 @@ public class Step_DataStructurePage {
 
 		// Validate that the output is not null or empty
 		Assert.assertNotNull(consoleOutput, "Console output should not be null.");
-		//Assert.assertTrue(consoleOutput.isEmpty(), "Console output should not be empty.");
+		// Assert.assertTrue(consoleOutput.isEmpty(), "Console output should not be
+		// empty.");
 
 		// Optionally log the output for verification
 		System.out.println("Console output: " + consoleOutput);
 		Assert.assertNotNull(tp.getOutputText());
-		
+
 	}
 
 	// TC07
@@ -193,10 +193,9 @@ public class Step_DataStructurePage {
 
 	@Then("The user should be redirected to Practice Questions page  of DS")
 	public void the_user_should_be_redirected_to_practice_questions_page_of_ds() {
-		System.out.println("dsIntro.validatePageTitle()-------->"+dsIntro.validatePageTitle());
-		//Assert.assertEquals("Practice Questions", dsIntro.validatePageTitle());
+		System.out.println("dsIntro.validatePageTitle()-------->" + dsIntro.validatePageTitle());
+		// Assert.assertEquals("Practice Questions", dsIntro.validatePageTitle());
 		Assert.assertEquals(dsIntro.validatePageTitle(), "Assessment");
 	}
-	
 
 }
