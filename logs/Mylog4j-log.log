@@ -675,6 +675,7 @@ Session ID: 9c0399b33f250431a415948791d55ff6
 [INFO ] 2025-01-19 01:02:47.727 [main] LoggerLoad - Clicked the Run button.
 [INFO ] 2025-01-19 01:02:47.751 [main] LoggerLoad - Console output text retrieved: hello
 [INFO ] 2025-01-19 01:02:47.774 [main] LoggerLoad - Console output text retrieved: hello
+<<<<<<< HEAD
 [INFO ] 2025-01-21 18:58:04.075 [main] LoggerLoad - Clicked the Try Here button.
 [INFO ] 2025-01-21 18:58:04.228 [main] LoggerLoad - Clicked the Run button.
 [INFO ] 2025-01-21 18:58:04.241 [main] LoggerLoad - No alert is present.
@@ -9324,3 +9325,5 @@ System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.v
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.84, chrome: {chromedriverVersion: 132.0.6834.110 (df453a35f09..., userDataDir: C:\Users\LAVANY~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55017}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55017/devtoo..., se:cdpVersion: 132.0.6834.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 Session ID: 605b9fc53fae5fb45277aefbadb894dc
+=======
+>>>>>>> main
