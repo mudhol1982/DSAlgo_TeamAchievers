@@ -8,6 +8,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import DriverManager.Driver_SetUp;
+import Utilities.LoggerLoad;
 
 public class IntroductionPagePom {
 
@@ -51,6 +52,7 @@ public class IntroductionPagePom {
 	public By dsIntroductionGetStartedBtn = By.cssSelector("a[href='data-structures-introduction']");
 	public By arrayGetStartedBtn = By.cssSelector("a[href='array']");
 	public By linkedListGetStartedBtn = By.cssSelector("a[href='linked-list']");
+	//public By linkedListGetStartedBtn   = By.xpath("//a[text()='Get Started' and contains(@href, 'linked-list')]");
 	public By stackGetStartedBtn = By.cssSelector("a[href='stack']");
 	public By queueGetStartedBtn = By.cssSelector("a[href='queue']");
 	public By treeGetStartedBtn = By.cssSelector("a[href='tree']");
@@ -71,15 +73,15 @@ public class IntroductionPagePom {
 		System.out.println("Dropdown selected -->" + driver.findElement(dropDownArrayItem));
 		// wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(dropDownArrayItem)));
 	}
-
+	
 	// Method to click on the 'Linked List' dropdown item
-	public void clickDropdownItemLinkedList() {
-		// wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(dropDownLinkedListItem)));
-		wait.until(ExpectedConditions.elementToBeClickable(dropDownLinkedListItem));
-		driver.findElement(dropDownLinkedListItem).click();
-		System.out.println("Dropdown selected1 -->" + driver.findElement(dropDownLinkedListItem));
-	}
-
+		public void clickDropdownItemLinkedList() {
+			// wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(dropDownLinkedListItem)));
+			wait.until(ExpectedConditions.elementToBeClickable(dropDownLinkedListItem));
+			driver.findElement(dropDownLinkedListItem).click();
+			System.out.println("Dropdown selected1 -->" + driver.findElement(dropDownLinkedListItem));
+		}
+	
 	// Method to click on the 'Stack' drop down item
 	public void clickDropdownItemStack() {
 		wait.until(ExpectedConditions.elementToBeClickable(dropDownStackItem));
@@ -155,33 +157,38 @@ public class IntroductionPagePom {
 	public void clickOnArrayGetStartedBtn() {
 		driver.findElement(arrayGetStartedBtn).click();
 		System.out.println("GetStartedButtonOfArray selected1 -->" + driver.findElement(arrayGetStartedBtn));
+		LoggerLoad.info("Clicking the Array Get Started link");
 	}
+
 
 	public void clickOnLinkedListGetStartedBtn() {
 		driver.findElement(linkedListGetStartedBtn).click();
 		System.out.println("GetStartedButtonOfLinkedList selected1 -->" + driver.findElement(linkedListGetStartedBtn));
+		LoggerLoad.info("Clicking the Linked List Get Started link");
 	}
 
 	public void clickOnStackGetStartedBtn() {
 		driver.findElement(stackGetStartedBtn).click();
 		System.out.println("GetStartedButtonOfStack selected1 -->" + driver.findElement(stackGetStartedBtn));
+		LoggerLoad.info("Clicking the Stack Get Started link");
 	}
 
 	public void clickOnQueueGetStartedBtn() {
 		driver.findElement(queueGetStartedBtn).click();
 		System.out.println("GetStartedButtonOfQueue selected1 -->" + driver.findElement(queueGetStartedBtn));
+		LoggerLoad.info("Clicking the Queue Get Started link");
 	}
 
 	public void clickOnTreeGetStartedBtn() {
 		driver.findElement(treeGetStartedBtn).click();
 		System.out.println("GetStartedButtonOfTree selected1 -->" + driver.findElement(treeGetStartedBtn));
-
+		LoggerLoad.info("Clicking the Tree Get Started link");
 	}
 
 	public void clickOnGraphGetStartedBtn() {
 		driver.findElement(graphGetStartedBtn).click();
 		System.out.println("GetStartedButtonOfGraph selected1 -->" + driver.findElement(graphGetStartedBtn));
-
+		LoggerLoad.info("Clicking the Graph Get Started link");
 	}
 
 	public void clickOnRegisterlink() {
