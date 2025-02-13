@@ -25,5 +25,3 @@ public class TestRunner extends AbstractTestNGCucumberTests {
         return super.scenarios(); // Get the scenarios from Cucumber
     }
 }
-
-
