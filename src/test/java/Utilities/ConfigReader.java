@@ -31,6 +31,25 @@ public class ConfigReader {
     public static String getUrl() {
         return properties.getProperty("url");
     }
+
+    // Get the Time Complexity URL from the config file
+    public static String geturlTimeComplexity() {
+        // Retrieve the value of "urlTimeComplexity" from the properties file
+        return properties.getProperty("urlTimeComplexity");
+    }
+    
+    // Get the DataStructuresIntroduction URL from the config file
+        public static String geturlDataStructuresIntroduction() {
+        	   // Retrieve the value of "urlDataStructuresIntroduction" from the properties file
+            return properties.getProperty("urlDataStructuresIntroduction");
+        }
+        
+     // Get the Practice Questions(DataStructuresIntroduction) URL from the config file
+        public static String geturlPracticeQnsDSIntroPage() {
+        	   // Retrieve the value of "urlDataStructuresIntroduction" from the properties file
+            return properties.getProperty("urlDataStructuresIntroPracticeQns");
+        }
+
     public static String getUrlTree() {
     	
     	return properties.getProperty("urlTree");
@@ -40,6 +59,15 @@ public class ConfigReader {
     public static String getUrlGraph() {
     	return properties.getProperty("urlGraph");
     }
+    
+    public static String getUrlStack() {
+    	return properties.getProperty("urlStack");
+    }
+    
+    public static String getUrlQueue() {
+    	return properties.getProperty("urlQueue");
+    }
+    
     public static String getUrlHome() {
         return properties.getProperty("urlHome");
     }
@@ -49,6 +77,5 @@ public class ConfigReader {
 	public String getPassword() {
 		return properties.getProperty("password");
 	}
-   
-}
 
+}
