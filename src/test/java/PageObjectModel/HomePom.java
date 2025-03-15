@@ -21,6 +21,7 @@ public class HomePom {
 
 	public By getStartedButton = By.cssSelector("button.btn");
 	public By contentHeader = By.cssSelector(".content h1");
+	
 	public By contentText = By.cssSelector("div.content p");
 	public By signOutLink = By.xpath("//a[@href='/logout']");
 
@@ -55,7 +56,15 @@ public class HomePom {
 
 	}
 
-  
+
+	/*
+	 * public void openURL() { System.out.println("Inside openURL");
+	 * driver.get(ConfigReader.getUrl());
+	 * 
+	 * }
+	 */
+    
+
     public void openHomeURL() {
     	System.out.println("Inside openURL");
     	driver.get(ConfigReader.getUrlHome());
@@ -72,6 +81,26 @@ public class HomePom {
     	
     }
     
+
+    public void openUrlQueue() {
+		// TODO Auto-generated method stub
+    	driver.get(ConfigReader.getUrlQueue());
+		
+	}
+    
+  
+	/*
+	 * public void ClickHomePageGetStartedButton() {
+	 * 
+	 * System.out.println("Inside ClickHomePageGetStartedButton");
+	 * driver.findElement(getStartedButton).click(); }
+	 */
+    
+ 	public String getTextForElement(By locator) {
+		String elementText = driver.findElement(locator).getText();
+		return elementText;
+	}
+
     public void openLinkedList() {
     	driver.get(ConfigReader.getUrlLinkedList());
     }
@@ -81,15 +110,23 @@ public class HomePom {
     	driver.get(ConfigReader.getUrlArray());
     }
 
-	    
- 	public String getTextForElement(By locator) {
-		String elementText = driver.findElement(locator).getText();
-		return elementText;
-	}
+
 	
 	public void clickSignOutLink() {
 		driver.findElement(signOutLink).click();
 	}
+
+
+	public void openUrlStack() {
+		// TODO Auto-generated method stub
+    	driver.get(ConfigReader.getUrlStack());
+		
+	}
 	
 
 }
+
+	
+
+
+

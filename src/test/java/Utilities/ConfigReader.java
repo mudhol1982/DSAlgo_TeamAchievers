@@ -60,7 +60,18 @@ public class ConfigReader {
     	return properties.getProperty("urlGraph");
     }
     
+
+    public static String getUrlStack() {
+    	return properties.getProperty("urlStack");
+    }
+    
+    public static String getUrlQueue() {
+    	return properties.getProperty("urlQueue");
+    }
+    
+   
      public static String getUrlHome() {
+
         return properties.getProperty("urlHome");
     }
     public String getUserName() {
@@ -69,6 +80,8 @@ public class ConfigReader {
 	public String getPassword() {
 		return properties.getProperty("password");
 	}
+
+
 	
 	 public static String getUrlLinkedList() {
 	    	return properties.getProperty("urlLinkedList");
@@ -79,5 +92,3 @@ public class ConfigReader {
 	    }
 	    
 }
-
-
