@@ -56,6 +56,7 @@ public class HomePom {
 
 	}
 
+
 	/*
 	 * public void openURL() { System.out.println("Inside openURL");
 	 * driver.get(ConfigReader.getUrl());
@@ -63,6 +64,7 @@ public class HomePom {
 	 * }
 	 */
     
+
     public void openHomeURL() {
     	System.out.println("Inside openURL");
     	driver.get(ConfigReader.getUrlHome());
@@ -79,6 +81,7 @@ public class HomePom {
     	
     }
     
+
     public void openUrlQueue() {
 		// TODO Auto-generated method stub
     	driver.get(ConfigReader.getUrlQueue());
@@ -97,10 +100,22 @@ public class HomePom {
 		String elementText = driver.findElement(locator).getText();
 		return elementText;
 	}
+
+    public void openLinkedList() {
+    	driver.get(ConfigReader.getUrlLinkedList());
+    }
+    
+    public void openArray() {
+    	
+    	driver.get(ConfigReader.getUrlArray());
+    }
+
+
 	
 	public void clickSignOutLink() {
 		driver.findElement(signOutLink).click();
 	}
+
 
 	public void openUrlStack() {
 		// TODO Auto-generated method stub
@@ -110,3 +125,8 @@ public class HomePom {
 	
 
 }
+
+	
+
+
+

@@ -89,18 +89,15 @@ public class ExcelReader {
 	}
 
 	// Method to read Excel file and return the code from the provided sheet and row
-	public List<Map<String, String>> getData(String filePath, String sheetName)
-	//public List<Map<String, String>> readFromExcel(String filePath, String sheetName)
+	public List<Map<String, String>> readFromExcel(String filePath, String sheetName)
 			throws IOException {
 		// Open the Excel file
 		FileInputStream fis = new FileInputStream(new File(filePath));
 
 		// Create workbook instance (for .xlsx files)
 		Workbook workbook = new XSSFWorkbook(fis);
-
 		// Get the sheet by name
 		Sheet sheet = workbook.getSheet(sheetName);
-
 		// Get the row from the sheet
 		Row row;
 		Cell cell;
@@ -112,7 +109,7 @@ public class ExcelReader {
 		for (int currentRow = 1; currentRow <= totalRow; currentRow++) { // reading rows
 			row = sheet.getRow(currentRow);
 			int totalColumn = row.getLastCellNum();
-			System.out.println("totalColumn--->" + totalColumn);
+			//System.out.println("totalColumn--->" + totalColumn);
 			LinkedHashMap<String, String> columnMapdata = new LinkedHashMap<>();
 
 			String data = null;
@@ -148,5 +145,3 @@ public class ExcelReader {
 
 	}
 }
-
-

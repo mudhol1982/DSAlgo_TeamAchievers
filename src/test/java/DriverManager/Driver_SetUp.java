@@ -32,26 +32,12 @@ public class Driver_SetUp {
 		return threadDriver.get();
 	}
 
-	public static WebDriver initializeBrowser1(String browser) throws Exception {
-
-		if (browser.equals("chrome")) {
-			driver = new ChromeDriver();
-		} else if (browser.equals("firefox")) {
-			driver = new FirefoxDriver();
-		} else if (browser.equals("edge")) {
-			driver = new EdgeDriver();
-		}
-		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
-		driver.manage().window().maximize();
-		driver.manage().deleteAllCookies();
-		threadDriver.set(driver);
-		return threadDriver.get();
-	}
-
 	// Method to close the WebDriver instance (close the browser)
 	public static void closeDriver() {
+		System.out.println("driver-->"+driver);
 		if (driver != null) {
-			driver.quit(); // Close the browser window
+		//	driver.quit(); // Close the browser window
+			System.out.println("driver.quit()-->");
 		}
 	}
 

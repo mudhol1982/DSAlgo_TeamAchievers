@@ -5,6 +5,7 @@ import org.apache.poi.openxml4j.exceptions.OpenXML4JException;
 import org.testng.Assert;
 import com.fasterxml.jackson.databind.exc.InvalidFormatException;
 
+import PageObjectModel.HomePom;
 import PageObjectModel.IntroductionPagePom;
 import PageObjectModel.RegisterPom;
 import io.cucumber.java.en.Given;
@@ -15,6 +16,7 @@ public class Step_RegisterPage {
 
 	RegisterPom regPage = new RegisterPom();
 	public IntroductionPagePom ip = new IntroductionPagePom();
+	public HomePom hp = new HomePom();
 
 	String actualErrorMsg;
 	String expectedErrorMsg;
@@ -161,6 +163,7 @@ public class Step_RegisterPage {
 		regPage.clickSignInLink();
 	}
 	
+
 }
 
 	

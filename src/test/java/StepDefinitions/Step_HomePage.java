@@ -108,7 +108,7 @@ public class Step_HomePage {
 	}
 
 	@When("The user selects Linked List from the drop down without Sign in")
-	public void the_user_selects_linked_list_from_the_drop_down_without_sign_in() {
+	public void the_user_selects_linked_list_from_the_drop_down_without_sign_in() throws InterruptedException {
 		ip.clickDropdownItemLinkedList();
 	}
 
