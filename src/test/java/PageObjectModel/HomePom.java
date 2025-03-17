@@ -15,8 +15,7 @@ public class HomePom {
 	
 
 	public WebDriver driver = Driver_SetUp.getDriver();
-	// Create a WebDriverWait instance with Duration
-
+	
 	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10)); // Timeout in second
 
 	public By getStartedButton = By.cssSelector("button.btn");

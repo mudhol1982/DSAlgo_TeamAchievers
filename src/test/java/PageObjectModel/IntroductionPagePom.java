@@ -6,13 +6,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import DriverManager.Driver_SetUp;
 import Utilities.LoggerLoad;
 
 public class IntroductionPagePom {
 
-	public WebDriver driver = Driver_SetUp.getDriver();
+	public static WebDriver driver = Driver_SetUp.getDriver();
 
 	WebDriverWait wait = new WebDriverWait(driver, Duration.ofMillis(50000)); // Timeout in second
 
@@ -206,23 +205,12 @@ public class IntroductionPagePom {
 		signInLink.click();
 	}
 
-//	public void clickDropdownOptionByText(String optionText) {
-//	    List<WebElement> dropdownOptions = dsDropdown.findElements(By.tagName("li")); // Adjust locator if needed
-//	    for (WebElement option : dropdownOptions) {
-//	        if (option.getText().trim().equals(optionText)) {
-//	            option.click(); // Click the matching option
-//	            return;
-//	        }
-//	    }
-//	    throw new NoSuchElementException("Option '" + optionText + "' not found in the dropdown.");
-//	}
-
 	
 	//get title
 	public String getPageTitle() {
 		String elementText = driver.getTitle();
 		return elementText;
 	}
-//	
+	
 
 }
