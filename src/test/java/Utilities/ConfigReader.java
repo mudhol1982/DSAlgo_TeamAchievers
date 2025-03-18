@@ -1,8 +1,13 @@
 package Utilities;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
+
+import DriverManager.Driver_SetUp;
 
 public class ConfigReader {
 
@@ -39,45 +44,71 @@ public class ConfigReader {
     }
     
     // Get the DataStructuresIntroduction URL from the config file
-        public static String geturlDataStructuresIntroduction() {
-        	   // Retrieve the value of "urlDataStructuresIntroduction" from the properties file
-            return properties.getProperty("urlDataStructuresIntroduction");
-        }
+    public static String geturlDataStructuresIntroduction() {
+        // Retrieve the value of "urlDataStructuresIntroduction" from the properties file
+        return properties.getProperty("urlDataStructuresIntroduction");
+    }
         
-     // Get the Practice Questions(DataStructuresIntroduction) URL from the config file
-        public static String geturlPracticeQnsDSIntroPage() {
-        	   // Retrieve the value of "urlDataStructuresIntroduction" from the properties file
-            return properties.getProperty("urlDataStructuresIntroPracticeQns");
-        }
+    // Get the Practice Questions(DataStructuresIntroduction) URL from the config file
+    public static String geturlPracticeQnsDSIntroPage() {
+        // Retrieve the value of "urlDataStructuresIntroduction" from the properties file
+        return properties.getProperty("urlDataStructuresIntroPracticeQns");
+    }
 
     public static String getUrlTree() {
-    	
-    	return properties.getProperty("urlTree");
-    
+        return properties.getProperty("urlTree");
     }
-    
+
     public static String getUrlGraph() {
-    	return properties.getProperty("urlGraph");
+        return properties.getProperty("urlGraph");
     }
-    
-     public static String getUrlHome() {
+
+    public static String getUrlHome() {
         return properties.getProperty("urlHome");
     }
-    public String getUserName() {
-		return properties.getProperty("username");
-	}
-	public String getPassword() {
-		return properties.getProperty("password");
-	}
-	
-	 public static String getUrlLinkedList() {
-	    	return properties.getProperty("urlLinkedList");
-	    }
-	 	
-	 public static String getUrlArray() {
-	    	return properties.getProperty("urlArray");
-	    }
-	    
-}
 
+    public static String getUserName() {
+        return properties.getProperty("username");
+    }
+
+    public static String getPassword() {
+        return properties.getProperty("password");
+    }
+
+    public static String getUrlLinkedList() {
+        return properties.getProperty("urlLinkedList");
+    }
+    
+    public static String getUrlArray() {
+        return properties.getProperty("urlArray");
+    }
+
+    // Method to load the browser type and initialize WebDriver based on the config file
+    public static void initializeDriverFromConfig() throws Exception {
+        // Load the configuration properties
+        loadConfig();
+
+        // Get the browser type from the properties file
+        String browser = getBrowserType();
+
+        // Initialize the WebDriver using the browser type from the config file
+        Driver_SetUp.initializeBrowser(browser);
+    }
+
+	public static Properties initializeprop() {
+		Properties prop = new Properties();
+		File profile = new File(
+				System.getProperty("user.dir") + "/src/test/resources/Config/config.properties");
+
+		try (FileInputStream fis = new FileInputStream(profile)) {
+			prop.load(fis);
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		return prop;
+	}
+
+	}
 

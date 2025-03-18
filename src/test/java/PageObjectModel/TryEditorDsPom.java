@@ -4,10 +4,12 @@ import java.io.IOException;
 import java.time.Duration;
 import java.util.List;
 import java.util.Map;
+import java.util.Properties;
 
 import org.apache.poi.openxml4j.exceptions.OpenXML4JException;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -18,12 +20,27 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import com.fasterxml.jackson.databind.exc.InvalidFormatException;
 
 import DriverManager.Driver_SetUp;
+import Utilities.ConfigReader;
 import Utilities.ExcelReader;
 import Utilities.LoggerLoad;
 
 public class TryEditorDsPom {
+	
+	private WebDriver driver; // WebDriver instance
+    private Properties prop;
+    
+ //  Constructor of the Page Class
+    public TryEditorDsPom(WebDriver driver) {
+        if (driver == null) {
+            throw new IllegalArgumentException("WebDriver instance cannot be null.");
+        }
+        this.driver = driver; // Assign the passed driver to the class-level variable
 
-	WebDriver driver = Driver_SetUp.getDriver(); // Initialize WebDriver
+        // Initialize all the elements in this page class
+        this.prop = ConfigReader.initializeprop();
+    }
+
+	//WebDriver driver = Driver_SetUp.getDriver(); // Initialize WebDriver
 	ExcelReader excelReader = new ExcelReader(); // Initialize ExcelReader utility
 
 	// Web Elements from Text Editor
@@ -47,9 +64,20 @@ public class TryEditorDsPom {
 		Actions actions=new Actions(driver);
 		WebElement textArea = driver.findElement(textAreaForCode);
 		System.out.println("textArea--->"+textArea);
-		//textArea.clear();
+		
+		
+		   // Clear the text area before entering new code (Windows specific)
+	    Keys ctrlKey = Keys.CONTROL;  // Use Ctrl for Windows
+	    actions.moveToElement(textArea)
+	           .click()
+	           .keyDown(ctrlKey)                    // Hold the CONTROL key
+	           .sendKeys("a")                       // Select all text (Ctrl+A)
+	           .keyUp(ctrlKey)                      // Release CONTROL
+	           .sendKeys(Keys.BACK_SPACE)           // Press BACKSPACE to delete the selected text
+	           .perform();  
+		
+		//enter new code 
 		actions.moveToElement(textArea).click().sendKeys(pCode).build().perform(); 
-		//textArea.sendKeys(pCode);
 		LoggerLoad.info("Entered code into the text area: " + pCode);
 	}
 

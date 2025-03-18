@@ -1,6 +1,7 @@
 package PageObjectModel;
 
 import java.time.Duration;
+import java.util.Properties;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -9,12 +10,30 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import DriverManager.Driver_SetUp;
+import Utilities.ConfigReader;
 import Utilities.ExcelReader;
 import Utilities.LoggerLoad;
 
 public class ArrayPom {
 
-	WebDriver driver = Driver_SetUp.getDriver();
+//	WebDriver driver = Driver_SetUp.getDriver();
+	
+	private WebDriver driver; // WebDriver instance
+    private Properties prop;
+    
+ //  Constructor of the Page Class
+    public ArrayPom(WebDriver driver) {
+        if (driver == null) {
+            throw new IllegalArgumentException("WebDriver instance cannot be null.");
+        }
+        this.driver = driver; // Assign the passed driver to the class-level variable
+
+        // Initialize all the elements in this page class
+        this.prop = ConfigReader.initializeprop();
+
+        // Initialize the configuration properties using ConfigReader
+        this.prop = ConfigReader.initializeprop();
+    }
 	ExcelReader excelReader = new ExcelReader();
 	
 	//Web Elements in the DataStructures page 

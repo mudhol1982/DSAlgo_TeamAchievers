@@ -1,279 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="41" passed="3" failed="38" skipped="0">
+<testng-results ignored="0" total="41" passed="0" failed="41" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-18T21:15:20 GMT-05:00" name="Default suite" finished-at="2025-01-18T21:15:23 GMT-05:00" duration-ms="3417">
+  <suite started-at="2025-03-17T23:55:42 GMT-04:00" name="Default suite" finished-at="2025-03-17T23:55:48 GMT-04:00" duration-ms="5971">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5922ae77]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5a37d3ed]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-01-18T21:15:20 GMT-05:00" name="Default test" finished-at="2025-01-18T21:15:23 GMT-05:00" duration-ms="3417">
+    <test started-at="2025-03-17T23:55:42 GMT-04:00" name="Default test" finished-at="2025-03-17T23:55:48 GMT-04:00" duration-ms="5971">
       <class name="Runner.TestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner.TestRunner@5922ae77]" started-at="2025-01-18T21:15:20 GMT-05:00" name="setUpClass" finished-at="2025-01-18T21:15:21 GMT-05:00" duration-ms="1062" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner.TestRunner@5a37d3ed]" started-at="2025-03-17T23:55:42 GMT-04:00" name="setUpClass" finished-at="2025-03-17T23:55:46 GMT-04:00" duration-ms="4385" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@2c17ebb7]]>
+                <![CDATA[org.testng.TestRunner@268cbb86]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5922ae77]" started-at="2025-01-18T21:15:21 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-18T21:15:21 GMT-05:00" duration-ms="156" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify that user is able to open the dsAlgo Portal-home page"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["DSportal App HomePage"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
-at PageObjectModel.HomePom.openURL(HomePom.java:28)
-at StepDefinitions.Step_HomePage.the_user_enter_correct_ds_algo_portal_url_url(Step_HomePage.java:29)
-at ✽.The user enter correct dsAlgo portal URL <URL>(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:6)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5922ae77]" started-at="2025-01-18T21:15:21 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-18T21:15:21 GMT-05:00" duration-ms="18" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate user navigate to DS Intro Page"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["DSportal App HomePage"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
-at PageObjectModel.HomePom.ClickHomePageGetStartedButton(HomePom.java:45)
-at StepDefinitions.Step_HomePage.the_user_clicks_the_get_started_button(Step_HomePage.java:45)
-at ✽.The user clicks the Get Started button(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:11)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5922ae77]" started-at="2025-01-18T21:15:21 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-18T21:15:21 GMT-05:00" duration-ms="17" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify that user is able to view options for Data Structures dropdown on home page without Sign in"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["DSportal App HomePage"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
-at PageObjectModel.IntroductionPagePom.clickDropdownToggle(IntroductionPagePom.java:63)
-at StepDefinitions.Step_HomePage.the_user_clicks_the_data_structures_dropdown(Step_HomePage.java:69)
-at ✽.The user clicks the Data Structures dropdown(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:15)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5922ae77]" started-at="2025-01-18T21:15:21 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-18T21:15:21 GMT-05:00" duration-ms="15" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify that user able to see warning message while selecting Arrays from the drop down without Sign in"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["DSportal App HomePage"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
-at PageObjectModel.IntroductionPagePom.clickDropdownItemArray(IntroductionPagePom.java:69)
-at StepDefinitions.Step_HomePage.the_user_selects_arrays_from_the_drop_down_without_sign_in(Step_HomePage.java:90)
-at ✽.The user selects Arrays from the drop down without Sign in(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:19)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5922ae77]" started-at="2025-01-18T21:15:21 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-18T21:15:21 GMT-05:00" duration-ms="12" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify that user able to see warning message while selecting Linked List from the drop down without Sign in"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["DSportal App HomePage"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
-at PageObjectModel.IntroductionPagePom.clickDropdownToggle(IntroductionPagePom.java:63)
-at StepDefinitions.Step_HomePage.the_user_clicks_data_structures_drop_down(Step_HomePage.java:106)
-at ✽.The user clicks Data Structures drop down(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:23)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5922ae77]" started-at="2025-01-18T21:15:21 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-18T21:15:21 GMT-05:00" duration-ms="7" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify that user able to see warning message while selecting Stack from the drop down without Sign in"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["DSportal App HomePage"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
-at PageObjectModel.IntroductionPagePom.clickDropdownToggle(IntroductionPagePom.java:63)
-at StepDefinitions.Step_HomePage.the_user_clicks_data_structures_drop_down(Step_HomePage.java:106)
-at ✽.The user clicks Data Structures drop down(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:28)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5922ae77]" started-at="2025-01-18T21:15:21 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-18T21:15:21 GMT-05:00" duration-ms="15" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify that user able to see warning message while selecting Queue from the drop down without Sign in"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["DSportal App HomePage"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
-at PageObjectModel.IntroductionPagePom.clickDropdownToggle(IntroductionPagePom.java:63)
-at StepDefinitions.Step_HomePage.the_user_clicks_data_structures_drop_down(Step_HomePage.java:106)
-at ✽.The user clicks Data Structures drop down(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:33)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5922ae77]" started-at="2025-01-18T21:15:21 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-18T21:15:21 GMT-05:00" duration-ms="7" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify that user able to see warning message while selecting Tree from the drop down without Sign in"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["DSportal App HomePage"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
-at PageObjectModel.IntroductionPagePom.clickDropdownToggle(IntroductionPagePom.java:63)
-at StepDefinitions.Step_HomePage.the_user_clicks_data_structures_drop_down(Step_HomePage.java:106)
-at ✽.The user clicks Data Structures drop down(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:38)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5922ae77]" started-at="2025-01-18T21:15:21 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-18T21:15:21 GMT-05:00" duration-ms="10" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify that user able to see warning message while selecting Graph from the drop down without Sign in."]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["DSportal App HomePage"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
-at PageObjectModel.IntroductionPagePom.clickDropdownToggle(IntroductionPagePom.java:63)
-at StepDefinitions.Step_HomePage.the_user_clicks_data_structures_drop_down(Step_HomePage.java:106)
-at ✽.The user clicks Data Structures drop down(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:43)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5922ae77]" started-at="2025-01-18T21:15:21 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-18T21:15:21 GMT-05:00" duration-ms="16" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5a37d3ed]" started-at="2025-03-17T23:55:46 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T23:55:46 GMT-04:00" duration-ms="426" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -297,20 +45,20 @@ at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.
 at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)
 at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-at PageObjectModel.HomePom.linkClickable(HomePom.java:50)
+at PageObjectModel.HomePom.linkClickable(HomePom.java:54)
 at StepDefinitions.Step_HomePage.the_user_should_land_in_data_structure_introduction_page_with_register_and_sign_in_links(Step_HomePage.java:53)
-at ✽.The user should land in Data Structure Introduction Page with register and Sign in links(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:48)
+at ✽.The user should land in Data Structure Introduction Page with register and Sign in links(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:52)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5922ae77]" started-at="2025-01-18T21:15:21 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-18T21:15:21 GMT-05:00" duration-ms="11" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5a37d3ed]" started-at="2025-03-17T23:55:46 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T23:55:46 GMT-04:00" duration-ms="429" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Verify that user able to see warning message on clicking Get Started buttons of Array on the home page without Sign in"]]>
+                <![CDATA["Verify that user able to see warning message while selecting Arrays from the drop down without Sign in"]]>
               </value>
             </param>
             <param index="1">
@@ -321,29 +69,24 @@ at ✽.The user should land in Data Structure Introduction Page with register an
           </params>
           <exception class="java.lang.NullPointerException">
             <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "driver" is null]]>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "driver" is null
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-at PageObjectModel.HomePom.linkClickable(HomePom.java:50)
-at StepDefinitions.Step_HomePage.the_user_should_land_in_data_structure_introduction_page_with_register_and_sign_in_links(Step_HomePage.java:53)
-at ✽.The user should land in Data Structure Introduction Page with register and Sign in links(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:53)
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+at PageObjectModel.IntroductionPagePom.clickDropdownItemArray(IntroductionPagePom.java:103)
+at StepDefinitions.Step_HomePage.the_user_selects_arrays_from_the_drop_down_without_sign_in(Step_HomePage.java:90)
+at ✽.The user selects Arrays from the drop down without Sign in(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:22)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5922ae77]" started-at="2025-01-18T21:15:21 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-18T21:15:21 GMT-05:00" duration-ms="11" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5a37d3ed]" started-at="2025-03-17T23:55:46 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T23:55:46 GMT-04:00" duration-ms="430" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Verify that user able to see warning message on clicking Get Started buttons of Linked List on the home page without Sign in"]]>
+                <![CDATA["Validate user navigate to DS Intro Page"]]>
               </value>
             </param>
             <param index="1">
@@ -354,29 +97,24 @@ at ✽.The user should land in Data Structure Introduction Page with register an
           </params>
           <exception class="java.lang.NullPointerException">
             <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "driver" is null]]>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "driver" is null
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-at PageObjectModel.HomePom.linkClickable(HomePom.java:50)
-at StepDefinitions.Step_HomePage.the_user_should_land_in_data_structure_introduction_page_with_register_and_sign_in_links(Step_HomePage.java:53)
-at ✽.The user should land in Data Structure Introduction Page with register and Sign in links(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:58)
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+at PageObjectModel.HomePom.ClickHomePageGetStartedButton(HomePom.java:50)
+at StepDefinitions.Step_HomePage.the_user_clicks_the_get_started_button(Step_HomePage.java:45)
+at ✽.The user clicks the Get Started button(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:12)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5922ae77]" started-at="2025-01-18T21:15:21 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-18T21:15:21 GMT-05:00" duration-ms="5" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5a37d3ed]" started-at="2025-03-17T23:55:46 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T23:55:46 GMT-04:00" duration-ms="427" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Verify that user able to see warning message on clicking Get Started buttons of Stack on the home page without Sign in"]]>
+                <![CDATA["Verify that user is able to view options for Data Structures dropdown on home page without Sign in"]]>
               </value>
             </param>
             <param index="1">
@@ -387,25 +125,188 @@ at ✽.The user should land in Data Structure Introduction Page with register an
           </params>
           <exception class="java.lang.NullPointerException">
             <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "driver" is null]]>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "driver" is null
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-at PageObjectModel.HomePom.linkClickable(HomePom.java:50)
-at StepDefinitions.Step_HomePage.the_user_should_land_in_data_structure_introduction_page_with_register_and_sign_in_links(Step_HomePage.java:53)
-at ✽.The user should land in Data Structure Introduction Page with register and Sign in links(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:63)
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+at PageObjectModel.IntroductionPagePom.clickDropdownToggle(IntroductionPagePom.java:88)
+at StepDefinitions.Step_HomePage.the_user_clicks_the_data_structures_dropdown(Step_HomePage.java:69)
+at ✽.The user clicks the Data Structures dropdown(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:17)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5922ae77]" started-at="2025-01-18T21:15:21 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-18T21:15:21 GMT-05:00" duration-ms="9" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5a37d3ed]" started-at="2025-03-17T23:55:46 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T23:55:46 GMT-04:00" duration-ms="426" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to open the dsAlgo Portal-home page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["DSportal App HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
+at PageObjectModel.HomePom.openURL(HomePom.java:29)
+at StepDefinitions.Step_HomePage.the_user_enter_correct_ds_algo_portal_url_url(Step_HomePage.java:29)
+at ✽.The user enter correct dsAlgo portal URL <URL>(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5a37d3ed]" started-at="2025-03-17T23:55:46 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T23:55:46 GMT-04:00" duration-ms="430" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user able to see warning message while selecting Linked List from the drop down without Sign in"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["DSportal App HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+at PageObjectModel.IntroductionPagePom.clickDropdownToggle(IntroductionPagePom.java:88)
+at StepDefinitions.Step_HomePage.the_user_clicks_data_structures_drop_down(Step_HomePage.java:106)
+at ✽.The user clicks Data Structures drop down(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:27)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5a37d3ed]" started-at="2025-03-17T23:55:46 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T23:55:46 GMT-04:00" duration-ms="430" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user able to see warning message while selecting Graph from the drop down without Sign in."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["DSportal App HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+at PageObjectModel.IntroductionPagePom.clickDropdownToggle(IntroductionPagePom.java:88)
+at StepDefinitions.Step_HomePage.the_user_clicks_data_structures_drop_down(Step_HomePage.java:106)
+at ✽.The user clicks Data Structures drop down(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:47)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5a37d3ed]" started-at="2025-03-17T23:55:46 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T23:55:46 GMT-04:00" duration-ms="432" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user able to see warning message while selecting Stack from the drop down without Sign in"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["DSportal App HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+at PageObjectModel.IntroductionPagePom.clickDropdownToggle(IntroductionPagePom.java:88)
+at StepDefinitions.Step_HomePage.the_user_clicks_data_structures_drop_down(Step_HomePage.java:106)
+at ✽.The user clicks Data Structures drop down(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:32)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5a37d3ed]" started-at="2025-03-17T23:55:46 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T23:55:46 GMT-04:00" duration-ms="431" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user able to see warning message while selecting Queue from the drop down without Sign in"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["DSportal App HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+at PageObjectModel.IntroductionPagePom.clickDropdownToggle(IntroductionPagePom.java:88)
+at StepDefinitions.Step_HomePage.the_user_clicks_data_structures_drop_down(Step_HomePage.java:106)
+at ✽.The user clicks Data Structures drop down(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:37)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5a37d3ed]" started-at="2025-03-17T23:55:46 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T23:55:46 GMT-04:00" duration-ms="431" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user able to see warning message while selecting Tree from the drop down without Sign in"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["DSportal App HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+at PageObjectModel.IntroductionPagePom.clickDropdownToggle(IntroductionPagePom.java:88)
+at StepDefinitions.Step_HomePage.the_user_clicks_data_structures_drop_down(Step_HomePage.java:106)
+at ✽.The user clicks Data Structures drop down(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:42)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5a37d3ed]" started-at="2025-03-17T23:55:46 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T23:55:47 GMT-04:00" duration-ms="116" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -429,16 +330,115 @@ at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.
 at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)
 at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-at PageObjectModel.HomePom.linkClickable(HomePom.java:50)
+at PageObjectModel.HomePom.linkClickable(HomePom.java:54)
 at StepDefinitions.Step_HomePage.the_user_should_land_in_data_structure_introduction_page_with_register_and_sign_in_links(Step_HomePage.java:53)
-at ✽.The user should land in Data Structure Introduction Page with register and Sign in links(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:68)
+at ✽.The user should land in Data Structure Introduction Page with register and Sign in links(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:72)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5922ae77]" started-at="2025-01-18T21:15:21 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-18T21:15:21 GMT-05:00" duration-ms="5" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5a37d3ed]" started-at="2025-03-17T23:55:46 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T23:55:47 GMT-04:00" duration-ms="95" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user able to see warning message on clicking Get Started buttons of Stack on the home page without Sign in"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["DSportal App HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "driver" is null
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
+at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)
+at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+at PageObjectModel.HomePom.linkClickable(HomePom.java:54)
+at StepDefinitions.Step_HomePage.the_user_should_land_in_data_structure_introduction_page_with_register_and_sign_in_links(Step_HomePage.java:53)
+at ✽.The user should land in Data Structure Introduction Page with register and Sign in links(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:67)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5a37d3ed]" started-at="2025-03-17T23:55:46 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T23:55:47 GMT-04:00" duration-ms="93" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user able to see warning message on clicking Get Started buttons of Linked List on the home page without Sign in"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["DSportal App HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "driver" is null
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
+at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)
+at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+at PageObjectModel.HomePom.linkClickable(HomePom.java:54)
+at StepDefinitions.Step_HomePage.the_user_should_land_in_data_structure_introduction_page_with_register_and_sign_in_links(Step_HomePage.java:53)
+at ✽.The user should land in Data Structure Introduction Page with register and Sign in links(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:62)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5a37d3ed]" started-at="2025-03-17T23:55:46 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T23:55:47 GMT-04:00" duration-ms="97" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user able to see warning message on clicking Get Started buttons of Array on the home page without Sign in"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["DSportal App HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "driver" is null
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
+at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)
+at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+at PageObjectModel.HomePom.linkClickable(HomePom.java:54)
+at StepDefinitions.Step_HomePage.the_user_should_land_in_data_structure_introduction_page_with_register_and_sign_in_links(Step_HomePage.java:53)
+at ✽.The user should land in Data Structure Introduction Page with register and Sign in links(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5a37d3ed]" started-at="2025-03-17T23:55:46 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T23:55:47 GMT-04:00" duration-ms="106" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -462,16 +462,16 @@ at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.
 at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)
 at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-at PageObjectModel.HomePom.linkClickable(HomePom.java:50)
+at PageObjectModel.HomePom.linkClickable(HomePom.java:54)
 at StepDefinitions.Step_HomePage.the_user_should_land_in_data_structure_introduction_page_with_register_and_sign_in_links(Step_HomePage.java:53)
-at ✽.The user should land in Data Structure Introduction Page with register and Sign in links(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:73)
+at ✽.The user should land in Data Structure Introduction Page with register and Sign in links(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:77)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5922ae77]" started-at="2025-01-18T21:15:21 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-18T21:15:21 GMT-05:00" duration-ms="8" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5a37d3ed]" started-at="2025-03-17T23:55:46 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T23:55:47 GMT-04:00" duration-ms="70" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -495,16 +495,16 @@ at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.
 at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)
 at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-at PageObjectModel.HomePom.linkClickable(HomePom.java:50)
+at PageObjectModel.HomePom.linkClickable(HomePom.java:54)
 at StepDefinitions.Step_HomePage.the_user_should_land_in_data_structure_introduction_page_with_register_and_sign_in_links(Step_HomePage.java:53)
-at ✽.The user should land in Data Structure Introduction Page with register and Sign in links(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:78)
+at ✽.The user should land in Data Structure Introduction Page with register and Sign in links(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:82)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5922ae77]" started-at="2025-01-18T21:15:21 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-18T21:15:21 GMT-05:00" duration-ms="15" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5a37d3ed]" started-at="2025-03-17T23:55:46 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T23:55:47 GMT-04:00" duration-ms="90" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -523,8 +523,8 @@ at ✽.The user should land in Data Structure Introduction Page with register an
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
-at PageObjectModel.RegisterPom.openURL(RegisterPom.java:49)
-at StepDefinitions.Step_RegisterPage.the_user_is_on_the_new_user_registration_page(Step_RegisterPage.java:27)
+at PageObjectModel.RegisterPom.openURL(RegisterPom.java:50)
+at StepDefinitions.Step_RegisterPage.the_user_is_on_the_new_user_registration_page(Step_RegisterPage.java:29)
 at ✽.The user is on the new user registration page(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC02_registerPage.feature:5)
 ]]>
             </full-stacktrace>
@@ -532,35 +532,7 @@ at ✽.The user is on the new user registration page(file:///C:/Users/Lavanya%20
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5922ae77]" started-at="2025-01-18T21:15:21 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-18T21:15:21 GMT-05:00" duration-ms="8" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify that user receives error message for empty Password and Password confirmation fields during registration"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Registration"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
-at PageObjectModel.RegisterPom.openURL(RegisterPom.java:49)
-at StepDefinitions.Step_RegisterPage.the_user_is_on_the_new_user_registration_page(Step_RegisterPage.java:27)
-at ✽.The user is on the new user registration page(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC02_registerPage.feature:5)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5922ae77]" started-at="2025-01-18T21:15:21 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-18T21:15:21 GMT-05:00" duration-ms="5" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5a37d3ed]" started-at="2025-03-17T23:55:46 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T23:55:47 GMT-04:00" duration-ms="72" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -579,8 +551,8 @@ at ✽.The user is on the new user registration page(file:///C:/Users/Lavanya%20
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
-at PageObjectModel.RegisterPom.openURL(RegisterPom.java:49)
-at StepDefinitions.Step_RegisterPage.the_user_is_on_the_new_user_registration_page(Step_RegisterPage.java:27)
+at PageObjectModel.RegisterPom.openURL(RegisterPom.java:50)
+at StepDefinitions.Step_RegisterPage.the_user_is_on_the_new_user_registration_page(Step_RegisterPage.java:29)
 at ✽.The user is on the new user registration page(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC02_registerPage.feature:5)
 ]]>
             </full-stacktrace>
@@ -588,7 +560,35 @@ at ✽.The user is on the new user registration page(file:///C:/Users/Lavanya%20
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5922ae77]" started-at="2025-01-18T21:15:21 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-18T21:15:21 GMT-05:00" duration-ms="5" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5a37d3ed]" started-at="2025-03-17T23:55:46 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T23:55:47 GMT-04:00" duration-ms="75" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user receives error message for empty Password and Password confirmation fields during registration"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Registration"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
+at PageObjectModel.RegisterPom.openURL(RegisterPom.java:50)
+at StepDefinitions.Step_RegisterPage.the_user_is_on_the_new_user_registration_page(Step_RegisterPage.java:29)
+at ✽.The user is on the new user registration page(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC02_registerPage.feature:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5a37d3ed]" started-at="2025-03-17T23:55:46 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T23:55:47 GMT-04:00" duration-ms="115" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -607,8 +607,8 @@ at ✽.The user is on the new user registration page(file:///C:/Users/Lavanya%20
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
-at PageObjectModel.RegisterPom.openURL(RegisterPom.java:49)
-at StepDefinitions.Step_RegisterPage.the_user_is_on_the_new_user_registration_page(Step_RegisterPage.java:27)
+at PageObjectModel.RegisterPom.openURL(RegisterPom.java:50)
+at StepDefinitions.Step_RegisterPage.the_user_is_on_the_new_user_registration_page(Step_RegisterPage.java:29)
 at ✽.The user is on the new user registration page(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC02_registerPage.feature:5)
 ]]>
             </full-stacktrace>
@@ -616,7 +616,7 @@ at ✽.The user is on the new user registration page(file:///C:/Users/Lavanya%20
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5922ae77]" started-at="2025-01-18T21:15:21 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-18T21:15:21 GMT-05:00" duration-ms="6" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5a37d3ed]" started-at="2025-03-17T23:55:47 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T23:55:47 GMT-04:00" duration-ms="73" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -635,8 +635,8 @@ at ✽.The user is on the new user registration page(file:///C:/Users/Lavanya%20
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
-at PageObjectModel.RegisterPom.openURL(RegisterPom.java:49)
-at StepDefinitions.Step_RegisterPage.the_user_is_on_the_new_user_registration_page(Step_RegisterPage.java:27)
+at PageObjectModel.RegisterPom.openURL(RegisterPom.java:50)
+at StepDefinitions.Step_RegisterPage.the_user_is_on_the_new_user_registration_page(Step_RegisterPage.java:29)
 at ✽.The user is on the new user registration page(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC02_registerPage.feature:5)
 ]]>
             </full-stacktrace>
@@ -644,7 +644,7 @@ at ✽.The user is on the new user registration page(file:///C:/Users/Lavanya%20
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5922ae77]" started-at="2025-01-18T21:15:21 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-18T21:15:21 GMT-05:00" duration-ms="7" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5a37d3ed]" started-at="2025-03-17T23:55:47 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T23:55:47 GMT-04:00" duration-ms="96" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -663,8 +663,8 @@ at ✽.The user is on the new user registration page(file:///C:/Users/Lavanya%20
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
-at PageObjectModel.RegisterPom.openURL(RegisterPom.java:49)
-at StepDefinitions.Step_RegisterPage.the_user_is_on_the_new_user_registration_page(Step_RegisterPage.java:27)
+at PageObjectModel.RegisterPom.openURL(RegisterPom.java:50)
+at StepDefinitions.Step_RegisterPage.the_user_is_on_the_new_user_registration_page(Step_RegisterPage.java:29)
 at ✽.The user is on the new user registration page(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC02_registerPage.feature:5)
 ]]>
             </full-stacktrace>
@@ -672,7 +672,7 @@ at ✽.The user is on the new user registration page(file:///C:/Users/Lavanya%20
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5922ae77]" started-at="2025-01-18T21:15:21 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-18T21:15:21 GMT-05:00" duration-ms="6" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5a37d3ed]" started-at="2025-03-17T23:55:47 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T23:55:47 GMT-04:00" duration-ms="68" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -691,8 +691,8 @@ at ✽.The user is on the new user registration page(file:///C:/Users/Lavanya%20
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
-at PageObjectModel.RegisterPom.openURL(RegisterPom.java:49)
-at StepDefinitions.Step_RegisterPage.the_user_is_on_the_new_user_registration_page(Step_RegisterPage.java:27)
+at PageObjectModel.RegisterPom.openURL(RegisterPom.java:50)
+at StepDefinitions.Step_RegisterPage.the_user_is_on_the_new_user_registration_page(Step_RegisterPage.java:29)
 at ✽.The user is on the new user registration page(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC02_registerPage.feature:5)
 ]]>
             </full-stacktrace>
@@ -700,7 +700,7 @@ at ✽.The user is on the new user registration page(file:///C:/Users/Lavanya%20
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5922ae77]" started-at="2025-01-18T21:15:21 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-18T21:15:21 GMT-05:00" duration-ms="9" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5a37d3ed]" started-at="2025-03-17T23:55:47 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T23:55:47 GMT-04:00" duration-ms="57" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -719,8 +719,8 @@ at ✽.The user is on the new user registration page(file:///C:/Users/Lavanya%20
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
-at PageObjectModel.RegisterPom.openURL(RegisterPom.java:49)
-at StepDefinitions.Step_RegisterPage.the_user_is_on_the_new_user_registration_page(Step_RegisterPage.java:27)
+at PageObjectModel.RegisterPom.openURL(RegisterPom.java:50)
+at StepDefinitions.Step_RegisterPage.the_user_is_on_the_new_user_registration_page(Step_RegisterPage.java:29)
 at ✽.The user is on the new user registration page(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC02_registerPage.feature:5)
 ]]>
             </full-stacktrace>
@@ -728,7 +728,7 @@ at ✽.The user is on the new user registration page(file:///C:/Users/Lavanya%20
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5922ae77]" started-at="2025-01-18T21:15:21 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-18T21:15:21 GMT-05:00" duration-ms="7" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5a37d3ed]" started-at="2025-03-17T23:55:47 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T23:55:47 GMT-04:00" duration-ms="76" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -747,8 +747,8 @@ at ✽.The user is on the new user registration page(file:///C:/Users/Lavanya%20
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
-at PageObjectModel.RegisterPom.openURL(RegisterPom.java:49)
-at StepDefinitions.Step_RegisterPage.the_user_is_on_the_new_user_registration_page(Step_RegisterPage.java:27)
+at PageObjectModel.RegisterPom.openURL(RegisterPom.java:50)
+at StepDefinitions.Step_RegisterPage.the_user_is_on_the_new_user_registration_page(Step_RegisterPage.java:29)
 at ✽.The user is on the new user registration page(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC02_registerPage.feature:5)
 ]]>
             </full-stacktrace>
@@ -756,7 +756,7 @@ at ✽.The user is on the new user registration page(file:///C:/Users/Lavanya%20
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5922ae77]" started-at="2025-01-18T21:15:21 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-18T21:15:21 GMT-05:00" duration-ms="6" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5a37d3ed]" started-at="2025-03-17T23:55:47 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T23:55:47 GMT-04:00" duration-ms="77" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -775,8 +775,8 @@ at ✽.The user is on the new user registration page(file:///C:/Users/Lavanya%20
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
-at PageObjectModel.RegisterPom.openURL(RegisterPom.java:49)
-at StepDefinitions.Step_RegisterPage.the_user_is_on_the_new_user_registration_page(Step_RegisterPage.java:27)
+at PageObjectModel.RegisterPom.openURL(RegisterPom.java:50)
+at StepDefinitions.Step_RegisterPage.the_user_is_on_the_new_user_registration_page(Step_RegisterPage.java:29)
 at ✽.The user is on the new user registration page(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC02_registerPage.feature:5)
 ]]>
             </full-stacktrace>
@@ -784,7 +784,7 @@ at ✽.The user is on the new user registration page(file:///C:/Users/Lavanya%20
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5922ae77]" started-at="2025-01-18T21:15:21 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-18T21:15:21 GMT-05:00" duration-ms="11" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5a37d3ed]" started-at="2025-03-17T23:55:47 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T23:55:47 GMT-04:00" duration-ms="65" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -803,16 +803,16 @@ at ✽.The user is on the new user registration page(file:///C:/Users/Lavanya%20
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
-at PageObjectModel.HomePom.openURL(HomePom.java:28)
-at StepDefinitions.Step_LoginPage.the_user_is_on_the_ds_algo_sign_in_page(Step_LoginPage.java:28)
-at ✽.The user is on the DS Algo Sign in Page(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC03_loginPage.feature:5)
+at PageObjectModel.HomePom.openURL(HomePom.java:29)
+at StepDefinitions.Step_LoginPage.the_user_is_on_the_ds_algo_sign_in_page(Step_LoginPage.java:34)
+at ✽.The user is on the DS Algo Sign in Page(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC03_loginPage.feature:6)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5922ae77]" started-at="2025-01-18T21:15:21 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-18T21:15:23 GMT-05:00" duration-ms="1437" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5a37d3ed]" started-at="2025-03-17T23:55:47 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T23:55:47 GMT-04:00" duration-ms="854" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -831,17 +831,17 @@ at ✽.The user is on the DS Algo Sign in Page(file:///C:/Users/Lavanya%20Yelaka
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
-at PageObjectModel.LoginPom.enterUsernameTxt(LoginPom.java:43)
-at PageObjectModel.LoginPom.enterLoginFormFields(LoginPom.java:76)
-at StepDefinitions.Step_LoginPage.the_user_clicks_login_button_after_entering_the_password_only_from_sheetname_and_row(Step_LoginPage.java:49)
-at ✽.The user clicks login button after entering the Password only from sheetname "login" and row 1(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC03_loginPage.feature:14)
+at PageObjectModel.LoginPom.enterUsernameTxt(LoginPom.java:46)
+at PageObjectModel.LoginPom.enterLoginFormFields(LoginPom.java:79)
+at StepDefinitions.Step_LoginPage.the_user_clicks_login_button_after_entering_the_password_only_from_sheetname_and_row(Step_LoginPage.java:55)
+at ✽.The user clicks login button after entering the Password only from sheetname "login" and row 1(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC03_loginPage.feature:16)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5922ae77]" started-at="2025-01-18T21:15:23 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-18T21:15:23 GMT-05:00" duration-ms="63" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5a37d3ed]" started-at="2025-03-17T23:55:47 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T23:55:47 GMT-04:00" duration-ms="845" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -860,17 +860,17 @@ at ✽.The user clicks login button after entering the Password only from sheetn
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
-at PageObjectModel.LoginPom.enterUsernameTxt(LoginPom.java:43)
-at PageObjectModel.LoginPom.enterLoginFormFields(LoginPom.java:76)
-at StepDefinitions.Step_LoginPage.the_user_clicks_login_button_after_entering_the_username_and_leaves_password_textbox_empty_from_sheetname_and_row(Step_LoginPage.java:56)
-at ✽.The user clicks login button after entering the Username and leaves Password textbox empty from sheetname "login" and row 2(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC03_loginPage.feature:22)
+at PageObjectModel.LoginPom.enterUsernameTxt(LoginPom.java:46)
+at PageObjectModel.LoginPom.enterLoginFormFields(LoginPom.java:79)
+at StepDefinitions.Step_LoginPage.the_user_clicks_login_button_after_entering_the_username_and_leaves_password_textbox_empty_from_sheetname_and_row(Step_LoginPage.java:62)
+at ✽.The user clicks login button after entering the Username and leaves Password textbox empty from sheetname "login" and row 2(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC03_loginPage.feature:25)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5922ae77]" started-at="2025-01-18T21:15:23 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-18T21:15:23 GMT-05:00" duration-ms="60" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5a37d3ed]" started-at="2025-03-17T23:55:47 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T23:55:47 GMT-04:00" duration-ms="838" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -889,17 +889,17 @@ at ✽.The user clicks login button after entering the Username and leaves Passw
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
-at PageObjectModel.LoginPom.enterUsernameTxt(LoginPom.java:43)
-at PageObjectModel.LoginPom.enterLoginFormFields(LoginPom.java:76)
-at StepDefinitions.Step_LoginPage.the_user_clicks_login_button_after_entering_invalid_username_and_invalid_password_from_sheetname_and_row(Step_LoginPage.java:71)
-at ✽.The user clicks login button after entering invalid username and invalid password from sheetname "login" and row 3(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC03_loginPage.feature:30)
+at PageObjectModel.LoginPom.enterUsernameTxt(LoginPom.java:46)
+at PageObjectModel.LoginPom.enterLoginFormFields(LoginPom.java:79)
+at StepDefinitions.Step_LoginPage.the_user_clicks_login_button_after_entering_invalid_username_and_invalid_password_from_sheetname_and_row(Step_LoginPage.java:77)
+at ✽.The user clicks login button after entering invalid username and invalid password from sheetname "login" and row 3(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC03_loginPage.feature:34)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5922ae77]" started-at="2025-01-18T21:15:23 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-18T21:15:23 GMT-05:00" duration-ms="42" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5a37d3ed]" started-at="2025-03-17T23:55:47 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T23:55:47 GMT-04:00" duration-ms="812" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -918,17 +918,17 @@ at ✽.The user clicks login button after entering invalid username and invalid 
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
-at PageObjectModel.LoginPom.enterUsernameTxt(LoginPom.java:43)
-at PageObjectModel.LoginPom.enterLoginFormFields(LoginPom.java:76)
-at StepDefinitions.Step_LoginPage.the_user_clicks_login_button_after_entering_invalid_username_and_valid_password_and_row(Step_LoginPage.java:83)
-at ✽.The user clicks login button after entering invalid username and valid password "login" and row 4(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC03_loginPage.feature:38)
+at PageObjectModel.LoginPom.enterUsernameTxt(LoginPom.java:46)
+at PageObjectModel.LoginPom.enterLoginFormFields(LoginPom.java:79)
+at StepDefinitions.Step_LoginPage.the_user_clicks_login_button_after_entering_invalid_username_and_valid_password_and_row(Step_LoginPage.java:89)
+at ✽.The user clicks login button after entering invalid username and valid password "login" and row 4(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC03_loginPage.feature:44)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5922ae77]" started-at="2025-01-18T21:15:23 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-18T21:15:23 GMT-05:00" duration-ms="57" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5a37d3ed]" started-at="2025-03-17T23:55:47 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T23:55:47 GMT-04:00" duration-ms="804" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -947,17 +947,17 @@ at ✽.The user clicks login button after entering invalid username and valid pa
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
-at PageObjectModel.LoginPom.enterUsernameTxt(LoginPom.java:43)
-at PageObjectModel.LoginPom.enterLoginFormFields(LoginPom.java:76)
-at StepDefinitions.Step_LoginPage.the_user_clicks_login_button_after_entering_valid_username_and_invalid_password_from_and_row(Step_LoginPage.java:91)
-at ✽.The user clicks login button after entering valid username and invalid password from "login" and row 5(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC03_loginPage.feature:46)
+at PageObjectModel.LoginPom.enterUsernameTxt(LoginPom.java:46)
+at PageObjectModel.LoginPom.enterLoginFormFields(LoginPom.java:79)
+at StepDefinitions.Step_LoginPage.the_user_clicks_login_button_after_entering_valid_username_and_invalid_password_from_and_row(Step_LoginPage.java:97)
+at ✽.The user clicks login button after entering valid username and invalid password from "login" and row 5(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC03_loginPage.feature:53)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5922ae77]" started-at="2025-01-18T21:15:23 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-18T21:15:23 GMT-05:00" duration-ms="34" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5a37d3ed]" started-at="2025-03-17T23:55:47 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T23:55:47 GMT-04:00" duration-ms="806" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -976,204 +976,241 @@ at ✽.The user clicks login button after entering valid username and invalid pa
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
-at PageObjectModel.LoginPom.enterUsernameTxt(LoginPom.java:43)
-at PageObjectModel.LoginPom.enterLoginFormFields(LoginPom.java:76)
-at StepDefinitions.Step_LoginPage.the_user_clicks_login_button_after_entering_valid_username_and_valid_password_from_and_row(Step_LoginPage.java:99)
-at ✽.The user clicks login button after entering valid username and valid password from "login" and row 6(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC03_loginPage.feature:54)
+at PageObjectModel.LoginPom.enterUsernameTxt(LoginPom.java:46)
+at PageObjectModel.LoginPom.enterLoginFormFields(LoginPom.java:79)
+at StepDefinitions.Step_LoginPage.the_user_clicks_login_button_after_entering_valid_username_and_valid_password_from_and_row(Step_LoginPage.java:105)
+at ✽.The user clicks login button after entering valid username and valid password from "login" and row 6(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC03_loginPage.feature:62)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5922ae77]" started-at="2025-01-18T21:15:23 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-18T21:15:23 GMT-05:00" duration-ms="8" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5a37d3ed]" started-at="2025-03-17T23:55:47 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T23:55:47 GMT-04:00" duration-ms="39" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Verify that user is able to navigate to Data Structures - Introduction page"]]>
+                <![CDATA["Verify that user is able to view options for Data Structures dropdown on home page after Sign in"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Data Structures-Introduction"]]>
+                <![CDATA["DS Portal Login Feature"]]>
               </value>
             </param>
           </params>
           <exception class="java.lang.NullPointerException">
             <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null]]>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
-at PageObjectModel.HomePom.openURL(HomePom.java:28)
-at StepDefinitions.Step_DataStructurePage.the_user_is_landed_on_the_home_page_after_sign_in(Step_DataStructurePage.java:48)
-at ✽.The user is landed on the home page after sign-in(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC04_dataStructureIntro.feature:5)
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+at PageObjectModel.IntroductionPagePom.clickDropdownToggle(IntroductionPagePom.java:88)
+at StepDefinitions.Step_HomePage.the_user_clicks_the_data_structures_dropdown(Step_HomePage.java:69)
+at ✽.The user clicks the Data Structures dropdown(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC03_loginPage.feature:71)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5922ae77]" started-at="2025-01-18T21:15:23 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-18T21:15:23 GMT-05:00" duration-ms="5" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5a37d3ed]" started-at="2025-03-17T23:55:47 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T23:55:47 GMT-04:00" duration-ms="40" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Verify that user is able to navigate to  Time Complexity page of DS Introduction page"]]>
+                <![CDATA["Verify that user able to navigate to Linked List page when Linked List drop down option is selected"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Data Structures-Introduction"]]>
+                <![CDATA["DS Portal Login Feature"]]>
               </value>
             </param>
           </params>
           <exception class="java.lang.NullPointerException">
             <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null]]>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
-at PageObjectModel.HomePom.openDSIntroductionUrl(HomePom.java:40)
-at StepDefinitions.Step_DataStructurePage.the_user_is_on_the_data_structure_introduction_page_of_ds_algo_portal_after_sign_in(Step_DataStructurePage.java:75)
-at ✽.The user is on the Data Structure introduction Page of ds algo portal after sign in(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC04_dataStructureIntro.feature:11)
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+at PageObjectModel.IntroductionPagePom.clickDropdownToggle(IntroductionPagePom.java:88)
+at StepDefinitions.Step_HomePage.the_user_clicks_data_structures_drop_down(Step_HomePage.java:106)
+at ✽.The user clicks Data Structures drop down(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC03_loginPage.feature:81)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5922ae77]" started-at="2025-01-18T21:15:23 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-18T21:15:23 GMT-05:00" duration-ms="4" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5a37d3ed]" started-at="2025-03-17T23:55:47 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T23:55:47 GMT-04:00" duration-ms="41" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Verify that user is able to navigate to Try Editor from Time Complexity page for DS Introduction page"]]>
+                <![CDATA["Verify that user able to navigate to Array page when Array drop down option is selected"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Data Structures-Introduction"]]>
+                <![CDATA["DS Portal Login Feature"]]>
               </value>
             </param>
           </params>
           <exception class="java.lang.NullPointerException">
             <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.getTitle()" because "this.driver" is null]]>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getTitle()" because "this.driver" is null
-at StepDefinitions.Step_DataStructurePage.the_user_is_on_the_time_complexity_page_of_ds_introduction_page(Step_DataStructurePage.java:95)
-at ✽.The user is on the Time Complexity Page of DS Introduction page(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC04_dataStructureIntro.feature:17)
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+at PageObjectModel.IntroductionPagePom.clickDropdownItemArray(IntroductionPagePom.java:103)
+at StepDefinitions.Step_LoginPage.the_user_selects_arrays_from_the_drop_down_after_sign_in(Step_LoginPage.java:122)
+at ✽.The user selects Arrays from the drop down after Sign in(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC03_loginPage.feature:76)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5922ae77]" started-at="2025-01-18T21:15:23 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-18T21:15:23 GMT-05:00" duration-ms="5" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5a37d3ed]" started-at="2025-03-17T23:55:47 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T23:55:47 GMT-04:00" duration-ms="47" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Verify that user does not get any error message  when clicked on Run button without any code"]]>
+                <![CDATA["Verify that user able to navigate to Stack page when Stack drop down option is selected"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Data Structures-Introduction"]]>
+                <![CDATA["DS Portal Login Feature"]]>
               </value>
             </param>
           </params>
           <exception class="java.lang.NullPointerException">
             <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.getTitle()" because "this.driver" is null]]>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getTitle()" because "this.driver" is null
-at PageObjectModel.IntroductionPagePom.getPageTitle(IntroductionPagePom.java:208)
-at StepDefinitions.Step_DataStructurePage.the_user_is_in_the_try_editor_page_of_time_complexity_page(Step_DataStructurePage.java:120)
-at ✽.The user is in the tryEditor page of Time Complexity page(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC04_dataStructureIntro.feature:23)
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+at PageObjectModel.IntroductionPagePom.clickDropdownToggle(IntroductionPagePom.java:88)
+at StepDefinitions.Step_HomePage.the_user_clicks_data_structures_drop_down(Step_HomePage.java:106)
+at ✽.The user clicks Data Structures drop down(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC03_loginPage.feature:87)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5922ae77]" started-at="2025-01-18T21:15:23 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-18T21:15:23 GMT-05:00" duration-ms="5" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5a37d3ed]" started-at="2025-03-17T23:55:47 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T23:55:47 GMT-04:00" duration-ms="21" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Verify that user receives error message in the alert window for invalid python code"]]>
+                <![CDATA["Verify that user able to navigate to Queue page when Queue drop down option is selected"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Data Structures-Introduction"]]>
+                <![CDATA["DS Portal Login Feature"]]>
               </value>
             </param>
           </params>
           <exception class="java.lang.NullPointerException">
             <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.getTitle()" because "this.driver" is null]]>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getTitle()" because "this.driver" is null
-at PageObjectModel.IntroductionPagePom.getPageTitle(IntroductionPagePom.java:208)
-at StepDefinitions.Step_DataStructurePage.the_user_is_in_the_try_editor_page_of_time_complexity_page(Step_DataStructurePage.java:120)
-at ✽.The user is in the tryEditor page of Time Complexity page(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC04_dataStructureIntro.feature:29)
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+at PageObjectModel.IntroductionPagePom.clickDropdownToggle(IntroductionPagePom.java:88)
+at StepDefinitions.Step_HomePage.the_user_clicks_data_structures_drop_down(Step_HomePage.java:106)
+at ✽.The user clicks Data Structures drop down(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC03_loginPage.feature:93)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5922ae77]" started-at="2025-01-18T21:15:23 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-18T21:15:23 GMT-05:00" duration-ms="9" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5a37d3ed]" started-at="2025-03-17T23:55:47 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T23:55:47 GMT-04:00" duration-ms="30" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Verify that user receives error message in the alert window for invalid python code"]]>
+                <![CDATA["Verify that user able to navigate to Tree page when Tree drop down option is selected"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Data Structures-Introduction"]]>
+                <![CDATA["DS Portal Login Feature"]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+at PageObjectModel.IntroductionPagePom.clickDropdownToggle(IntroductionPagePom.java:88)
+at StepDefinitions.Step_HomePage.the_user_clicks_data_structures_drop_down(Step_HomePage.java:106)
+at ✽.The user clicks Data Structures drop down(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC03_loginPage.feature:99)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5922ae77]" started-at="2025-01-18T21:15:23 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-18T21:15:23 GMT-05:00" duration-ms="5" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5a37d3ed]" started-at="2025-03-17T23:55:47 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T23:55:47 GMT-04:00" duration-ms="27" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Verify that the user is able to navigate to the 'Tree' data structure page"]]>
+                <![CDATA["Verify that user able to navigate to Graph page when Graph drop down option is selected"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["User Navigation to 'Tree' Data Structure Page"]]>
+                <![CDATA["DS Portal Login Feature"]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+at PageObjectModel.IntroductionPagePom.clickDropdownToggle(IntroductionPagePom.java:88)
+at StepDefinitions.Step_HomePage.the_user_clicks_data_structures_drop_down(Step_HomePage.java:106)
+at ✽.The user clicks Data Structures drop down(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC03_loginPage.feature:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5922ae77]" started-at="2025-01-18T21:15:23 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-18T21:15:23 GMT-05:00" duration-ms="3" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5a37d3ed]" started-at="2025-03-17T23:55:47 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-17T23:55:47 GMT-04:00" duration-ms="28" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Verify that the user is able to navigate to the 'Graph' data structure page"]]>
+                <![CDATA["Verify that user able to sign out successfully when clicked on Sign Out link"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["User Navigation to 'Graph' Data Structure Page"]]>
+                <![CDATA["DS Portal Login Feature"]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+at PageObjectModel.IntroductionPagePom.clickDropdownToggle(IntroductionPagePom.java:88)
+at StepDefinitions.Step_HomePage.the_user_clicks_data_structures_drop_down(Step_HomePage.java:106)
+at ✽.The user clicks Data Structures drop down(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC03_loginPage.feature:111)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.TestRunner@5922ae77]" started-at="2025-01-18T21:15:23 GMT-05:00" name="tearDownClass" finished-at="2025-01-18T21:15:23 GMT-05:00" duration-ms="70" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.TestRunner@5a37d3ed]" started-at="2025-03-17T23:55:47 GMT-04:00" name="tearDownClass" finished-at="2025-03-17T23:55:47 GMT-04:00" duration-ms="81" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

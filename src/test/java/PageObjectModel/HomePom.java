@@ -1,6 +1,7 @@
 package PageObjectModel;
 
 import java.time.Duration;
+import java.util.Properties;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -13,8 +14,24 @@ import Utilities.ConfigReader;
 
 public class HomePom {
 	
+	private WebDriver driver; // WebDriver instance
+    private Properties prop;
+    
+ //  Constructor of the Page Class
+    public HomePom(WebDriver driver) {
+        if (driver == null) {
+            throw new IllegalArgumentException("WebDriver instance cannot be null.");
+        }
+        this.driver = driver; // Assign the passed driver to the class-level variable
 
-	public WebDriver driver = Driver_SetUp.getDriver();
+        // Initialize all the elements in this page class
+        this.prop = ConfigReader.initializeprop();
+
+           }
+	
+
+	//public WebDriver driver = Driver_SetUp.getDriver();
+    
 	// Create a WebDriverWait instance with Duration
 
 	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10)); // Timeout in second

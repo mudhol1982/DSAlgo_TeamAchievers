@@ -4,8 +4,11 @@ import java.io.IOException;
 import java.time.Duration;
 import java.util.List;
 import java.util.Map;
+import java.util.Properties;
+
 import org.apache.poi.openxml4j.exceptions.OpenXML4JException;
 import org.openqa.selenium.By;
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -13,12 +16,28 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import com.fasterxml.jackson.databind.exc.InvalidFormatException;
 
 import DriverManager.Driver_SetUp;
+import Utilities.ConfigReader;
 import Utilities.ExcelReader;
 import Utilities.ExcelReader1;
 
 public class RegisterPom {
+	
 
-	WebDriver driver = Driver_SetUp.getDriver();
+	private WebDriver driver; // WebDriver instance
+    private Properties prop;
+    
+ //  Constructor of the Page Class
+    public RegisterPom(WebDriver driver) {
+        if (driver == null) {
+            throw new IllegalArgumentException("WebDriver instance cannot be null.");
+        }
+        this.driver = driver; // Assign the passed driver to the class-level variable
+
+        // Initialize all the elements in this page class
+        this.prop = ConfigReader.initializeprop();
+    }
+
+	//WebDriver driver = Driver_SetUp.getDriver();
 	ExcelReader1 excelReader1 = new ExcelReader1();
 	ExcelReader excelReader = new ExcelReader();
 	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10)); //
@@ -122,22 +141,42 @@ public class RegisterPom {
 		this.clickRegisterLink_getStartedPage();
 	}
 
-    //validate error message returned in the browser for invalid or missing fields 
-	public String switchToElementAndGetValidationMessage() {
-		WebElement activeElement = driver.switchTo().activeElement();
-		
-//		//adding null check before printing active element 
-//		if (activeElement != null) {
-//		    System.out.println("Active element: " + activeElement);
-//		} else {
-//		    System.out.println("Active element is null.");
-//		}
+//    //validate error message returned in the browser for invalid or missing fields 
+//	public String switchToElementAndGetValidationMessage() {
+//		WebElement activeElement = driver.switchTo().activeElement();
 //		
-		//System.out.println("Active element: " + activeElement);
-		
-		String actualAlertMsg = activeElement.getAttribute("validationMessage");
-		 System.out.println("ValidationMessage" + actualAlertMsg);
-		return actualAlertMsg;
+////		//adding null check before printing active element 
+////		if (activeElement != null) {
+////		    System.out.println("Active element: " + activeElement);
+////		} else {
+////		    System.out.println("Active element is null.");
+////		}
+////		
+//		//System.out.println("Active element: " + activeElement);
+//		
+//		String actualAlertMsg = activeElement.getAttribute("validationMessage");
+//		 System.out.println("ValidationMessage" + actualAlertMsg);
+//		return actualAlertMsg;
+//	}
+	
+	public String switchToElementAndGetValidationMessage() {
+	    WebElement activeElement = null;
+	    String actualAlertMsg = null;
+
+	    try {
+	        // Try to get the active element and validation message
+	        activeElement = driver.switchTo().activeElement();
+	        actualAlertMsg = activeElement.getAttribute("validationMessage");
+	        System.out.println("ValidationMessage: " + actualAlertMsg);
+	    } catch (StaleElementReferenceException e) {
+	        // If StaleElementReferenceException occurs, try to get the active element again
+	        System.out.println("Stale element reference caught. Retrying...");
+	        activeElement = driver.switchTo().activeElement();
+	        actualAlertMsg = activeElement.getAttribute("validationMessage");
+	        System.out.println("ValidationMessage: " + actualAlertMsg);
+	    }
+	    
+	    return actualAlertMsg;
 	}
 
 }

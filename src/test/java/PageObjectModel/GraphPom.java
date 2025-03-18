@@ -1,13 +1,17 @@
 package PageObjectModel;
 
+import java.util.Properties;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 import DriverManager.Driver_SetUp;
+import Utilities.ConfigReader;
 
 public class GraphPom {
 	
-public WebDriver driver = Driver_SetUp.getDriver();
+	   
+ public WebDriver driver = Driver_SetUp.getDriver();
 	
 	By graph_getStarted = By.xpath("//a[@href='graph']");
 	By graph_topicsCovered = By.linkText("Graph");

@@ -167,6 +167,3 @@ public class Step_RegisterPage {
 }
 
 	
-
-
-

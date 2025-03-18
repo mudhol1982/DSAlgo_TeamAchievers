@@ -1,24 +1,45 @@
 package PageObjectModel;
 
 import java.time.Duration;
+import java.util.Properties;
+
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import DriverManager.Driver_SetUp;
+import Utilities.ConfigReader;
 import Utilities.LoggerLoad;
 
 public class IntroductionPagePom {
+	
+	private WebDriver driver; // WebDriver instance
+    private Properties prop;
+    
+ //  Constructor of the Page Class
+    public IntroductionPagePom(WebDriver driver) {
+        if (driver == null) {
+            throw new IllegalArgumentException("WebDriver instance cannot be null.");
+        }
+        this.driver = driver; // Assign the passed driver to the class-level variable
 
-	public WebDriver driver = Driver_SetUp.getDriver();
+        // Initialize all the elements in this page class
+        this.prop = ConfigReader.initializeprop();
+
+        
+    }
+	
+	//public WebDriver driver = Driver_SetUp.getDriver();
 
 	WebDriverWait wait = new WebDriverWait(driver, Duration.ofMillis(50000)); // Timeout in second
 
 	// Web elements of the Introduction page
 	public By numpyNinja = By.cssSelector("a[href='/home']");
-	public By dataStructure = By.cssSelector("a.dropdown-toggle");
+	//public By dataStructure = By.cssSelector("a.dropdown-toggle");
+	public By dataStructure = By.cssSelector("//a[@data-toggle='dropdown']");
 	public By dsDropdown = By.cssSelector("a.dropdown-item");
 
 	// Web Elements for each drop down items
@@ -61,10 +82,39 @@ public class IntroductionPagePom {
 	// Authentication page on Introduction Home page before log in
 	public By authenticationmsg = By.cssSelector("div.alert.alert-primary");
 
+//	// Method to click on the dropdown toggle
+//	public void clickDropdownToggle() {
+//		
+//		 // Wait for the dropdown toggle element to be clickable
+//	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+//	    
+//	    // Wait until the element is clickable
+//	    WebElement toggle = wait.until(ExpectedConditions.elementToBeClickable(dataStructure));
+//	    
+//	 // Scroll the element into view if necessary
+//	    ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", toggle);
+//
+//	    // Click the dropdown toggle
+//	    toggle.click();
+//	}
+	
+	
 	// Method to click on the dropdown toggle
 	public void clickDropdownToggle() {
-		WebElement toggle = driver.findElement(dataStructure);
-		toggle.click();
+	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));  // Increase wait time if needed
+	    
+	    // Try to scroll the element into view if it's not visible
+	    WebElement toggle = driver.findElement(By.cssSelector("a.dropdown-toggle"));
+	    ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", toggle);
+
+	    // Wait for the element to be visible
+	    wait.until(ExpectedConditions.visibilityOf(toggle));
+
+	    // Wait for the element to be clickable
+	    wait.until(ExpectedConditions.elementToBeClickable(toggle));
+	    
+	    // Click the dropdown toggle
+	    toggle.click();
 	}
 
 	// Method to click on the 'Array' dropdown item
@@ -140,8 +190,18 @@ public class IntroductionPagePom {
 	}
 
 	// Element Displayed
+//	public Boolean validateElementDisplayed(By locator) {
+//		return driver.findElement(locator).isDisplayed();
+//	}
+	
 	public Boolean validateElementDisplayed(By locator) {
-		return driver.findElement(locator).isDisplayed();
+	    try {
+	        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+	        WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+	        return element.isDisplayed();
+	    } catch (Exception e) {
+	        return false;
+	    }
 	}
 
 //	public void authenticationMsgDisplay(){

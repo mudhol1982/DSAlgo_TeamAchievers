@@ -1,9 +1,14 @@
 package StepDefinitions;
 
 import java.io.IOException;
+import java.time.Duration;
 
 import org.apache.poi.openxml4j.exceptions.OpenXML4JException;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 import com.fasterxml.jackson.databind.exc.InvalidFormatException;
@@ -74,9 +79,9 @@ public void the_user_clicks_login_button_after_entering_invalid_username_and_inv
 }
 
 @Then("The user should able to see an error message {string}")
-public void the_user_should_able_to_see_an_error_message(String expectedAlertMessage) {
-	Assert.assertEquals(ip.getTextForElement(login.alertMsg), expectedAlertMessage);
-	
+	public void the_user_should_able_to_see_an_error_message(String expectedAlertMessage) {
+		Assert.assertEquals(ip.getTextForElement(login.alertMsg), expectedAlertMessage);
+    
 	}
 //TC05 - invalid user name and valid password
 @When("The user clicks login button after entering invalid username and valid password {string} and row {int}")
@@ -196,4 +201,3 @@ public void the_user_should_able_to_sign_out_successfully_from_ds_algo_portal() 
 }
 
 }
-

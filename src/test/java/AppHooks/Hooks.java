@@ -27,7 +27,7 @@ public class Hooks {
 	@After
 	public void tearDown() {
 		if (driver != null) {
-			// Driver_SetUp.closeDriver(); // Close the browser after the test
+			//Driver_SetUp.closeDriver(); // Close the browser after the test
 		}
 	}
 
