@@ -16,30 +16,34 @@ import Utilities.LoggerLoad;
 
 public class IntroductionPagePom {
 	
-	private WebDriver driver; // WebDriver instance
-    private Properties prop;
-    
- //  Constructor of the Page Class
-    public IntroductionPagePom(WebDriver driver) {
-        if (driver == null) {
-            throw new IllegalArgumentException("WebDriver instance cannot be null.");
-        }
-        this.driver = driver; // Assign the passed driver to the class-level variable
-
-        // Initialize all the elements in this page class
-        this.prop = ConfigReader.initializeprop();
-
-        
-    }
+	////////////////////
 	
-	//public WebDriver driver = Driver_SetUp.getDriver();
+//	private WebDriver driver; // WebDriver instance
+//    private Properties prop;
+//    
+// //  Constructor of the Page Class
+//    public IntroductionPagePom(WebDriver driver) {
+//        if (driver == null) {
+//            throw new IllegalArgumentException("WebDriver instance cannot be null.");
+//        }
+//        this.driver = driver; // Assign the passed driver to the class-level variable
+//
+//        // Initialize all the elements in this page class
+//        this.prop = ConfigReader.initializeprop();
+//
+//        
+//    }
+       ///////////////////	
+	
+	public WebDriver driver = Driver_SetUp.getDriver();
 
 	WebDriverWait wait = new WebDriverWait(driver, Duration.ofMillis(50000)); // Timeout in second
 
 	// Web elements of the Introduction page
 	public By numpyNinja = By.cssSelector("a[href='/home']");
 	//public By dataStructure = By.cssSelector("a.dropdown-toggle");
-	public By dataStructure = By.cssSelector("//a[@data-toggle='dropdown']");
+	//public By dataStructure = By.cssSelector("//a[@data-toggle='dropdown']");
+	public By dataStructure =  By.xpath("//a[contains(@class, 'dropdown-toggle')]");
 	public By dsDropdown = By.cssSelector("a.dropdown-item");
 
 	// Web Elements for each drop down items
@@ -99,8 +103,30 @@ public class IntroductionPagePom {
 //	}
 	
 	
+//	// Method to click on the dropdown toggle
+//	public void clickDropdownToggle() {
+//	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));  // Increase wait time if needed
+//	    
+//	    // Try to scroll the element into view if it's not visible
+//	    WebElement toggle = driver.findElement(By.cssSelector("a.dropdown-toggle"));
+//	    ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", toggle);
+//
+//	    // Wait for the element to be visible
+//	    wait.until(ExpectedConditions.visibilityOf(toggle));
+//
+//	    // Wait for the element to be clickable
+//	    wait.until(ExpectedConditions.elementToBeClickable(toggle));
+//	    
+//	    // Click the dropdown toggle
+//	    toggle.click();
+//	}
+	
 	// Method to click on the dropdown toggle
 	public void clickDropdownToggle() {
+		
+		WebElement dataStructure = wait
+				.until(ExpectedConditions.visibilityOfElementLocated(By.className("dataStructure")));
+	
 	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));  // Increase wait time if needed
 	    
 	    // Try to scroll the element into view if it's not visible
@@ -116,6 +142,9 @@ public class IntroductionPagePom {
 	    // Click the dropdown toggle
 	    toggle.click();
 	}
+	
+	
+	
 
 	// Method to click on the 'Array' dropdown item
 	public void clickDropdownItemArray() {

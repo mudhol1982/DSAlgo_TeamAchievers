@@ -11202,3 +11202,527 @@ Session ID: 31536293ad4abd32886a84425068dbe3
 [INFO ] 2025-03-17 23:06:19.367 [main] LoggerLoad - Clicking the LinkedList-Traversal page link
 [INFO ] 2025-03-17 23:06:20.234 [main] LoggerLoad - Clicking the LinkedList-Traversal page link
 [INFO ] 2025-03-17 23:06:21.149 [main] LoggerLoad - Clicking the LinkedList-Deletion page link
+[INFO ] 2025-03-18 15:59:43.606 [main] LoggerLoad - Clicking the Array Get Started link
+[INFO ] 2025-03-18 15:59:44.174 [main] LoggerLoad - Clicking the Linked List Get Started link
+[INFO ] 2025-03-18 15:59:44.706 [main] LoggerLoad - Clicking the Stack Get Started link
+[INFO ] 2025-03-18 15:59:45.283 [main] LoggerLoad - Clicking the Queue Get Started link
+[INFO ] 2025-03-18 15:59:45.639 [main] LoggerLoad - Clicking the Tree Get Started link
+[INFO ] 2025-03-18 15:59:46.227 [main] LoggerLoad - Clicking the Graph Get Started link
+[INFO ] 2025-03-18 16:02:46.581 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-03-18 16:02:46.894 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 16:02:46.914 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-03-18 16:02:47.038 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-03-18 16:02:47.196 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-03-18 16:02:47.588 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-03-18 16:02:47.670 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 16:02:47.686 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-03-18 16:02:47.798 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-03-18 16:02:47.932 [main] LoggerLoad - Fetched code from Excel: print("hello");
+[INFO ] 2025-03-18 16:02:48.372 [main] LoggerLoad - Entered code into the text area: print("hello");
+[INFO ] 2025-03-18 16:02:48.427 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 16:02:48.460 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 16:02:48.491 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 16:03:22.403 [main] LoggerLoad - Clicking the Linked List Get Started link
+[INFO ] 2025-03-18 16:03:23.286 [main] LoggerLoad - Clicking the LinkedList-Introduction page link
+[INFO ] 2025-03-18 16:03:23.953 [main] LoggerLoad - Clicking the LinkedList-Introduction page link
+[INFO ] 2025-03-18 16:03:24.584 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-03-18 16:03:24.808 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 16:03:24.828 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-03-18 16:03:24.894 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-03-18 16:03:25.099 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-03-18 16:03:25.496 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-03-18 16:03:25.591 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 16:03:25.602 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-03-18 16:03:25.658 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-03-18 16:03:25.773 [main] LoggerLoad - Fetched code from Excel: print("hello");
+[INFO ] 2025-03-18 16:03:26.181 [main] LoggerLoad - Entered code into the text area: print("hello");
+[INFO ] 2025-03-18 16:03:26.254 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 16:03:26.298 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 16:03:26.331 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 16:03:26.874 [main] LoggerLoad - Clicking the LinkedList-Creating Linked LIst page link
+[INFO ] 2025-03-18 16:03:27.431 [main] LoggerLoad - Clicking the LinkedList-Creating Linked LIst page link
+[INFO ] 2025-03-18 16:03:27.785 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-03-18 16:03:27.953 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 16:03:27.961 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-03-18 16:03:27.986 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-03-18 16:03:28.064 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-03-18 16:03:28.419 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-03-18 16:03:28.498 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 16:03:28.508 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-03-18 16:03:28.546 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-03-18 16:03:28.620 [main] LoggerLoad - Fetched code from Excel: print("hello");
+[INFO ] 2025-03-18 16:03:28.987 [main] LoggerLoad - Entered code into the text area: print("hello");
+[INFO ] 2025-03-18 16:03:29.068 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 16:03:29.099 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 16:03:29.140 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 16:03:29.719 [main] LoggerLoad - Clicking the LinkedList-Types Of Linked List page link
+[INFO ] 2025-03-18 16:03:30.389 [main] LoggerLoad - Clicking the LinkedList-Types Of Linked List page link
+[INFO ] 2025-03-18 16:03:30.729 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-03-18 16:03:30.865 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 16:03:30.870 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-03-18 16:03:30.887 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-03-18 16:03:30.934 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-03-18 16:03:31.269 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-03-18 16:03:31.345 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 16:03:31.352 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-03-18 16:03:31.382 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-03-18 16:03:31.449 [main] LoggerLoad - Fetched code from Excel: print("hello");
+[INFO ] 2025-03-18 16:03:31.782 [main] LoggerLoad - Entered code into the text area: print("hello");
+[INFO ] 2025-03-18 16:03:31.864 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 16:03:31.894 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 16:03:31.924 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 16:03:32.524 [main] LoggerLoad - Clicking the LinkedList-Implement Linked List in Python page link
+[INFO ] 2025-03-18 16:03:33.210 [main] LoggerLoad - Clicking the LinkedList-Implement Linked List in Python page link
+[INFO ] 2025-03-18 16:03:33.539 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-03-18 16:03:33.685 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 16:03:33.690 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-03-18 16:03:33.707 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-03-18 16:03:33.763 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-03-18 16:03:34.119 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-03-18 16:03:34.216 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 16:03:34.223 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-03-18 16:03:34.250 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-03-18 16:03:34.304 [main] LoggerLoad - Fetched code from Excel: print("hello");
+[INFO ] 2025-03-18 16:03:34.661 [main] LoggerLoad - Entered code into the text area: print("hello");
+[INFO ] 2025-03-18 16:03:34.739 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 16:03:34.770 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 16:03:34.800 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 16:03:35.475 [main] LoggerLoad - Clicking the LinkedList-Traversal page link
+[INFO ] 2025-03-18 16:03:36.086 [main] LoggerLoad - Clicking the LinkedList-Traversal page link
+[INFO ] 2025-03-18 16:03:36.406 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-03-18 16:03:36.666 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 16:03:36.678 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-03-18 16:03:36.710 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-03-18 16:03:36.776 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-03-18 16:03:37.134 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-03-18 16:03:37.206 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 16:03:37.223 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-03-18 16:03:37.272 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-03-18 16:03:37.342 [main] LoggerLoad - Fetched code from Excel: print("hello");
+[INFO ] 2025-03-18 16:03:37.738 [main] LoggerLoad - Entered code into the text area: print("hello");
+[INFO ] 2025-03-18 16:03:37.816 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 16:03:37.881 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 16:03:37.930 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 16:03:38.578 [main] LoggerLoad - Clicking the LinkedList-Insertion page link
+[INFO ] 2025-03-18 16:03:39.325 [main] LoggerLoad - Clicking the LinkedList-Insertion page link
+[INFO ] 2025-03-18 16:03:39.704 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-03-18 16:03:39.904 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 16:03:39.911 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-03-18 16:03:39.940 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-03-18 16:03:40.000 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-03-18 16:03:40.351 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-03-18 16:03:40.430 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 16:03:40.439 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-03-18 16:03:40.470 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-03-18 16:03:40.525 [main] LoggerLoad - Fetched code from Excel: print("hello");
+[INFO ] 2025-03-18 16:03:40.903 [main] LoggerLoad - Entered code into the text area: print("hello");
+[INFO ] 2025-03-18 16:03:41.017 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 16:03:41.065 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 16:03:41.124 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 16:03:41.808 [main] LoggerLoad - Clicking the LinkedList-Deletion page link
+[INFO ] 2025-03-18 16:03:42.436 [main] LoggerLoad - Clicking the LinkedList-Deletion page link
+[INFO ] 2025-03-18 16:03:42.760 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-03-18 16:03:42.992 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 16:03:43.000 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-03-18 16:03:43.023 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-03-18 16:03:43.089 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-03-18 16:03:43.448 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-03-18 16:03:43.525 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 16:03:43.530 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-03-18 16:03:43.550 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-03-18 16:03:43.584 [main] LoggerLoad - Fetched code from Excel: print("hello");
+[INFO ] 2025-03-18 16:03:43.967 [main] LoggerLoad - Entered code into the text area: print("hello");
+[INFO ] 2025-03-18 16:03:44.065 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 16:03:44.101 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 16:03:44.143 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 16:03:44.753 [main] LoggerLoad - Clicking the LinkedList-Creating Linked LIst page link
+[INFO ] 2025-03-18 16:03:45.742 [main] LoggerLoad - Clicking the LinkedList-Types Of Linked List page link
+[INFO ] 2025-03-18 16:03:46.646 [main] LoggerLoad - Clicking the LinkedList-Implement Linked List in Python page link
+[INFO ] 2025-03-18 16:03:47.449 [main] LoggerLoad - Clicking the LinkedList-Traversal page link
+[INFO ] 2025-03-18 16:03:48.397 [main] LoggerLoad - Clicking the LinkedList-Traversal page link
+[INFO ] 2025-03-18 16:03:49.439 [main] LoggerLoad - Clicking the LinkedList-Deletion page link
+[INFO ] 2025-03-18 19:35:26.333 [main] LoggerLoad - Clicking the Linked List Get Started link
+[INFO ] 2025-03-18 19:35:27.526 [main] LoggerLoad - Clicking the LinkedList-Introduction page link
+[INFO ] 2025-03-18 19:35:28.639 [main] LoggerLoad - Clicking the LinkedList-Introduction page link
+[INFO ] 2025-03-18 19:35:31.113 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-03-18 19:35:31.371 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 19:35:31.381 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-03-18 19:35:31.452 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-03-18 19:35:31.547 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-03-18 19:35:31.962 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-03-18 19:35:32.073 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 19:35:32.087 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-03-18 19:35:32.153 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-03-18 19:35:32.268 [main] LoggerLoad - Fetched code from Excel: print("hello");
+[INFO ] 2025-03-18 19:35:32.736 [main] LoggerLoad - Entered code into the text area: print("hello");
+[INFO ] 2025-03-18 19:35:32.842 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 19:35:32.891 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 19:35:32.931 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 19:35:33.522 [main] LoggerLoad - Clicking the LinkedList-Creating Linked LIst page link
+[INFO ] 2025-03-18 19:35:34.181 [main] LoggerLoad - Clicking the LinkedList-Creating Linked LIst page link
+[INFO ] 2025-03-18 19:35:34.482 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-03-18 19:35:34.705 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 19:35:34.713 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-03-18 19:35:34.751 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-03-18 19:35:34.861 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-03-18 19:35:35.241 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-03-18 19:35:35.332 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 19:35:35.350 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-03-18 19:35:35.410 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-03-18 19:35:35.522 [main] LoggerLoad - Fetched code from Excel: print("hello");
+[INFO ] 2025-03-18 19:35:35.991 [main] LoggerLoad - Entered code into the text area: print("hello");
+[INFO ] 2025-03-18 19:35:36.135 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 19:35:36.192 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 19:35:36.251 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 19:35:37.182 [main] LoggerLoad - Clicking the LinkedList-Types Of Linked List page link
+[INFO ] 2025-03-18 19:35:37.863 [main] LoggerLoad - Clicking the LinkedList-Types Of Linked List page link
+[INFO ] 2025-03-18 19:35:38.283 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-03-18 19:35:38.600 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 19:35:38.615 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-03-18 19:35:38.644 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-03-18 19:35:38.753 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-03-18 19:35:39.230 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-03-18 19:35:39.381 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 19:35:39.396 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-03-18 19:35:39.480 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-03-18 19:35:39.643 [main] LoggerLoad - Fetched code from Excel: print("hello");
+[INFO ] 2025-03-18 19:35:40.131 [main] LoggerLoad - Entered code into the text area: print("hello");
+[INFO ] 2025-03-18 19:35:40.270 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 19:35:40.341 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 19:35:40.401 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 19:35:41.228 [main] LoggerLoad - Clicking the LinkedList-Implement Linked List in Python page link
+[INFO ] 2025-03-18 19:35:42.000 [main] LoggerLoad - Clicking the LinkedList-Implement Linked List in Python page link
+[INFO ] 2025-03-18 19:35:42.389 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-03-18 19:35:42.782 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 19:35:42.791 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-03-18 19:35:42.831 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-03-18 19:35:42.941 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-03-18 19:35:43.425 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-03-18 19:35:43.559 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 19:35:43.570 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-03-18 19:35:43.642 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-03-18 19:35:43.757 [main] LoggerLoad - Fetched code from Excel: print("hello");
+[INFO ] 2025-03-18 19:35:44.254 [main] LoggerLoad - Entered code into the text area: print("hello");
+[INFO ] 2025-03-18 19:35:44.394 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 19:35:44.463 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 19:35:44.536 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 19:35:45.411 [main] LoggerLoad - Clicking the LinkedList-Traversal page link
+[INFO ] 2025-03-18 19:35:46.172 [main] LoggerLoad - Clicking the LinkedList-Traversal page link
+[INFO ] 2025-03-18 19:35:46.601 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-03-18 19:35:46.983 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 19:35:46.991 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-03-18 19:35:47.040 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-03-18 19:35:47.101 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-03-18 19:35:47.582 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-03-18 19:35:47.710 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 19:35:47.726 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-03-18 19:35:47.801 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-03-18 19:35:47.900 [main] LoggerLoad - Fetched code from Excel: print("hello");
+[INFO ] 2025-03-18 19:35:48.400 [main] LoggerLoad - Entered code into the text area: print("hello");
+[INFO ] 2025-03-18 19:35:48.516 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 19:35:48.584 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 19:35:48.670 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 19:35:49.356 [main] LoggerLoad - Clicking the LinkedList-Insertion page link
+[INFO ] 2025-03-18 19:35:50.015 [main] LoggerLoad - Clicking the LinkedList-Insertion page link
+[INFO ] 2025-03-18 19:35:50.393 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-03-18 19:35:50.723 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 19:35:50.743 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-03-18 19:35:50.783 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-03-18 19:35:50.863 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-03-18 19:35:51.370 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-03-18 19:35:51.506 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 19:35:51.521 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-03-18 19:35:51.589 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-03-18 19:35:51.676 [main] LoggerLoad - Fetched code from Excel: print("hello");
+[INFO ] 2025-03-18 19:35:52.221 [main] LoggerLoad - Entered code into the text area: print("hello");
+[INFO ] 2025-03-18 19:35:52.390 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 19:35:52.471 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 19:35:52.540 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 19:35:53.259 [main] LoggerLoad - Clicking the LinkedList-Deletion page link
+[INFO ] 2025-03-18 19:35:54.052 [main] LoggerLoad - Clicking the LinkedList-Deletion page link
+[INFO ] 2025-03-18 19:35:54.483 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-03-18 19:35:54.812 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 19:35:54.812 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-03-18 19:35:54.861 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-03-18 19:35:54.951 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-03-18 19:35:55.377 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-03-18 19:35:55.506 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 19:35:55.516 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-03-18 19:35:55.586 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-03-18 19:35:55.671 [main] LoggerLoad - Fetched code from Excel: print("hello");
+[INFO ] 2025-03-18 19:35:56.173 [main] LoggerLoad - Entered code into the text area: print("hello");
+[INFO ] 2025-03-18 19:35:56.292 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 19:35:56.346 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 19:35:56.393 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 19:35:57.175 [main] LoggerLoad - Clicking the LinkedList-Creating Linked LIst page link
+[INFO ] 2025-03-18 19:35:58.256 [main] LoggerLoad - Clicking the LinkedList-Types Of Linked List page link
+[INFO ] 2025-03-18 19:35:59.281 [main] LoggerLoad - Clicking the LinkedList-Implement Linked List in Python page link
+[INFO ] 2025-03-18 19:36:00.469 [main] LoggerLoad - Clicking the LinkedList-Traversal page link
+[INFO ] 2025-03-18 19:36:01.613 [main] LoggerLoad - Clicking the LinkedList-Traversal page link
+[INFO ] 2025-03-18 19:36:02.851 [main] LoggerLoad - Clicking the LinkedList-Deletion page link
+[INFO ] 2025-03-18 19:43:52.951 [main] LoggerLoad - Clicking the Linked List Get Started link
+[INFO ] 2025-03-18 19:43:54.491 [main] LoggerLoad - Clicking the LinkedList-Introduction page link
+[INFO ] 2025-03-18 19:43:55.654 [main] LoggerLoad - Clicking the LinkedList-Introduction page link
+[INFO ] 2025-03-18 19:43:57.420 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-03-18 19:43:57.771 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 19:43:57.793 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-03-18 19:43:57.900 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-03-18 19:43:58.042 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-03-18 19:43:58.502 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-03-18 19:43:58.601 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 19:43:58.611 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-03-18 19:43:58.667 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-03-18 19:43:58.764 [main] LoggerLoad - Fetched code from Excel: print("hello");
+[INFO ] 2025-03-18 19:43:59.255 [main] LoggerLoad - Entered code into the text area: print("hello");
+[INFO ] 2025-03-18 19:43:59.337 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 19:43:59.390 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 19:43:59.431 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 19:44:00.073 [main] LoggerLoad - Clicking the LinkedList-Creating Linked LIst page link
+[INFO ] 2025-03-18 19:44:01.159 [main] LoggerLoad - Clicking the LinkedList-Creating Linked LIst page link
+[INFO ] 2025-03-18 19:44:01.680 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-03-18 19:44:01.860 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 19:44:01.871 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-03-18 19:44:01.898 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-03-18 19:44:01.975 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-03-18 19:44:02.371 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-03-18 19:44:02.491 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 19:44:02.501 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-03-18 19:44:02.561 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-03-18 19:44:02.646 [main] LoggerLoad - Fetched code from Excel: print("hello");
+[INFO ] 2025-03-18 19:44:03.071 [main] LoggerLoad - Entered code into the text area: print("hello");
+[INFO ] 2025-03-18 19:44:03.171 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 19:44:03.211 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 19:44:03.241 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 19:44:03.994 [main] LoggerLoad - Clicking the LinkedList-Types Of Linked List page link
+[INFO ] 2025-03-18 19:44:04.676 [main] LoggerLoad - Clicking the LinkedList-Types Of Linked List page link
+[INFO ] 2025-03-18 19:44:04.977 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-03-18 19:44:05.207 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 19:44:05.215 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-03-18 19:44:05.253 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-03-18 19:44:05.371 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-03-18 19:44:05.773 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-03-18 19:44:05.852 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 19:44:05.860 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-03-18 19:44:05.902 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-03-18 19:44:05.991 [main] LoggerLoad - Fetched code from Excel: print("hello");
+[INFO ] 2025-03-18 19:44:06.491 [main] LoggerLoad - Entered code into the text area: print("hello");
+[INFO ] 2025-03-18 19:44:06.601 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 19:44:06.641 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 19:44:06.681 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 19:44:07.471 [main] LoggerLoad - Clicking the LinkedList-Implement Linked List in Python page link
+[INFO ] 2025-03-18 19:44:08.375 [main] LoggerLoad - Clicking the LinkedList-Implement Linked List in Python page link
+[INFO ] 2025-03-18 19:44:08.825 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-03-18 19:44:09.162 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 19:44:09.177 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-03-18 19:44:09.277 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-03-18 19:44:09.382 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-03-18 19:44:09.953 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-03-18 19:44:10.128 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 19:44:10.141 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-03-18 19:44:10.211 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-03-18 19:44:10.474 [main] LoggerLoad - Fetched code from Excel: print("hello");
+[INFO ] 2025-03-18 19:44:11.049 [main] LoggerLoad - Entered code into the text area: print("hello");
+[INFO ] 2025-03-18 19:44:11.154 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 19:44:11.211 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 19:44:11.280 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 19:44:12.222 [main] LoggerLoad - Clicking the LinkedList-Traversal page link
+[INFO ] 2025-03-18 19:44:13.202 [main] LoggerLoad - Clicking the LinkedList-Traversal page link
+[INFO ] 2025-03-18 19:44:13.673 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-03-18 19:44:14.017 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 19:44:14.027 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-03-18 19:44:14.070 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-03-18 19:44:14.161 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-03-18 19:44:14.635 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-03-18 19:44:14.781 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 19:44:14.794 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-03-18 19:44:14.863 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-03-18 19:44:14.980 [main] LoggerLoad - Fetched code from Excel: print("hello");
+[INFO ] 2025-03-18 19:44:15.684 [main] LoggerLoad - Entered code into the text area: print("hello");
+[INFO ] 2025-03-18 19:44:15.844 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 19:44:15.911 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 19:44:15.981 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 19:44:16.923 [main] LoggerLoad - Clicking the LinkedList-Insertion page link
+[INFO ] 2025-03-18 19:44:17.698 [main] LoggerLoad - Clicking the LinkedList-Insertion page link
+[INFO ] 2025-03-18 19:44:18.184 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-03-18 19:44:18.622 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 19:44:18.632 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-03-18 19:44:18.680 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-03-18 19:44:18.790 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-03-18 19:44:19.280 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-03-18 19:44:19.432 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 19:44:19.441 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-03-18 19:44:19.523 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-03-18 19:44:19.623 [main] LoggerLoad - Fetched code from Excel: print("hello");
+[INFO ] 2025-03-18 19:44:20.222 [main] LoggerLoad - Entered code into the text area: print("hello");
+[INFO ] 2025-03-18 19:44:20.368 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 19:44:20.432 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 19:44:20.490 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 19:44:21.421 [main] LoggerLoad - Clicking the LinkedList-Deletion page link
+[INFO ] 2025-03-18 19:44:22.250 [main] LoggerLoad - Clicking the LinkedList-Deletion page link
+[INFO ] 2025-03-18 19:44:22.640 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-03-18 19:44:22.961 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 19:44:22.976 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-03-18 19:44:23.003 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-03-18 19:44:23.096 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-03-18 19:44:23.592 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-03-18 19:44:23.763 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 19:44:23.775 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-03-18 19:44:23.841 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-03-18 19:44:23.941 [main] LoggerLoad - Fetched code from Excel: print("hello");
+[INFO ] 2025-03-18 19:44:24.472 [main] LoggerLoad - Entered code into the text area: print("hello");
+[INFO ] 2025-03-18 19:44:24.607 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 19:44:24.668 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 19:44:24.740 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 19:44:25.742 [main] LoggerLoad - Clicking the LinkedList-Creating Linked LIst page link
+[INFO ] 2025-03-18 19:44:26.981 [main] LoggerLoad - Clicking the LinkedList-Types Of Linked List page link
+[INFO ] 2025-03-18 19:44:28.213 [main] LoggerLoad - Clicking the LinkedList-Implement Linked List in Python page link
+[INFO ] 2025-03-18 19:44:29.321 [main] LoggerLoad - Clicking the LinkedList-Traversal page link
+[INFO ] 2025-03-18 19:44:30.457 [main] LoggerLoad - Clicking the LinkedList-Traversal page link
+[INFO ] 2025-03-18 19:44:31.881 [main] LoggerLoad - Clicking the LinkedList-Deletion page link
+[INFO ] 2025-03-18 20:02:04.803 [main] LoggerLoad - Clicking the Linked List Get Started link
+[INFO ] 2025-03-18 20:02:05.655 [main] LoggerLoad - Clicking the LinkedList-Introduction page link
+[INFO ] 2025-03-18 20:02:06.421 [main] LoggerLoad - Clicking the LinkedList-Introduction page link
+[INFO ] 2025-03-18 20:02:07.547 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-03-18 20:02:07.736 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 20:02:07.754 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-03-18 20:02:07.833 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-03-18 20:02:07.964 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-03-18 20:02:08.325 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-03-18 20:02:08.375 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 20:02:08.381 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-03-18 20:02:08.420 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-03-18 20:02:08.487 [main] LoggerLoad - Fetched code from Excel: print("hello");
+[INFO ] 2025-03-18 20:02:08.881 [main] LoggerLoad - Entered code into the text area: print("hello");
+[INFO ] 2025-03-18 20:02:08.932 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 20:02:08.970 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 20:02:08.997 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 20:02:09.565 [main] LoggerLoad - Clicking the LinkedList-Creating Linked LIst page link
+[INFO ] 2025-03-18 20:02:10.072 [main] LoggerLoad - Clicking the LinkedList-Creating Linked LIst page link
+[INFO ] 2025-03-18 20:02:10.364 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-03-18 20:02:10.527 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 20:02:10.532 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-03-18 20:02:10.577 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-03-18 20:02:10.658 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-03-18 20:02:11.000 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-03-18 20:02:11.058 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 20:02:11.064 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-03-18 20:02:11.102 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-03-18 20:02:11.157 [main] LoggerLoad - Fetched code from Excel: print("hello");
+[INFO ] 2025-03-18 20:02:11.520 [main] LoggerLoad - Entered code into the text area: print("hello");
+[INFO ] 2025-03-18 20:02:11.581 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 20:02:11.607 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 20:02:11.632 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 20:02:12.287 [main] LoggerLoad - Clicking the LinkedList-Types Of Linked List page link
+[INFO ] 2025-03-18 20:02:12.898 [main] LoggerLoad - Clicking the LinkedList-Types Of Linked List page link
+[INFO ] 2025-03-18 20:02:13.175 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-03-18 20:02:13.325 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 20:02:13.330 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-03-18 20:02:13.348 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-03-18 20:02:13.408 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-03-18 20:02:13.756 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-03-18 20:02:13.811 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 20:02:13.817 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-03-18 20:02:13.853 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-03-18 20:02:13.907 [main] LoggerLoad - Fetched code from Excel: print("hello");
+[INFO ] 2025-03-18 20:02:14.271 [main] LoggerLoad - Entered code into the text area: print("hello");
+[INFO ] 2025-03-18 20:02:14.343 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 20:02:14.370 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 20:02:14.397 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 20:02:14.924 [main] LoggerLoad - Clicking the LinkedList-Implement Linked List in Python page link
+[INFO ] 2025-03-18 20:02:15.358 [main] LoggerLoad - Clicking the LinkedList-Implement Linked List in Python page link
+[INFO ] 2025-03-18 20:02:15.688 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-03-18 20:02:15.868 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 20:02:15.874 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-03-18 20:02:15.900 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-03-18 20:02:15.974 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-03-18 20:02:16.307 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-03-18 20:02:16.359 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 20:02:16.365 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-03-18 20:02:16.400 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-03-18 20:02:16.453 [main] LoggerLoad - Fetched code from Excel: print("hello");
+[INFO ] 2025-03-18 20:02:16.820 [main] LoggerLoad - Entered code into the text area: print("hello");
+[INFO ] 2025-03-18 20:02:16.881 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 20:02:16.904 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 20:02:16.930 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 20:02:17.407 [main] LoggerLoad - Clicking the LinkedList-Traversal page link
+[INFO ] 2025-03-18 20:02:17.819 [main] LoggerLoad - Clicking the LinkedList-Traversal page link
+[INFO ] 2025-03-18 20:02:18.141 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-03-18 20:02:18.273 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 20:02:18.279 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-03-18 20:02:18.302 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-03-18 20:02:18.382 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-03-18 20:02:18.757 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-03-18 20:02:18.813 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 20:02:18.822 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-03-18 20:02:18.848 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-03-18 20:02:18.895 [main] LoggerLoad - Fetched code from Excel: print("hello");
+[INFO ] 2025-03-18 20:02:19.296 [main] LoggerLoad - Entered code into the text area: print("hello");
+[INFO ] 2025-03-18 20:02:19.351 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 20:02:19.376 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 20:02:19.401 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 20:02:19.921 [main] LoggerLoad - Clicking the LinkedList-Insertion page link
+[INFO ] 2025-03-18 20:02:20.374 [main] LoggerLoad - Clicking the LinkedList-Insertion page link
+[INFO ] 2025-03-18 20:02:20.724 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-03-18 20:02:20.887 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 20:02:20.894 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-03-18 20:02:20.937 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-03-18 20:02:21.001 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-03-18 20:02:21.360 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-03-18 20:02:21.436 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 20:02:21.442 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-03-18 20:02:21.466 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-03-18 20:02:21.505 [main] LoggerLoad - Fetched code from Excel: print("hello");
+[INFO ] 2025-03-18 20:02:21.882 [main] LoggerLoad - Entered code into the text area: print("hello");
+[INFO ] 2025-03-18 20:02:21.939 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 20:02:21.984 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 20:02:22.024 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 20:02:22.537 [main] LoggerLoad - Clicking the LinkedList-Deletion page link
+[INFO ] 2025-03-18 20:02:22.982 [main] LoggerLoad - Clicking the LinkedList-Deletion page link
+[INFO ] 2025-03-18 20:02:23.376 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-03-18 20:02:23.523 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 20:02:23.528 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-03-18 20:02:23.548 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-03-18 20:02:23.590 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-03-18 20:02:23.942 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-03-18 20:02:23.991 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 20:02:23.997 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-03-18 20:02:24.022 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-03-18 20:02:24.062 [main] LoggerLoad - Fetched code from Excel: print("hello");
+[INFO ] 2025-03-18 20:02:24.420 [main] LoggerLoad - Entered code into the text area: print("hello");
+[INFO ] 2025-03-18 20:02:24.475 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 20:02:24.507 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 20:02:24.531 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 20:02:25.088 [main] LoggerLoad - Clicking the LinkedList-Creating Linked LIst page link
+[INFO ] 2025-03-18 20:02:25.792 [main] LoggerLoad - Clicking the LinkedList-Types Of Linked List page link
+[INFO ] 2025-03-18 20:02:26.549 [main] LoggerLoad - Clicking the LinkedList-Implement Linked List in Python page link
+[INFO ] 2025-03-18 20:02:27.290 [main] LoggerLoad - Clicking the LinkedList-Traversal page link
+[INFO ] 2025-03-18 20:02:28.029 [main] LoggerLoad - Clicking the LinkedList-Traversal page link
+[INFO ] 2025-03-18 20:02:28.712 [main] LoggerLoad - Clicking the LinkedList-Deletion page link
+[INFO ] 2025-03-18 20:19:26.225 [main] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-03-18 20:19:26.484 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 20:19:26.502 [main] LoggerLoad - No alert is present.
+[INFO ] 2025-03-18 20:19:26.660 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-03-18 20:19:26.759 [main] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-03-18 20:19:27.177 [main] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-03-18 20:19:27.233 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 20:19:27.242 [main] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-03-18 20:19:27.325 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-03-18 20:19:27.412 [main] LoggerLoad - Fetched code from Excel: print("hello");
+[INFO ] 2025-03-18 20:19:27.905 [main] LoggerLoad - Entered code into the text area: print("hello");
+[INFO ] 2025-03-18 20:19:27.959 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 20:19:27.992 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 20:19:28.012 [main] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 20:36:45.488 [TestNG-test-ChromeTest-1] LoggerLoad - Clicked the Try Here button.
+[INFO ] 2025-03-18 20:36:45.728 [TestNG-test-ChromeTest-1] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 20:36:45.738 [TestNG-test-ChromeTest-1] LoggerLoad - No alert is present.
+[INFO ] 2025-03-18 20:36:45.844 [TestNG-test-ChromeTest-1] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-03-18 20:36:45.906 [TestNG-test-ChromeTest-1] LoggerLoad - Fetched code from Excel: gdfgdgdfhdhd
+[INFO ] 2025-03-18 20:36:46.277 [TestNG-test-ChromeTest-1] LoggerLoad - Entered code into the text area: gdfgdgdfhdhd
+[INFO ] 2025-03-18 20:36:46.338 [TestNG-test-ChromeTest-1] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 20:36:46.350 [TestNG-test-ChromeTest-1] LoggerLoad - Alert message: NameError: name 'gdfgdgdfhdhd' is not defined on line 1
+[INFO ] 2025-03-18 20:36:46.434 [TestNG-test-ChromeTest-1] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-03-18 20:36:46.508 [TestNG-test-ChromeTest-1] LoggerLoad - Fetched code from Excel: print("hello");
+[INFO ] 2025-03-18 20:36:46.850 [TestNG-test-ChromeTest-1] LoggerLoad - Entered code into the text area: print("hello");
+[INFO ] 2025-03-18 20:36:46.921 [TestNG-test-ChromeTest-1] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-03-18 20:36:46.954 [TestNG-test-ChromeTest-1] LoggerLoad - Console output text retrieved: hello
+[INFO ] 2025-03-18 20:36:46.978 [TestNG-test-ChromeTest-1] LoggerLoad - Console output text retrieved: hello

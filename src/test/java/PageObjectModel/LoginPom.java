@@ -22,22 +22,24 @@ import Utilities.ExcelReader;
 import Utilities.ExcelReader1;
 
 public class LoginPom {
-	
-	private WebDriver driver; // WebDriver instance
-    private Properties prop;
-    
- //  Constructor of the Page Class
-    public LoginPom(WebDriver driver) {
-        if (driver == null) {
-            throw new IllegalArgumentException("WebDriver instance cannot be null.");
-        }
-        this.driver = driver; // Assign the passed driver to the class-level variable
+	////////////////////
+//	private WebDriver driver; // WebDriver instance
+//    private Properties prop;
+//    
+// //  Constructor of the Page Class
+//    public LoginPom(WebDriver driver) {
+//        if (driver == null) {
+//            throw new IllegalArgumentException("WebDriver instance cannot be null.");
+//        }
+//        this.driver = driver; // Assign the passed driver to the class-level variable
+//
+//        // Initialize all the elements in this page class
+//        this.prop = ConfigReader.initializeprop();
+//    }
 
-        // Initialize all the elements in this page class
-        this.prop = ConfigReader.initializeprop();
-    }
+	//////////////
 	
-	//WebDriver driver = Driver_SetUp.getDriver();
+	WebDriver driver = Driver_SetUp.getDriver();
 	ExcelReader excelReader = new ExcelReader();
 	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 	

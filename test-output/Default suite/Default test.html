@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/41/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>6/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Mar 17 23:55:42 EDT 2025</td>
+<td>Started on:</td><td>Tue Mar 18 20:19:18 EDT 2025</td>
 </tr>
-<tr><td>Total time:</td><td>5 seconds (5971 ms)</td>
+<tr><td>Total time:</td><td>10 seconds (10034 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,661 +76,68 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user able to see warning message on clicking Get Started buttons of Tree on the home page without Sign in", "DSportal App HomePage"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;driver&quot; is null
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at PageObjectModel.HomePom.linkClickable(HomePom.java:54)
-	at StepDefinitions.Step_HomePage.the_user_should_land_in_data_structure_introduction_page_with_register_and_sign_in_links(Step_HomePage.java:53)
-	at ✽.The user should land in Data Structure Introduction Page with register and Sign in links(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace2003645868", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2003645868'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;driver&quot; is null
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at PageObjectModel.HomePom.linkClickable(HomePom.java:54)
-	at StepDefinitions.Step_HomePage.the_user_should_land_in_data_structure_introduction_page_with_register_and_sign_in_links(Step_HomePage.java:53)
-	at ✽.The user should land in Data Structure Introduction Page with register and Sign in links(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:77)
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to Practice Questions page", "Data Structures-Introduction"</td>
+<td><div><pre>java.lang.AssertionError: expected [Assessment] but found [Practice Questions]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at StepDefinitions.Step_DataStructurePage.the_user_should_be_redirected_to_practice_questions_page_of_ds(Step_DataStructurePage.java:199)
+	at ✽.The user should be redirected to Practice Questions page  of DS(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC04_dataStructureIntro.feature:52)
+</pre></div><a href='#' onClick='toggleBox("stack-trace882053845", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace882053845'><pre>java.lang.AssertionError: expected [Assessment] but found [Practice Questions]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at StepDefinitions.Step_DataStructurePage.the_user_should_be_redirected_to_practice_questions_page_of_ds(Step_DataStructurePage.java:199)
+	at ✽.The user should be redirected to Practice Questions page  of DS(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC04_dataStructureIntro.feature:52)
 </pre></div></td>
 <td>0</td>
-<td>Runner.TestRunner@5a37d3ed</td></tr>
+<td>Runner.TestRunner@6f6745d6</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
 <tr>
-<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user able to navigate to Queue page when Queue drop down option is selected", "DS Portal Login Feature"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.IntroductionPagePom.clickDropdownToggle(IntroductionPagePom.java:88)
-	at StepDefinitions.Step_HomePage.the_user_clicks_data_structures_drop_down(Step_HomePage.java:106)
-	at ✽.The user clicks Data Structures drop down(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC03_loginPage.feature:93)
-</pre></div><a href='#' onClick='toggleBox("stack-trace597310811", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace597310811'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.IntroductionPagePom.clickDropdownToggle(IntroductionPagePom.java:88)
-	at StepDefinitions.Step_HomePage.the_user_clicks_data_structures_drop_down(Step_HomePage.java:106)
-	at ✽.The user clicks Data Structures drop down(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC03_loginPage.feature:93)
-</pre></div></td>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to Try Editor from Time Complexity page for DS Introduction page", "Data Structures-Introduction"</td>
+<td></td>
 <td>0</td>
-<td>Runner.TestRunner@5a37d3ed</td></tr>
+<td>Runner.TestRunner@6f6745d6</td></tr>
 <tr>
-<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error message for mismatched Password and Password Confirmation field during registration", "Registration"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.RegisterPom.openURL(RegisterPom.java:50)
-	at StepDefinitions.Step_RegisterPage.the_user_is_on_the_new_user_registration_page(Step_RegisterPage.java:29)
-	at ✽.The user is on the new user registration page(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC02_registerPage.feature:5)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1728614794", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1728614794'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.RegisterPom.openURL(RegisterPom.java:50)
-	at StepDefinitions.Step_RegisterPage.the_user_is_on_the_new_user_registration_page(Step_RegisterPage.java:29)
-	at ✽.The user is on the new user registration page(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC02_registerPage.feature:5)
-</pre></div></td>
-<td>0</td>
-<td>Runner.TestRunner@5a37d3ed</td></tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to Data Structures - Introduction page", "Data Structures-Introduction"</td>
+<td></td>
+<td>2</td>
+<td>Runner.TestRunner@6f6745d6</td></tr>
 <tr>
-<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to successfully register using valid username and password details", "Registration"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.RegisterPom.openURL(RegisterPom.java:50)
-	at StepDefinitions.Step_RegisterPage.the_user_is_on_the_new_user_registration_page(Step_RegisterPage.java:29)
-	at ✽.The user is on the new user registration page(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC02_registerPage.feature:5)
-</pre></div><a href='#' onClick='toggleBox("stack-trace731885277", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace731885277'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.RegisterPom.openURL(RegisterPom.java:50)
-	at StepDefinitions.Step_RegisterPage.the_user_is_on_the_new_user_registration_page(Step_RegisterPage.java:29)
-	at ✽.The user is on the new user registration page(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC02_registerPage.feature:5)
-</pre></div></td>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user does not get any error message  when clicked on Run button without any code", "Data Structures-Introduction"</td>
+<td></td>
 <td>0</td>
-<td>Runner.TestRunner@5a37d3ed</td></tr>
+<td>Runner.TestRunner@6f6745d6</td></tr>
 <tr>
-<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user able to see warning message on clicking Get Started buttons of Data Structures-Introduction on the home page without Sign in", "DSportal App HomePage"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;driver&quot; is null
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at PageObjectModel.HomePom.linkClickable(HomePom.java:54)
-	at StepDefinitions.Step_HomePage.the_user_should_land_in_data_structure_introduction_page_with_register_and_sign_in_links(Step_HomePage.java:53)
-	at ✽.The user should land in Data Structure Introduction Page with register and Sign in links(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:52)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1309234378", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1309234378'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;driver&quot; is null
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at PageObjectModel.HomePom.linkClickable(HomePom.java:54)
-	at StepDefinitions.Step_HomePage.the_user_should_land_in_data_structure_introduction_page_with_register_and_sign_in_links(Step_HomePage.java:53)
-	at ✽.The user should land in Data Structure Introduction Page with register and Sign in links(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:52)
-</pre></div></td>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error message in the alert window for invalid python code", "Data Structures-Introduction"</td>
+<td></td>
 <td>0</td>
-<td>Runner.TestRunner@5a37d3ed</td></tr>
+<td>Runner.TestRunner@6f6745d6</td></tr>
 <tr>
-<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user able to see warning message while selecting Arrays from the drop down without Sign in", "DSportal App HomePage"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.IntroductionPagePom.clickDropdownItemArray(IntroductionPagePom.java:103)
-	at StepDefinitions.Step_HomePage.the_user_selects_arrays_from_the_drop_down_without_sign_in(Step_HomePage.java:90)
-	at ✽.The user selects Arrays from the drop down without Sign in(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:22)
-</pre></div><a href='#' onClick='toggleBox("stack-trace415797773", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace415797773'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.IntroductionPagePom.clickDropdownItemArray(IntroductionPagePom.java:103)
-	at StepDefinitions.Step_HomePage.the_user_selects_arrays_from_the_drop_down_without_sign_in(Step_HomePage.java:90)
-	at ✽.The user selects Arrays from the drop down without Sign in(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:22)
-</pre></div></td>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to  Time Complexity page of DS Introduction page", "Data Structures-Introduction"</td>
+<td></td>
 <td>0</td>
-<td>Runner.TestRunner@5a37d3ed</td></tr>
+<td>Runner.TestRunner@6f6745d6</td></tr>
 <tr>
-<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user able to navigate to Graph page when Graph drop down option is selected", "DS Portal Login Feature"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.IntroductionPagePom.clickDropdownToggle(IntroductionPagePom.java:88)
-	at StepDefinitions.Step_HomePage.the_user_clicks_data_structures_drop_down(Step_HomePage.java:106)
-	at ✽.The user clicks Data Structures drop down(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC03_loginPage.feature:105)
-</pre></div><a href='#' onClick='toggleBox("stack-trace529781910", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace529781910'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.IntroductionPagePom.clickDropdownToggle(IntroductionPagePom.java:88)
-	at StepDefinitions.Step_HomePage.the_user_clicks_data_structures_drop_down(Step_HomePage.java:106)
-	at ✽.The user clicks Data Structures drop down(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC03_loginPage.feature:105)
-</pre></div></td>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to see output for valid python code", "Data Structures-Introduction"</td>
+<td></td>
 <td>0</td>
-<td>Runner.TestRunner@5a37d3ed</td></tr>
-<tr>
-<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user able to see warning message on clicking Get Started buttons of Queue on the home page without Sign in", "DSportal App HomePage"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;driver&quot; is null
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at PageObjectModel.HomePom.linkClickable(HomePom.java:54)
-	at StepDefinitions.Step_HomePage.the_user_should_land_in_data_structure_introduction_page_with_register_and_sign_in_links(Step_HomePage.java:53)
-	at ✽.The user should land in Data Structure Introduction Page with register and Sign in links(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:72)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1172115419", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1172115419'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;driver&quot; is null
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at PageObjectModel.HomePom.linkClickable(HomePom.java:54)
-	at StepDefinitions.Step_HomePage.the_user_should_land_in_data_structure_introduction_page_with_register_and_sign_in_links(Step_HomePage.java:53)
-	at ✽.The user should land in Data Structure Introduction Page with register and Sign in links(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:72)
-</pre></div></td>
-<td>0</td>
-<td>Runner.TestRunner@5a37d3ed</td></tr>
-<tr>
-<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate user navigate to DS Intro Page", "DSportal App HomePage"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.HomePom.ClickHomePageGetStartedButton(HomePom.java:50)
-	at StepDefinitions.Step_HomePage.the_user_clicks_the_get_started_button(Step_HomePage.java:45)
-	at ✽.The user clicks the Get Started button(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:12)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1228698420", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1228698420'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.HomePom.ClickHomePageGetStartedButton(HomePom.java:50)
-	at StepDefinitions.Step_HomePage.the_user_clicks_the_get_started_button(Step_HomePage.java:45)
-	at ✽.The user clicks the Get Started button(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:12)
-</pre></div></td>
-<td>0</td>
-<td>Runner.TestRunner@5a37d3ed</td></tr>
-<tr>
-<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user able to navigate to Linked List page when Linked List drop down option is selected", "DS Portal Login Feature"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.IntroductionPagePom.clickDropdownToggle(IntroductionPagePom.java:88)
-	at StepDefinitions.Step_HomePage.the_user_clicks_data_structures_drop_down(Step_HomePage.java:106)
-	at ✽.The user clicks Data Structures drop down(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC03_loginPage.feature:81)
-</pre></div><a href='#' onClick='toggleBox("stack-trace910327498", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace910327498'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.IntroductionPagePom.clickDropdownToggle(IntroductionPagePom.java:88)
-	at StepDefinitions.Step_HomePage.the_user_clicks_data_structures_drop_down(Step_HomePage.java:106)
-	at ✽.The user clicks Data Structures drop down(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC03_loginPage.feature:81)
-</pre></div></td>
-<td>0</td>
-<td>Runner.TestRunner@5a37d3ed</td></tr>
-<tr>
-<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error message for invalid Username field during Login", "DS Portal Login Feature"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.LoginPom.enterUsernameTxt(LoginPom.java:46)
-	at PageObjectModel.LoginPom.enterLoginFormFields(LoginPom.java:79)
-	at StepDefinitions.Step_LoginPage.the_user_clicks_login_button_after_entering_invalid_username_and_valid_password_and_row(Step_LoginPage.java:89)
-	at ✽.The user clicks login button after entering invalid username and valid password &quot;login&quot; and row 4(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC03_loginPage.feature:44)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1820566602", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1820566602'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.LoginPom.enterUsernameTxt(LoginPom.java:46)
-	at PageObjectModel.LoginPom.enterLoginFormFields(LoginPom.java:79)
-	at StepDefinitions.Step_LoginPage.the_user_clicks_login_button_after_entering_invalid_username_and_valid_password_and_row(Step_LoginPage.java:89)
-	at ✽.The user clicks login button after entering invalid username and valid password &quot;login&quot; and row 4(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC03_loginPage.feature:44)
-</pre></div></td>
-<td>0</td>
-<td>Runner.TestRunner@5a37d3ed</td></tr>
-<tr>
-<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to view options for Data Structures dropdown on home page without Sign in", "DSportal App HomePage"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.IntroductionPagePom.clickDropdownToggle(IntroductionPagePom.java:88)
-	at StepDefinitions.Step_HomePage.the_user_clicks_the_data_structures_dropdown(Step_HomePage.java:69)
-	at ✽.The user clicks the Data Structures dropdown(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:17)
-</pre></div><a href='#' onClick='toggleBox("stack-trace2045630247", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2045630247'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.IntroductionPagePom.clickDropdownToggle(IntroductionPagePom.java:88)
-	at StepDefinitions.Step_HomePage.the_user_clicks_the_data_structures_dropdown(Step_HomePage.java:69)
-	at ✽.The user clicks the Data Structures dropdown(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:17)
-</pre></div></td>
-<td>0</td>
-<td>Runner.TestRunner@5a37d3ed</td></tr>
-<tr>
-<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to view options for Data Structures dropdown on home page after Sign in", "DS Portal Login Feature"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.IntroductionPagePom.clickDropdownToggle(IntroductionPagePom.java:88)
-	at StepDefinitions.Step_HomePage.the_user_clicks_the_data_structures_dropdown(Step_HomePage.java:69)
-	at ✽.The user clicks the Data Structures dropdown(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC03_loginPage.feature:71)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1772500460", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1772500460'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.IntroductionPagePom.clickDropdownToggle(IntroductionPagePom.java:88)
-	at StepDefinitions.Step_HomePage.the_user_clicks_the_data_structures_dropdown(Step_HomePage.java:69)
-	at ✽.The user clicks the Data Structures dropdown(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC03_loginPage.feature:71)
-</pre></div></td>
-<td>0</td>
-<td>Runner.TestRunner@5a37d3ed</td></tr>
-<tr>
-<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user able to navigate to Stack page when Stack drop down option is selected", "DS Portal Login Feature"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.IntroductionPagePom.clickDropdownToggle(IntroductionPagePom.java:88)
-	at StepDefinitions.Step_HomePage.the_user_clicks_data_structures_drop_down(Step_HomePage.java:106)
-	at ✽.The user clicks Data Structures drop down(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC03_loginPage.feature:87)
-</pre></div><a href='#' onClick='toggleBox("stack-trace423699915", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace423699915'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.IntroductionPagePom.clickDropdownToggle(IntroductionPagePom.java:88)
-	at StepDefinitions.Step_HomePage.the_user_clicks_data_structures_drop_down(Step_HomePage.java:106)
-	at ✽.The user clicks Data Structures drop down(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC03_loginPage.feature:87)
-</pre></div></td>
-<td>0</td>
-<td>Runner.TestRunner@5a37d3ed</td></tr>
-<tr>
-<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user able to land on Home page after entering valid Username and Password fields", "DS Portal Login Feature"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.LoginPom.enterUsernameTxt(LoginPom.java:46)
-	at PageObjectModel.LoginPom.enterLoginFormFields(LoginPom.java:79)
-	at StepDefinitions.Step_LoginPage.the_user_clicks_login_button_after_entering_valid_username_and_valid_password_from_and_row(Step_LoginPage.java:105)
-	at ✽.The user clicks login button after entering valid username and valid password from &quot;login&quot; and row 6(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC03_loginPage.feature:62)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1404028196", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1404028196'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.LoginPom.enterUsernameTxt(LoginPom.java:46)
-	at PageObjectModel.LoginPom.enterLoginFormFields(LoginPom.java:79)
-	at StepDefinitions.Step_LoginPage.the_user_clicks_login_button_after_entering_valid_username_and_valid_password_from_and_row(Step_LoginPage.java:105)
-	at ✽.The user clicks login button after entering valid username and valid password from &quot;login&quot; and row 6(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC03_loginPage.feature:62)
-</pre></div></td>
-<td>0</td>
-<td>Runner.TestRunner@5a37d3ed</td></tr>
-<tr>
-<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user able to see warning message on clicking Get Started buttons of Stack on the home page without Sign in", "DSportal App HomePage"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;driver&quot; is null
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at PageObjectModel.HomePom.linkClickable(HomePom.java:54)
-	at StepDefinitions.Step_HomePage.the_user_should_land_in_data_structure_introduction_page_with_register_and_sign_in_links(Step_HomePage.java:53)
-	at ✽.The user should land in Data Structure Introduction Page with register and Sign in links(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:67)
-</pre></div><a href='#' onClick='toggleBox("stack-trace331363852", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace331363852'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;driver&quot; is null
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at PageObjectModel.HomePom.linkClickable(HomePom.java:54)
-	at StepDefinitions.Step_HomePage.the_user_should_land_in_data_structure_introduction_page_with_register_and_sign_in_links(Step_HomePage.java:53)
-	at ✽.The user should land in Data Structure Introduction Page with register and Sign in links(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:67)
-</pre></div></td>
-<td>0</td>
-<td>Runner.TestRunner@5a37d3ed</td></tr>
-<tr>
-<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error message for empty Password Confirmation field during registration", "Registration"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.RegisterPom.openURL(RegisterPom.java:50)
-	at StepDefinitions.Step_RegisterPage.the_user_is_on_the_new_user_registration_page(Step_RegisterPage.java:29)
-	at ✽.The user is on the new user registration page(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC02_registerPage.feature:5)
-</pre></div><a href='#' onClick='toggleBox("stack-trace680692380", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace680692380'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.RegisterPom.openURL(RegisterPom.java:50)
-	at StepDefinitions.Step_RegisterPage.the_user_is_on_the_new_user_registration_page(Step_RegisterPage.java:29)
-	at ✽.The user is on the new user registration page(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC02_registerPage.feature:5)
-</pre></div></td>
-<td>0</td>
-<td>Runner.TestRunner@5a37d3ed</td></tr>
-<tr>
-<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user able to see warning message on clicking Get Started buttons of Linked List on the home page without Sign in", "DSportal App HomePage"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;driver&quot; is null
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at PageObjectModel.HomePom.linkClickable(HomePom.java:54)
-	at StepDefinitions.Step_HomePage.the_user_should_land_in_data_structure_introduction_page_with_register_and_sign_in_links(Step_HomePage.java:53)
-	at ✽.The user should land in Data Structure Introduction Page with register and Sign in links(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:62)
-</pre></div><a href='#' onClick='toggleBox("stack-trace781377987", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace781377987'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;driver&quot; is null
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at PageObjectModel.HomePom.linkClickable(HomePom.java:54)
-	at StepDefinitions.Step_HomePage.the_user_should_land_in_data_structure_introduction_page_with_register_and_sign_in_links(Step_HomePage.java:53)
-	at ✽.The user should land in Data Structure Introduction Page with register and Sign in links(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:62)
-</pre></div></td>
-<td>0</td>
-<td>Runner.TestRunner@5a37d3ed</td></tr>
-<tr>
-<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error message for invalid Username and invalid Password fields during Login", "DS Portal Login Feature"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.LoginPom.enterUsernameTxt(LoginPom.java:46)
-	at PageObjectModel.LoginPom.enterLoginFormFields(LoginPom.java:79)
-	at StepDefinitions.Step_LoginPage.the_user_clicks_login_button_after_entering_invalid_username_and_invalid_password_from_sheetname_and_row(Step_LoginPage.java:77)
-	at ✽.The user clicks login button after entering invalid username and invalid password from sheetname &quot;login&quot; and row 3(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC03_loginPage.feature:34)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1949003896", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1949003896'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.LoginPom.enterUsernameTxt(LoginPom.java:46)
-	at PageObjectModel.LoginPom.enterLoginFormFields(LoginPom.java:79)
-	at StepDefinitions.Step_LoginPage.the_user_clicks_login_button_after_entering_invalid_username_and_invalid_password_from_sheetname_and_row(Step_LoginPage.java:77)
-	at ✽.The user clicks login button after entering invalid username and invalid password from sheetname &quot;login&quot; and row 3(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC03_loginPage.feature:34)
-</pre></div></td>
-<td>0</td>
-<td>Runner.TestRunner@5a37d3ed</td></tr>
-<tr>
-<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to open the dsAlgo Portal-home page", "DSportal App HomePage"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.HomePom.openURL(HomePom.java:29)
-	at StepDefinitions.Step_HomePage.the_user_enter_correct_ds_algo_portal_url_url(Step_HomePage.java:29)
-	at ✽.The user enter correct dsAlgo portal URL &lt;URL&gt;(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:7)
-</pre></div><a href='#' onClick='toggleBox("stack-trace712432930", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace712432930'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.HomePom.openURL(HomePom.java:29)
-	at StepDefinitions.Step_HomePage.the_user_enter_correct_ds_algo_portal_url_url(Step_HomePage.java:29)
-	at ✽.The user enter correct dsAlgo portal URL &lt;URL&gt;(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:7)
-</pre></div></td>
-<td>0</td>
-<td>Runner.TestRunner@5a37d3ed</td></tr>
-<tr>
-<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user able to see warning message on clicking Get Started buttons of Array on the home page without Sign in", "DSportal App HomePage"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;driver&quot; is null
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at PageObjectModel.HomePom.linkClickable(HomePom.java:54)
-	at StepDefinitions.Step_HomePage.the_user_should_land_in_data_structure_introduction_page_with_register_and_sign_in_links(Step_HomePage.java:53)
-	at ✽.The user should land in Data Structure Introduction Page with register and Sign in links(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:57)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1747007669", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1747007669'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;driver&quot; is null
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at PageObjectModel.HomePom.linkClickable(HomePom.java:54)
-	at StepDefinitions.Step_HomePage.the_user_should_land_in_data_structure_introduction_page_with_register_and_sign_in_links(Step_HomePage.java:53)
-	at ✽.The user should land in Data Structure Introduction Page with register and Sign in links(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:57)
-</pre></div></td>
-<td>0</td>
-<td>Runner.TestRunner@5a37d3ed</td></tr>
-<tr>
-<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user able to see warning message while selecting Linked List from the drop down without Sign in", "DSportal App HomePage"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.IntroductionPagePom.clickDropdownToggle(IntroductionPagePom.java:88)
-	at StepDefinitions.Step_HomePage.the_user_clicks_data_structures_drop_down(Step_HomePage.java:106)
-	at ✽.The user clicks Data Structures drop down(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:27)
-</pre></div><a href='#' onClick='toggleBox("stack-trace997873964", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace997873964'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.IntroductionPagePom.clickDropdownToggle(IntroductionPagePom.java:88)
-	at StepDefinitions.Step_HomePage.the_user_clicks_data_structures_drop_down(Step_HomePage.java:106)
-	at ✽.The user clicks Data Structures drop down(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:27)
-</pre></div></td>
-<td>0</td>
-<td>Runner.TestRunner@5a37d3ed</td></tr>
-<tr>
-<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error message for Password field less than eight characters during registration", "Registration"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.RegisterPom.openURL(RegisterPom.java:50)
-	at StepDefinitions.Step_RegisterPage.the_user_is_on_the_new_user_registration_page(Step_RegisterPage.java:29)
-	at ✽.The user is on the new user registration page(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC02_registerPage.feature:5)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1605556645", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1605556645'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.RegisterPom.openURL(RegisterPom.java:50)
-	at StepDefinitions.Step_RegisterPage.the_user_is_on_the_new_user_registration_page(Step_RegisterPage.java:29)
-	at ✽.The user is on the new user registration page(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC02_registerPage.feature:5)
-</pre></div></td>
-<td>0</td>
-<td>Runner.TestRunner@5a37d3ed</td></tr>
-<tr>
-<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error message for invalid Password field during Login", "DS Portal Login Feature"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.LoginPom.enterUsernameTxt(LoginPom.java:46)
-	at PageObjectModel.LoginPom.enterLoginFormFields(LoginPom.java:79)
-	at StepDefinitions.Step_LoginPage.the_user_clicks_login_button_after_entering_valid_username_and_invalid_password_from_and_row(Step_LoginPage.java:97)
-	at ✽.The user clicks login button after entering valid username and invalid password from &quot;login&quot; and row 5(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC03_loginPage.feature:53)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1402569678", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1402569678'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.LoginPom.enterUsernameTxt(LoginPom.java:46)
-	at PageObjectModel.LoginPom.enterLoginFormFields(LoginPom.java:79)
-	at StepDefinitions.Step_LoginPage.the_user_clicks_login_button_after_entering_valid_username_and_invalid_password_from_and_row(Step_LoginPage.java:97)
-	at ✽.The user clicks login button after entering valid username and invalid password from &quot;login&quot; and row 5(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC03_loginPage.feature:53)
-</pre></div></td>
-<td>0</td>
-<td>Runner.TestRunner@5a37d3ed</td></tr>
-<tr>
-<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error message for empty Password field during Login", "DS Portal Login Feature"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.LoginPom.enterUsernameTxt(LoginPom.java:46)
-	at PageObjectModel.LoginPom.enterLoginFormFields(LoginPom.java:79)
-	at StepDefinitions.Step_LoginPage.the_user_clicks_login_button_after_entering_the_username_and_leaves_password_textbox_empty_from_sheetname_and_row(Step_LoginPage.java:62)
-	at ✽.The user clicks login button after entering the Username and leaves Password textbox empty from sheetname &quot;login&quot; and row 2(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC03_loginPage.feature:25)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1687384260", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1687384260'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.LoginPom.enterUsernameTxt(LoginPom.java:46)
-	at PageObjectModel.LoginPom.enterLoginFormFields(LoginPom.java:79)
-	at StepDefinitions.Step_LoginPage.the_user_clicks_login_button_after_entering_the_username_and_leaves_password_textbox_empty_from_sheetname_and_row(Step_LoginPage.java:62)
-	at ✽.The user clicks login button after entering the Username and leaves Password textbox empty from sheetname &quot;login&quot; and row 2(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC03_loginPage.feature:25)
-</pre></div></td>
-<td>0</td>
-<td>Runner.TestRunner@5a37d3ed</td></tr>
-<tr>
-<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user able to see warning message while selecting Graph from the drop down without Sign in.", "DSportal App HomePage"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.IntroductionPagePom.clickDropdownToggle(IntroductionPagePom.java:88)
-	at StepDefinitions.Step_HomePage.the_user_clicks_data_structures_drop_down(Step_HomePage.java:106)
-	at ✽.The user clicks Data Structures drop down(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:47)
-</pre></div><a href='#' onClick='toggleBox("stack-trace559911685", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace559911685'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.IntroductionPagePom.clickDropdownToggle(IntroductionPagePom.java:88)
-	at StepDefinitions.Step_HomePage.the_user_clicks_data_structures_drop_down(Step_HomePage.java:106)
-	at ✽.The user clicks Data Structures drop down(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:47)
-</pre></div></td>
-<td>0</td>
-<td>Runner.TestRunner@5a37d3ed</td></tr>
-<tr>
-<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user able to navigate to Tree page when Tree drop down option is selected", "DS Portal Login Feature"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.IntroductionPagePom.clickDropdownToggle(IntroductionPagePom.java:88)
-	at StepDefinitions.Step_HomePage.the_user_clicks_data_structures_drop_down(Step_HomePage.java:106)
-	at ✽.The user clicks Data Structures drop down(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC03_loginPage.feature:99)
-</pre></div><a href='#' onClick='toggleBox("stack-trace36262007", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace36262007'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.IntroductionPagePom.clickDropdownToggle(IntroductionPagePom.java:88)
-	at StepDefinitions.Step_HomePage.the_user_clicks_data_structures_drop_down(Step_HomePage.java:106)
-	at ✽.The user clicks Data Structures drop down(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC03_loginPage.feature:99)
-</pre></div></td>
-<td>0</td>
-<td>Runner.TestRunner@5a37d3ed</td></tr>
-<tr>
-<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error message for empty Password and Password confirmation fields during registration", "Registration"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.RegisterPom.openURL(RegisterPom.java:50)
-	at StepDefinitions.Step_RegisterPage.the_user_is_on_the_new_user_registration_page(Step_RegisterPage.java:29)
-	at ✽.The user is on the new user registration page(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC02_registerPage.feature:5)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1150760136", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1150760136'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.RegisterPom.openURL(RegisterPom.java:50)
-	at StepDefinitions.Step_RegisterPage.the_user_is_on_the_new_user_registration_page(Step_RegisterPage.java:29)
-	at ✽.The user is on the new user registration page(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC02_registerPage.feature:5)
-</pre></div></td>
-<td>0</td>
-<td>Runner.TestRunner@5a37d3ed</td></tr>
-<tr>
-<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user able to navigate to Array page when Array drop down option is selected", "DS Portal Login Feature"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.IntroductionPagePom.clickDropdownItemArray(IntroductionPagePom.java:103)
-	at StepDefinitions.Step_LoginPage.the_user_selects_arrays_from_the_drop_down_after_sign_in(Step_LoginPage.java:122)
-	at ✽.The user selects Arrays from the drop down after Sign in(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC03_loginPage.feature:76)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1758952712", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1758952712'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.IntroductionPagePom.clickDropdownItemArray(IntroductionPagePom.java:103)
-	at StepDefinitions.Step_LoginPage.the_user_selects_arrays_from_the_drop_down_after_sign_in(Step_LoginPage.java:122)
-	at ✽.The user selects Arrays from the drop down after Sign in(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC03_loginPage.feature:76)
-</pre></div></td>
-<td>0</td>
-<td>Runner.TestRunner@5a37d3ed</td></tr>
-<tr>
-<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user able to see warning message while selecting Stack from the drop down without Sign in", "DSportal App HomePage"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.IntroductionPagePom.clickDropdownToggle(IntroductionPagePom.java:88)
-	at StepDefinitions.Step_HomePage.the_user_clicks_data_structures_drop_down(Step_HomePage.java:106)
-	at ✽.The user clicks Data Structures drop down(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:32)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1715301148", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1715301148'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.IntroductionPagePom.clickDropdownToggle(IntroductionPagePom.java:88)
-	at StepDefinitions.Step_HomePage.the_user_clicks_data_structures_drop_down(Step_HomePage.java:106)
-	at ✽.The user clicks Data Structures drop down(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:32)
-</pre></div></td>
-<td>0</td>
-<td>Runner.TestRunner@5a37d3ed</td></tr>
-<tr>
-<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error message for all empty fields during Login", "DS Portal Login Feature"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.HomePom.openURL(HomePom.java:29)
-	at StepDefinitions.Step_LoginPage.the_user_is_on_the_ds_algo_sign_in_page(Step_LoginPage.java:34)
-	at ✽.The user is on the DS Algo Sign in Page(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC03_loginPage.feature:6)
-</pre></div><a href='#' onClick='toggleBox("stack-trace868192862", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace868192862'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.HomePom.openURL(HomePom.java:29)
-	at StepDefinitions.Step_LoginPage.the_user_is_on_the_ds_algo_sign_in_page(Step_LoginPage.java:34)
-	at ✽.The user is on the DS Algo Sign in Page(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC03_loginPage.feature:6)
-</pre></div></td>
-<td>0</td>
-<td>Runner.TestRunner@5a37d3ed</td></tr>
-<tr>
-<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error message for invalid username field during registration", "Registration"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.RegisterPom.openURL(RegisterPom.java:50)
-	at StepDefinitions.Step_RegisterPage.the_user_is_on_the_new_user_registration_page(Step_RegisterPage.java:29)
-	at ✽.The user is on the new user registration page(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC02_registerPage.feature:5)
-</pre></div><a href='#' onClick='toggleBox("stack-trace65724930", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace65724930'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.RegisterPom.openURL(RegisterPom.java:50)
-	at StepDefinitions.Step_RegisterPage.the_user_is_on_the_new_user_registration_page(Step_RegisterPage.java:29)
-	at ✽.The user is on the new user registration page(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC02_registerPage.feature:5)
-</pre></div></td>
-<td>0</td>
-<td>Runner.TestRunner@5a37d3ed</td></tr>
-<tr>
-<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user able to sign out successfully when clicked on Sign Out link", "DS Portal Login Feature"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.IntroductionPagePom.clickDropdownToggle(IntroductionPagePom.java:88)
-	at StepDefinitions.Step_HomePage.the_user_clicks_data_structures_drop_down(Step_HomePage.java:106)
-	at ✽.The user clicks Data Structures drop down(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC03_loginPage.feature:111)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1975018641", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1975018641'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.IntroductionPagePom.clickDropdownToggle(IntroductionPagePom.java:88)
-	at StepDefinitions.Step_HomePage.the_user_clicks_data_structures_drop_down(Step_HomePage.java:106)
-	at ✽.The user clicks Data Structures drop down(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC03_loginPage.feature:111)
-</pre></div></td>
-<td>0</td>
-<td>Runner.TestRunner@5a37d3ed</td></tr>
-<tr>
-<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to click on Sign in link from Registration page", "Registration"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.RegisterPom.openURL(RegisterPom.java:50)
-	at StepDefinitions.Step_RegisterPage.the_user_is_on_the_new_user_registration_page(Step_RegisterPage.java:29)
-	at ✽.The user is on the new user registration page(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC02_registerPage.feature:5)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1307179139", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1307179139'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.RegisterPom.openURL(RegisterPom.java:50)
-	at StepDefinitions.Step_RegisterPage.the_user_is_on_the_new_user_registration_page(Step_RegisterPage.java:29)
-	at ✽.The user is on the new user registration page(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC02_registerPage.feature:5)
-</pre></div></td>
-<td>0</td>
-<td>Runner.TestRunner@5a37d3ed</td></tr>
-<tr>
-<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user able to see warning message while selecting Queue from the drop down without Sign in", "DSportal App HomePage"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.IntroductionPagePom.clickDropdownToggle(IntroductionPagePom.java:88)
-	at StepDefinitions.Step_HomePage.the_user_clicks_data_structures_drop_down(Step_HomePage.java:106)
-	at ✽.The user clicks Data Structures drop down(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:37)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1949858196", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1949858196'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.IntroductionPagePom.clickDropdownToggle(IntroductionPagePom.java:88)
-	at StepDefinitions.Step_HomePage.the_user_clicks_data_structures_drop_down(Step_HomePage.java:106)
-	at ✽.The user clicks Data Structures drop down(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:37)
-</pre></div></td>
-<td>0</td>
-<td>Runner.TestRunner@5a37d3ed</td></tr>
-<tr>
-<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user able to see warning message while selecting Tree from the drop down without Sign in", "DSportal App HomePage"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.IntroductionPagePom.clickDropdownToggle(IntroductionPagePom.java:88)
-	at StepDefinitions.Step_HomePage.the_user_clicks_data_structures_drop_down(Step_HomePage.java:106)
-	at ✽.The user clicks Data Structures drop down(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:42)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1722426142", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1722426142'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.IntroductionPagePom.clickDropdownToggle(IntroductionPagePom.java:88)
-	at StepDefinitions.Step_HomePage.the_user_clicks_data_structures_drop_down(Step_HomePage.java:106)
-	at ✽.The user clicks Data Structures drop down(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:42)
-</pre></div></td>
-<td>0</td>
-<td>Runner.TestRunner@5a37d3ed</td></tr>
-<tr>
-<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user able to see warning message on clicking Get Started buttons of Graph on the home page without Sign in", "DSportal App HomePage"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;driver&quot; is null
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at PageObjectModel.HomePom.linkClickable(HomePom.java:54)
-	at StepDefinitions.Step_HomePage.the_user_should_land_in_data_structure_introduction_page_with_register_and_sign_in_links(Step_HomePage.java:53)
-	at ✽.The user should land in Data Structure Introduction Page with register and Sign in links(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:82)
-</pre></div><a href='#' onClick='toggleBox("stack-trace241814428", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace241814428'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;driver&quot; is null
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at PageObjectModel.HomePom.linkClickable(HomePom.java:54)
-	at StepDefinitions.Step_HomePage.the_user_should_land_in_data_structure_introduction_page_with_register_and_sign_in_links(Step_HomePage.java:53)
-	at ✽.The user should land in Data Structure Introduction Page with register and Sign in links(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC01_homePage.feature:82)
-</pre></div></td>
-<td>0</td>
-<td>Runner.TestRunner@5a37d3ed</td></tr>
-<tr>
-<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error message for all empty fields during registration", "Registration"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.RegisterPom.openURL(RegisterPom.java:50)
-	at StepDefinitions.Step_RegisterPage.the_user_is_on_the_new_user_registration_page(Step_RegisterPage.java:29)
-	at ✽.The user is on the new user registration page(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC02_registerPage.feature:5)
-</pre></div><a href='#' onClick='toggleBox("stack-trace685288942", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace685288942'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.RegisterPom.openURL(RegisterPom.java:50)
-	at StepDefinitions.Step_RegisterPage.the_user_is_on_the_new_user_registration_page(Step_RegisterPage.java:29)
-	at ✽.The user is on the new user registration page(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC02_registerPage.feature:5)
-</pre></div></td>
-<td>0</td>
-<td>Runner.TestRunner@5a37d3ed</td></tr>
-<tr>
-<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to click on login link from Registration page", "Registration"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.RegisterPom.openURL(RegisterPom.java:50)
-	at StepDefinitions.Step_RegisterPage.the_user_is_on_the_new_user_registration_page(Step_RegisterPage.java:29)
-	at ✽.The user is on the new user registration page(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC02_registerPage.feature:5)
-</pre></div><a href='#' onClick='toggleBox("stack-trace2127731556", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2127731556'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.RegisterPom.openURL(RegisterPom.java:50)
-	at StepDefinitions.Step_RegisterPage.the_user_is_on_the_new_user_registration_page(Step_RegisterPage.java:29)
-	at ✽.The user is on the new user registration page(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC02_registerPage.feature:5)
-</pre></div></td>
-<td>0</td>
-<td>Runner.TestRunner@5a37d3ed</td></tr>
-<tr>
-<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error message for empty Username field during Login", "DS Portal Login Feature"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.LoginPom.enterUsernameTxt(LoginPom.java:46)
-	at PageObjectModel.LoginPom.enterLoginFormFields(LoginPom.java:79)
-	at StepDefinitions.Step_LoginPage.the_user_clicks_login_button_after_entering_the_password_only_from_sheetname_and_row(Step_LoginPage.java:55)
-	at ✽.The user clicks login button after entering the Password only from sheetname &quot;login&quot; and row 1(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC03_loginPage.feature:16)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1304887101", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1304887101'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.LoginPom.enterUsernameTxt(LoginPom.java:46)
-	at PageObjectModel.LoginPom.enterLoginFormFields(LoginPom.java:79)
-	at StepDefinitions.Step_LoginPage.the_user_clicks_login_button_after_entering_the_password_only_from_sheetname_and_row(Step_LoginPage.java:55)
-	at ✽.The user clicks login button after entering the Password only from sheetname &quot;login&quot; and row 1(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC03_loginPage.feature:16)
-</pre></div></td>
-<td>0</td>
-<td>Runner.TestRunner@5a37d3ed</td></tr>
-<tr>
-<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error message for invalid password field during registration", "Registration"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.RegisterPom.openURL(RegisterPom.java:50)
-	at StepDefinitions.Step_RegisterPage.the_user_is_on_the_new_user_registration_page(Step_RegisterPage.java:29)
-	at ✽.The user is on the new user registration page(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC02_registerPage.feature:5)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1380091197", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1380091197'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
-	at PageObjectModel.RegisterPom.openURL(RegisterPom.java:50)
-	at StepDefinitions.Step_RegisterPage.the_user_is_on_the_new_user_registration_page(Step_RegisterPage.java:29)
-	at ✽.The user is on the new user registration page(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC02_registerPage.feature:5)
-</pre></div></td>
-<td>0</td>
-<td>Runner.TestRunner@5a37d3ed</td></tr>
+<td>Runner.TestRunner@6f6745d6</td></tr>
 </table><p>
 </body>
 </html>
