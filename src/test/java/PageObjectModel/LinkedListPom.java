@@ -28,7 +28,6 @@ public class LinkedListPom {
 //       
 //    }
 	
-	//////////////////
 	
 	WebDriver driver = Driver_SetUp.getDriver();
 	ExcelReader excelReader = new ExcelReader();

@@ -16,24 +16,12 @@ import Utilities.LoggerLoad;
 
 public class IntroductionPagePom {
 	
-	////////////////////
 	
-//	private WebDriver driver; // WebDriver instance
-//    private Properties prop;
-//    
-// //  Constructor of the Page Class
+//   private WebDriver driver; // WebDriver instance
+//  // Constructor or method where WebDriver is initialized
 //    public IntroductionPagePom(WebDriver driver) {
-//        if (driver == null) {
-//            throw new IllegalArgumentException("WebDriver instance cannot be null.");
-//        }
-//        this.driver = driver; // Assign the passed driver to the class-level variable
-//
-//        // Initialize all the elements in this page class
-//        this.prop = ConfigReader.initializeprop();
-//
-//        
+//        this.driver = driver;
 //    }
-       ///////////////////	
 	
 	public WebDriver driver = Driver_SetUp.getDriver();
 

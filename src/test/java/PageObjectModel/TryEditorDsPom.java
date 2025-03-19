@@ -26,23 +26,15 @@ import Utilities.LoggerLoad;
 
 public class TryEditorDsPom {
 	
-	////////////////
-	
-//	private WebDriver driver; // WebDriver instance
-//    private Properties prop;
-//    
-// //  Constructor of the Page Class
+		
+	//private WebDriver driver; // WebDriver instance
+
+////  Constructor of the Page Class
+//	// Constructor or method where WebDriver is initialized
 //    public TryEditorDsPom(WebDriver driver) {
-//        if (driver == null) {
-//            throw new IllegalArgumentException("WebDriver instance cannot be null.");
-//        }
-//        this.driver = driver; // Assign the passed driver to the class-level variable
-//
-//        // Initialize all the elements in this page class
-//        this.prop = ConfigReader.initializeprop();
+//        this.driver = driver;
 //    }
 	
-	/////////////////////
 
 	WebDriver driver = Driver_SetUp.getDriver(); // Initialize WebDriver
 	ExcelReader excelReader = new ExcelReader(); // Initialize ExcelReader utility

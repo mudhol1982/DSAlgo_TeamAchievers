@@ -12,6 +12,8 @@ import DriverManager.Driver_SetUp;
 public class ConfigReader {
 
     private static Properties properties = new Properties();
+    
+    private static String browserType = null;
 
     // Load the config.properties file from the classpath
     public static void loadConfig() throws IOException {
@@ -109,6 +111,19 @@ public class ConfigReader {
 		}
 		return prop;
 	}
-
+	
+	public static void setBrowserType(String browser) {
+		browserType = browser;
 	}
+}
+//	public static String getbrowserType() {
+//		if (browserType != null) {
+//			return browserType;
+//		} else {
+//			throw new RuntimeException(
+//					"Browser not specified. Please provide it in the testng.xml or as a Maven parameter.");
+//		}
+//	}
+//
+//	}
 

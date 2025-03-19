@@ -18,7 +18,7 @@ public class ArrayPom {
 
 	WebDriver driver = Driver_SetUp.getDriver();
 
-	//////////////////////////////
+//	////////////////////////////
 //	private WebDriver driver; // WebDriver instance
 //    private Properties prop;
 //    
@@ -33,8 +33,7 @@ public class ArrayPom {
 //        this.prop = ConfigReader.initializeprop();
 //
 //        }
-//    
-    ////////////////////////////////
+    
 	ExcelReader excelReader = new ExcelReader();
 	
 	//Web Elements in the DataStructures page 

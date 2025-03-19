@@ -2,7 +2,12 @@ package Runner;
 
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
+
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Parameters;
+
+import Utilities.ConfigReader;
 
 @CucumberOptions(
 	features =   "src/test/resources/features/UC04_dataStructureIntro.feature", 
@@ -20,14 +25,23 @@ import org.testng.annotations.DataProvider;
                 "html:target/cucumber-reports/cucumber.html", // cucumber HTML report
                 "json:target/cucumber-reports/cucumber.json", // JSON report
                 "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",//allure report
-                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",//extent report
-                "com.aventstack.chaintest.plugins.ChainTestCucumberListener:"} //chain test report
+                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}//extent report
+                //"com.aventstack.chaintest.plugins.ChainTestCucumberListener:"} //chain test report
         
 )
 public class TestRunner extends AbstractTestNGCucumberTests {
 
+	///////////////////////
+	//use this code for cross browser testing
+	
+//	@BeforeTest
+//	@Parameters("browser")
+//	public void defineBrowser(String browser) {		
+//	   ConfigReader.setBrowserType(browser);
+//	}
+/////////////////////
     @Override
-    @DataProvider(parallel = false) // Run tests in parallel
+    @DataProvider(parallel = false) // Run tests in parallel with true 
     public Object[][] scenarios() {
         return super.scenarios(); // Get the scenarios from Cucumber
     }
