@@ -1,0 +1,16 @@
+{
+  "reporter": {
+    "spark": {
+      "enabled": true,
+      //"theme": "dark",
+      "documentTitle": "Test Automation Report",
+      "reportName": "Regression Test Report",
+      "outputPath": "target/extent-reports/index.html",
+      "timelineEnabled": true
+    }
+  },
+  "systemInfo": {
+    "Environment": "QA",
+    "Tester": "Lavanya",
+     }
+}

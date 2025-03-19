@@ -5,9 +5,7 @@ import io.cucumber.testng.CucumberOptions;
 import org.testng.annotations.DataProvider;
 
 @CucumberOptions(
-		
-		features =   {
-		   "src/test/resources/features/UC04_dataStructureIntro.feature"}, 
+	features =   "src/test/resources/features/UC04_dataStructureIntro.feature", 
 		   //"src/test/resources/features/UC02_registerPage.feature",
            //"src/test/resources/features/UC03_loginPage.feature"},      // Specify multiple features
  
@@ -19,10 +17,11 @@ import org.testng.annotations.DataProvider;
         dryRun=false,
         plugin = {
                 "pretty", // Pretty print for console output
-                "html:target/cucumber-reports/cucumber.html", // HTML report
+                "html:target/cucumber-reports/cucumber.html", // cucumber HTML report
                 "json:target/cucumber-reports/cucumber.json", // JSON report
                 "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",//allure report
-                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"} //extent report
+                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",//extent report
+                "com.aventstack.chaintest.plugins.ChainTestCucumberListener:"} //chain test report
         
 )
 public class TestRunner extends AbstractTestNGCucumberTests {

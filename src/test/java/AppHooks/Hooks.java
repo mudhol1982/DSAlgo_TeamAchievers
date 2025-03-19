@@ -1,11 +1,14 @@
 package AppHooks;
 
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
 import DriverManager.Driver_SetUp;
 import Utilities.ConfigReader;
 import io.cucumber.java.After;
 import io.cucumber.java.BeforeAll;
+import io.cucumber.java.Scenario;
 
 public class Hooks {
 	
@@ -60,5 +63,4 @@ public class Hooks {
         }
         driver.quit();
     }
-}
 }
