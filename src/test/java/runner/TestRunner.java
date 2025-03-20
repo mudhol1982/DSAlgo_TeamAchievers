@@ -10,7 +10,7 @@ import org.testng.annotations.Parameters;
 import Utilities.ConfigReader;
 
 @CucumberOptions(
-	features =   "src/test/resources/features/UC06_linkedListPage.feature", 
+	features =   "src/test/resources/features", 
 		   //"src/test/resources/features/UC02_registerPage.feature",
            //"src/test/resources/features/UC03_loginPage.feature"},      // Specify multiple features
  

@@ -201,6 +201,7 @@
                 <executions>
         <execution>
             <goals>
+               <goal>clean</goal>
                 <goal>report</goal>
             </goals>
         </execution>
