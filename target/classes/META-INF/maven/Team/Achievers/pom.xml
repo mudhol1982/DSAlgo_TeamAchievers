@@ -5,6 +5,11 @@
 	<groupId>Team</groupId>
 	<artifactId>Achievers</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	
+	 <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+     </properties>
 
 	<dependencies>
 		<!-- Cucumber dependencies -->
@@ -28,6 +33,15 @@
 			<artifactId>cucumber-java</artifactId>
 			<version>7.20.1</version>
 		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-junit</artifactId>
+    <version>7.21.1</version>
+    <scope>test</scope>
+</dependency>
+
 		<!-- Selenium dependencies -->
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
@@ -40,20 +54,23 @@
 			<artifactId>jna</artifactId>
 			<version>5.15.0</version>
 		</dependency>
-		<!-- TestNG dependency -->
-		<dependency>
-			<groupId>org.testng</groupId>
-			<artifactId>testng</artifactId>
-			<version>7.10.2</version>
-			<scope>test</scope>
-		</dependency>
+		
+	        <!-- TestNG dependency -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.10.2</version>
+            <scope>test</scope>
+        </dependency>
+        
+        <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
+        <!--<dependency>
 
-		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
-		<!--<dependency>
     <groupId>io.cucumber</groupId>
     <artifactId>cucumber-testng</artifactId>
     <version>7.20.1</version>
 </dependency>-->
+    
 		<!-- WebDriver Manager dependency -->
 		<dependency>
 			<groupId>io.github.bonigarcia</groupId>
@@ -61,7 +78,6 @@
 			<version>5.9.2</version>
 			<scope>test</scope>
 		</dependency>
-
 		<!-- Apache POI for Data driven implementation -->
 		<dependency>
 			<groupId>org.apache.poi</groupId>
@@ -104,5 +120,120 @@
 			<artifactId>jackson-core</artifactId>
 			<version>2.18.2</version>
 		</dependency>
+		
+<!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-testng -->
+<dependency>
+    <groupId>io.qameta.allure</groupId>
+    <artifactId>allure-testng</artifactId>
+    <version>2.29.1</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-cucumber7-jvm -->
+<dependency>
+    <groupId>io.qameta.allure</groupId>
+    <artifactId>allure-cucumber7-jvm</artifactId>
+    <version>2.29.1</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+<dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>5.1.2</version>
+</dependency>
+
+<!-- chain test dependency-->
+<!-- https://mvnrepository.com/artifact/com.aventstack/chaintest-cucumber-jvm -->
+<dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>chaintest-cucumber-jvm</artifactId>
+    <version>1.0.11</version>
+</dependency>
+
+
+<!-- https://mvnrepository.com/artifact/tech.grasshopper/extentreports-cucumber7-adapter -->
+<dependency>
+    <groupId>tech.grasshopper</groupId>
+    <artifactId>extentreports-cucumber7-adapter</artifactId>
+    <version>1.14.0</version>
+</dependency>
+
 	</dependencies>
+	
+	<build>
+    <pluginManagement>
+        <plugins>
+            <!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
+            <plugin>
+                <artifactId>maven-clean-plugin</artifactId>
+                <version>3.4.0</version>
+            </plugin>
+
+            <!-- default lifecycle, jar packaging: see https://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_jar_packaging -->
+            <plugin>
+                <artifactId>maven-resources-plugin</artifactId>
+                <version>3.3.1</version>
+            </plugin>
+            
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.13.0</version>
+            </plugin>
+
+            <!-- Corrected maven-surefire-plugin version, removed duplicate entry -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.0.0-M7</version>
+                <configuration>
+                    <systemPropertyVariables>
+                        <extent.reporter.spark.start>true</extent.reporter.spark.start>
+                    </systemPropertyVariables>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>io.qameta.allure</groupId>
+                <artifactId>allure-maven</artifactId>
+                <version>2.15.2</version>
+                
+                <executions>
+        <execution>
+            <goals>
+                <goal>report</goal>
+            </goals>
+        </execution>
+    </executions>
+            </plugin>
+
+            <plugin>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.4.2</version>
+            </plugin>
+
+            <plugin>
+                <artifactId>maven-install-plugin</artifactId>
+                <version>3.1.2</version>
+            </plugin>
+
+            <plugin>
+                <artifactId>maven-deploy-plugin</artifactId>
+                <version>3.1.2</version>
+            </plugin>
+
+            <!-- site lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#site_Lifecycle -->
+            <plugin>
+                <artifactId>maven-site-plugin</artifactId>
+                <version>3.12.1</version>
+            </plugin>
+
+            <plugin>
+                <artifactId>maven-project-info-reports-plugin</artifactId>
+                <version>3.6.1</version>
+            </plugin>
+        </plugins>
+    </pluginManagement>
+</build>
+	
 </project>
+

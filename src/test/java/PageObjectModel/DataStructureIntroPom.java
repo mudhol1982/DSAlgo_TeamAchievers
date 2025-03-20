@@ -1,15 +1,23 @@
 package PageObjectModel;
 
 import java.util.NoSuchElementException;
+import java.util.Properties;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 import DriverManager.Driver_SetUp;
+import Utilities.ConfigReader;
 import Utilities.ExcelReader;
 
 public class DataStructureIntroPom {
+	
+//    private WebDriver driver; // WebDriver instance
+//  // Constructor or method where WebDriver is initialized
+//    public DataStructureIntroPom(WebDriver driver) {
+//        this.driver = driver;
+//    }
 
 	WebDriver driver = Driver_SetUp.getDriver();
 	ExcelReader excelReader = new ExcelReader();

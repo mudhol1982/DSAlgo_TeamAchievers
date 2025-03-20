@@ -1,6 +1,7 @@
 package PageObjectModel;
 
 import java.time.Duration;
+import java.util.Properties;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -14,7 +15,15 @@ import Utilities.ConfigReader;
 public class HomePom {
 	
 
+	//private WebDriver driver; // WebDriver instance
+//
+//  // Constructor or method where WebDriver is initialized
+//    public HomePom(WebDriver driver) {
+//        this.driver = driver;
+//    }
+
 	public WebDriver driver = Driver_SetUp.getDriver();
+    
 	// Create a WebDriverWait instance with Duration
 
 	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10)); // Timeout in second
