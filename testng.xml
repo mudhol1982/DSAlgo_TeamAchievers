@@ -1,0 +1,9 @@
+<suite name="DsalgoTestSuite" parallel="tests" thread-count="1">
+	<test name="ChromeTest">
+    <!-- <parameter name="browser" value="chrome" />-->
+		<classes>
+			<class name="runner.RunnerTest" />
+		</classes>
+	</test>
+</suite>
+
