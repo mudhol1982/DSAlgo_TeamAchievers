@@ -22,7 +22,6 @@ public class Hooks {
 
         // Get browser type from config file with a default fallback
         String browser = ConfigReader.getBrowserType();
-        //String browser = ConfigReader.getbrowserType();
         if (browser == null || browser.isEmpty()) {
             throw new IllegalArgumentException("Browser type not specified in config.properties");
         }
@@ -65,3 +64,4 @@ public class Hooks {
         driver.quit();
     }
 }
+

@@ -10,7 +10,7 @@ import org.testng.annotations.Parameters;
 import Utilities.ConfigReader;
 
 @CucumberOptions(
-	features =   "src/test/resources/features/UC04_dataStructureIntro.feature", 
+	features =   "src/test/resources/features/UC06_linkedListPage.feature", 
 		   //"src/test/resources/features/UC02_registerPage.feature",
            //"src/test/resources/features/UC03_loginPage.feature"},      // Specify multiple features
  
@@ -40,6 +40,7 @@ public class TestRunner extends AbstractTestNGCucumberTests {
 //	   ConfigReader.setBrowserType(browser);
 //	}
 /////////////////////
+	
     @Override
     @DataProvider(parallel = false) // Run tests in parallel with true 
     public Object[][] scenarios() {
