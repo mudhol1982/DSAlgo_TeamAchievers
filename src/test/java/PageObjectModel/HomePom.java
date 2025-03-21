@@ -1,141 +1,101 @@
 package PageObjectModel;
 
 import java.time.Duration;
-import java.util.Properties;
-
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import DriverManager.Driver_SetUp;
 import Utilities.ConfigReader;
 
 public class HomePom {
-	
+    private WebDriver driver;
+    private WebDriverWait wait;
 
-	//private WebDriver driver; // WebDriver instance
-//
-//  // Constructor or method where WebDriver is initialized
-//    public HomePom(WebDriver driver) {
-//        this.driver = driver;
-//    }
-
-	public WebDriver driver = Driver_SetUp.getDriver();
-    
-	// Create a WebDriverWait instance with Duration
-
-	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10)); // Timeout in second
-
-	public By getStartedButton = By.cssSelector("button.btn");
-	public By contentHeader = By.cssSelector(".content h1");
-	
-	public By contentText = By.cssSelector("div.content p");
-	public By signOutLink = By.xpath("//a[@href='/logout']");
-
-	public void openURL() {
-		System.out.println("Inside openURL-->" + driver);
-		driver.get(ConfigReader.getUrl());
-
-	}
-
-	// Open Time Complexity url
-
-	public void openDsTimeComplexityUrl() {
-		driver.get(ConfigReader.geturlTimeComplexity());
-	}
-
-	// Open Data Structure Introduction Page url
-	public void openDSIntroductionUrl() {
-		driver.get(ConfigReader.geturlDataStructuresIntroduction());
-	}
-	//Open Practice Questions page 
-		public void openPracticeQnsPageUrl() {
-			driver.get(ConfigReader.geturlPracticeQnsDSIntroPage());
-		}
-
-	public void ClickHomePageGetStartedButton() {
-		System.out.println("Before ClickHomePageGetStartedButton");
-		driver.findElement(getStartedButton).click();
-	}
-
-	public WebElement linkClickable(By locator) {
-    	return wait.until(ExpectedConditions.elementToBeClickable(locator));
-
-	}
-
-
-	/*
-	 * public void openURL() { System.out.println("Inside openURL");
-	 * driver.get(ConfigReader.getUrl());
-	 * 
-	 * }
-	 */
-    
-
-    public void openHomeURL() {
-    	System.out.println("Inside openURL");
-    	driver.get(ConfigReader.getUrlHome());
-    		
-    }
-    public void openUrlTree() {
-    	
-    	driver.get(ConfigReader.getUrlTree());
-    		
-    }
-    public void openUrlGraph(){
-    	
-    	driver.get(ConfigReader.getUrlGraph());
-    	
-    }
-    
-
-    public void openUrlQueue() {
-		// TODO Auto-generated method stub
-    	driver.get(ConfigReader.getUrlQueue());
-		
-	}
-    
-  
-	/*
-	 * public void ClickHomePageGetStartedButton() {
-	 * 
-	 * System.out.println("Inside ClickHomePageGetStartedButton");
-	 * driver.findElement(getStartedButton).click(); }
-	 */
-    
- 	public String getTextForElement(By locator) {
-		String elementText = driver.findElement(locator).getText();
-		return elementText;
-	}
-
-    public void openLinkedList() {
-    	driver.get(ConfigReader.getUrlLinkedList());
-    }
-    
-    public void openArray() {
-    	
-    	driver.get(ConfigReader.getUrlArray());
+    // Constructor to initialize driver and WebDriverWait
+    public HomePom(WebDriver driver) {
+        this.driver = driver;
+        this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
     }
 
+    // Element Locators
+    public final By getStartedButton = By.cssSelector("button.btn");
+    public final By contentHeader = By.cssSelector(".content h1");
+    public final By contentText = By.cssSelector("div.content p");
+    private final By signOutLink = By.xpath("//a[@href='/logout']");
+    private final By dropdownToggle = By.cssSelector("a.dropdown-toggle");
+    private final By registerLink = By.cssSelector("a[href='/register']");
+    private final By signInLink = By.cssSelector("a[href='/login']");
 
-	
-	public void clickSignOutLink() {
-		driver.findElement(signOutLink).click();
-	}
+    // Open URLs
+    public void openURL() {
+        driver.get(ConfigReader.getUrl());
+    }
 
+    public void openPage(String url) {
+        driver.get(url);
+    }
 
-	public void openUrlStack() {
-		// TODO Auto-generated method stub
-    	driver.get(ConfigReader.getUrlStack());
-		
-	}
-	
+    // Click Actions with better handling
+    public void clickElement(By locator) {
+        for (int i = 0; i < 3; i++) {  // Retry up to 3 times
+            try {
+                WebElement element = wait.until(ExpectedConditions.elementToBeClickable(locator));
+                element.click();
+                return;
+            } catch (StaleElementReferenceException e) {
+                System.out.println("Retrying click due to stale element: " + locator);
+            } catch (TimeoutException e) {
+                System.out.println("Element not clickable: " + locator);
+                break;
+            }
+        }
+    }
 
+    public void ClickHomePageGetStartedButton() {
+        clickElement(getStartedButton);
+    }
+
+    public void clickSignOutLink() {
+        clickElement(signOutLink);
+    }
+
+    public void clickOnRegisterLink() {
+        clickElement(registerLink);
+    }
+
+    public void clickOnSignInLink() {
+        clickElement(signInLink);
+    }
+
+    public void clickDropdownToggle() {
+        try {
+            WebElement toggle = wait.until(ExpectedConditions.elementToBeClickable(dropdownToggle));
+            ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", toggle);
+            toggle.click();
+        } catch (TimeoutException e) {
+            System.out.println("Dropdown toggle not found");
+        }
+    }
+
+    // Get Text Methods
+    public String getTextForElement(By locator) {
+        try {
+            return wait.until(ExpectedConditions.visibilityOfElementLocated(locator)).getText();
+        } catch (TimeoutException e) {
+            return "Element not found: " + locator;
+        }
+    }
+
+    public String getPageTitle() {
+        return driver.getTitle();
+    }
+    
+    public boolean isElementClickable(By locator) {
+        try {
+            WebElement element = wait.until(ExpectedConditions.elementToBeClickable(locator));
+            return element.isEnabled();
+        } catch (Exception e) {
+            return false;
+        }
+    }
 }
-
-	
-
-
-

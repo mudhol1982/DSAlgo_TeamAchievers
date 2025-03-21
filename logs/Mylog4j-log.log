@@ -12874,3 +12874,16 @@ Session ID: 31536293ad4abd32886a84425068dbe3
 [INFO ] 2025-03-20 20:28:33.265 [main] LoggerLoad - Clicked the Run button.
 [INFO ] 2025-03-20 20:28:33.306 [main] LoggerLoad - Console output text retrieved: hello
 [INFO ] 2025-03-20 20:28:33.331 [main] LoggerLoad - Console output text retrieved: hello
+[ERROR] 2025-03-21 12:02:54.870 [TestNG-PoolService-5] LoggerLoad - Dropdown toggle was not clickable in time.
+[ERROR] 2025-03-21 12:02:54.870 [TestNG-PoolService-8] LoggerLoad - Dropdown toggle was not clickable in time.
+[ERROR] 2025-03-21 12:02:54.870 [TestNG-PoolService-3] LoggerLoad - Dropdown toggle was not clickable in time.
+[ERROR] 2025-03-21 12:02:54.870 [TestNG-PoolService-9] LoggerLoad - Dropdown toggle was not clickable in time.
+[ERROR] 2025-03-21 12:02:54.870 [TestNG-PoolService-7] LoggerLoad - Dropdown toggle was not clickable in time.
+[ERROR] 2025-03-21 12:02:54.870 [TestNG-PoolService-4] LoggerLoad - Dropdown item was not clickable.
+[ERROR] 2025-03-21 12:02:54.870 [TestNG-PoolService-6] LoggerLoad - Dropdown toggle was not clickable in time.
+[ERROR] 2025-03-21 12:03:05.024 [TestNG-PoolService-7] LoggerLoad - Dropdown item was not clickable.
+[ERROR] 2025-03-21 12:03:05.101 [TestNG-PoolService-9] LoggerLoad - Dropdown item was not clickable.
+[ERROR] 2025-03-21 12:03:05.117 [TestNG-PoolService-6] LoggerLoad - Dropdown item was not clickable.
+[ERROR] 2025-03-21 12:03:05.120 [TestNG-PoolService-5] LoggerLoad - Dropdown item was not clickable.
+[ERROR] 2025-03-21 12:03:05.146 [TestNG-PoolService-8] LoggerLoad - Dropdown item was not clickable.
+[ERROR] 2025-03-21 12:43:12.051 [TestNG-PoolService-3] LoggerLoad - [Numpy Ninja] Element not clickable: By.cssSelector: a.dropdown-toggle

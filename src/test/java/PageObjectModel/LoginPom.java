@@ -19,43 +19,19 @@ import com.fasterxml.jackson.databind.exc.InvalidFormatException;
 import DriverManager.Driver_SetUp;
 import Utilities.ConfigReader;
 import Utilities.ExcelReader;
-import Utilities.ExcelReader1;
+
 
 public class LoginPom {
-	////////////////////
-//	private WebDriver driver; // WebDriver instance
-//    private Properties prop;
-//    
-// //  Constructor of the Page Class
-//    public LoginPom(WebDriver driver) {
-//        if (driver == null) {
-//            throw new IllegalArgumentException("WebDriver instance cannot be null.");
-//        }
-//        this.driver = driver; // Assign the passed driver to the class-level variable
-//
-//        // Initialize all the elements in this page class
-//        this.prop = ConfigReader.initializeprop();
-//    }
 
-	//////////////
-	
 	WebDriver driver = Driver_SetUp.getDriver();
 	ExcelReader excelReader = new ExcelReader();
 	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 	
-	//X paths for web elements on login page 
-	
-//	public By usernameTextBox = By.xpath("//input[@name='username']"); // user name text box field
-//	public By passwordTextBox = By.xpath("//input[@name='password']"); // password text box field
-//	public By loginBtn = By.xpath("//input[@type='submit' and @value='Login']"); // login button 
-//	public By alertMsg = By.xpath("//div[@class='alert alert-primary']"); // alert message 
 	
 	public By usernameTextBox = By.id("id_username");
 	public By passwordTextBox = By.id("id_password");
 	public By loginBtn =   By.xpath("//input[@value='Login']");
 	
-	//public By loginBtn = By.xpath("//a[@href='/login']");
-	//public By loginBtn = By.xpath("input[type='submit']");
 	
 	public By alertMsg = By.cssSelector(".alert.alert-primary");
 	

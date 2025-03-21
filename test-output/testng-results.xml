@@ -1,160 +1,2669 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
+<testng-results ignored="0" total="26" passed="0" failed="26" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-19T15:58:59 GMT-04:00" name="Default suite" finished-at="2025-03-19T15:59:13 GMT-04:00" duration-ms="13962">
+  <suite started-at="2025-03-21T12:20:04 GMT-04:00" name="Default suite" finished-at="2025-03-21T12:21:03 GMT-04:00" duration-ms="59274">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@7aaca91a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7aaca91a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-03-19T15:58:59 GMT-04:00" name="Default test" finished-at="2025-03-19T15:59:13 GMT-04:00" duration-ms="13962">
-      <class name="Runner.TestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner.TestRunner@7aaca91a]" started-at="2025-03-19T15:58:59 GMT-04:00" name="setUpClass" finished-at="2025-03-19T15:59:04 GMT-04:00" duration-ms="4284" status="PASS">
+    <test started-at="2025-03-21T12:20:04 GMT-04:00" name="Default test" finished-at="2025-03-21T12:21:03 GMT-04:00" duration-ms="59274">
+      <class name="runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@7aaca91a]" started-at="2025-03-21T12:20:04 GMT-04:00" name="setUpClass" finished-at="2025-03-21T12:20:04 GMT-04:00" duration-ms="531" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6f7c9755]]>
+                <![CDATA[org.testng.TestRunner@38b3f208]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@7aaca91a]" started-at="2025-03-19T15:59:04 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-19T15:59:07 GMT-04:00" duration-ms="3261" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7aaca91a]" started-at="2025-03-21T12:20:04 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-21T12:20:29 GMT-04:00" duration-ms="24287" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Verify that user is able to navigate to Data Structures - Introduction page"]]>
+                <![CDATA["Verify that user able to see warning message while selecting Queue from the drop down without Sign in"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Data Structures-Introduction"]]>
+                <![CDATA["DSportal App HomePage"]]>
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@7aaca91a]" started-at="2025-03-19T15:59:07 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-19T15:59:08 GMT-04:00" duration-ms="615" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify that user is able to navigate to  Time Complexity page of DS Introduction page"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Data Structures-Introduction"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@7aaca91a]" started-at="2025-03-19T15:59:08 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-19T15:59:08 GMT-04:00" duration-ms="718" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify that user is able to navigate to Try Editor from Time Complexity page for DS Introduction page"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Data Structures-Introduction"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@7aaca91a]" started-at="2025-03-19T15:59:08 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-19T15:59:09 GMT-04:00" duration-ms="207" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify that user does not get any error message  when clicked on Run button without any code"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Data Structures-Introduction"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@7aaca91a]" started-at="2025-03-19T15:59:09 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-19T15:59:09 GMT-04:00" duration-ms="685" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify that user receives error message in the alert window for invalid python code"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Data Structures-Introduction"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@7aaca91a]" started-at="2025-03-19T15:59:09 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-19T15:59:10 GMT-04:00" duration-ms="756" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify that user is able to see output for valid python code"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Data Structures-Introduction"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@7aaca91a]" started-at="2025-03-19T15:59:10 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-19T15:59:10 GMT-04:00" duration-ms="231" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify that user is able to navigate to Practice Questions page"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Data Structures-Introduction"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
+          <exception class="io.cucumber.core.exception.CucumberException">
             <message>
-              <![CDATA[expected [Assessment] but found [Practice Questions]]]>
+              <![CDATA[Failed to instantiate class StepDefinitions.Step_HomePage]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Assessment] but found [Practice Questions]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at org.testng.Assert.assertEquals(Assert.java:666)
-at StepDefinitions.Step_DataStructurePage.the_user_should_be_redirected_to_practice_questions_page_of_ds(Step_DataStructurePage.java:199)
-at ✽.The user should be redirected to Practice Questions page  of DS(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC04_dataStructureIntro.feature:52)
+              <![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class StepDefinitions.Step_HomePage
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
+at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
+at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
+at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:74)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
+... 27 more
+Caused by: java.lang.Error: Unresolved compilation problems: 
+The constructor HomePom() is undefined
+The constructor IntroductionPagePom() is undefined
+The field HomePom.contentHeader is not visible
+The field HomePom.contentText is not visible
+The field HomePom.getStartedButton is not visible
+The field IntroductionPagePom.registerLink is not visible
+The field IntroductionPagePom.signInLink is not visible
+dsDropdown cannot be resolved or is not a field
+dsDropdown cannot be resolved or is not a field
+The method clickDropdownItemArray() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemLinkedList() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemStack() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemQueue() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemTree() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemGraph() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnLinkedListGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnStackGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnQueueGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnTreeGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnGraphGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+
+at StepDefinitions.Step_HomePage.<init>(Step_HomePage.java:22)
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+... 30 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- io.cucumber.core.exception.CucumberException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.TestRunner@7aaca91a]" started-at="2025-03-19T15:59:10 GMT-04:00" name="tearDownClass" finished-at="2025-03-19T15:59:13 GMT-04:00" duration-ms="3150" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7aaca91a]" started-at="2025-03-21T12:20:04 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-21T12:20:17 GMT-04:00" duration-ms="12180" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user able to see warning message while selecting Tree from the drop down without Sign in"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["DSportal App HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.core.exception.CucumberException">
+            <message>
+              <![CDATA[Failed to instantiate class StepDefinitions.Step_HomePage]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class StepDefinitions.Step_HomePage
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
+at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
+at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
+at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:74)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
+... 27 more
+Caused by: java.lang.Error: Unresolved compilation problems: 
+The constructor HomePom() is undefined
+The constructor IntroductionPagePom() is undefined
+The field HomePom.contentHeader is not visible
+The field HomePom.contentText is not visible
+The field HomePom.getStartedButton is not visible
+The field IntroductionPagePom.registerLink is not visible
+The field IntroductionPagePom.signInLink is not visible
+dsDropdown cannot be resolved or is not a field
+dsDropdown cannot be resolved or is not a field
+The method clickDropdownItemArray() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemLinkedList() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemStack() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemQueue() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemTree() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemGraph() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnLinkedListGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnStackGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnQueueGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnTreeGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnGraphGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+
+at StepDefinitions.Step_HomePage.<init>(Step_HomePage.java:22)
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.core.exception.CucumberException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7aaca91a]" started-at="2025-03-21T12:20:04 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-21T12:20:18 GMT-04:00" duration-ms="13150" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate user navigate to DS Intro Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["DSportal App HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.core.exception.CucumberException">
+            <message>
+              <![CDATA[Failed to instantiate class StepDefinitions.Step_HomePage]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class StepDefinitions.Step_HomePage
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
+at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
+at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
+at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:74)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
+... 27 more
+Caused by: java.lang.Error: Unresolved compilation problems: 
+The constructor HomePom() is undefined
+The constructor IntroductionPagePom() is undefined
+The field HomePom.contentHeader is not visible
+The field HomePom.contentText is not visible
+The field HomePom.getStartedButton is not visible
+The field IntroductionPagePom.registerLink is not visible
+The field IntroductionPagePom.signInLink is not visible
+dsDropdown cannot be resolved or is not a field
+dsDropdown cannot be resolved or is not a field
+The method clickDropdownItemArray() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemLinkedList() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemStack() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemQueue() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemTree() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemGraph() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnLinkedListGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnStackGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnQueueGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnTreeGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnGraphGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+
+at StepDefinitions.Step_HomePage.<init>(Step_HomePage.java:22)
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.core.exception.CucumberException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7aaca91a]" started-at="2025-03-21T12:20:04 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-21T12:20:18 GMT-04:00" duration-ms="13753" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user able to see warning message while selecting Graph from the drop down without Sign in."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["DSportal App HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.core.exception.CucumberException">
+            <message>
+              <![CDATA[Failed to instantiate class StepDefinitions.Step_HomePage]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class StepDefinitions.Step_HomePage
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
+at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
+at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
+at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:74)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
+... 27 more
+Caused by: java.lang.Error: Unresolved compilation problems: 
+The constructor HomePom() is undefined
+The constructor IntroductionPagePom() is undefined
+The field HomePom.contentHeader is not visible
+The field HomePom.contentText is not visible
+The field HomePom.getStartedButton is not visible
+The field IntroductionPagePom.registerLink is not visible
+The field IntroductionPagePom.signInLink is not visible
+dsDropdown cannot be resolved or is not a field
+dsDropdown cannot be resolved or is not a field
+The method clickDropdownItemArray() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemLinkedList() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemStack() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemQueue() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemTree() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemGraph() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnLinkedListGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnStackGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnQueueGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnTreeGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnGraphGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+
+at StepDefinitions.Step_HomePage.<init>(Step_HomePage.java:22)
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.core.exception.CucumberException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7aaca91a]" started-at="2025-03-21T12:20:04 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-21T12:20:17 GMT-04:00" duration-ms="12588" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to view options for Data Structures dropdown on home page without Sign in"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["DSportal App HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.core.exception.CucumberException">
+            <message>
+              <![CDATA[Failed to instantiate class StepDefinitions.Step_HomePage]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class StepDefinitions.Step_HomePage
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
+at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
+at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
+at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:74)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
+... 27 more
+Caused by: java.lang.Error: Unresolved compilation problems: 
+The constructor HomePom() is undefined
+The constructor IntroductionPagePom() is undefined
+The field HomePom.contentHeader is not visible
+The field HomePom.contentText is not visible
+The field HomePom.getStartedButton is not visible
+The field IntroductionPagePom.registerLink is not visible
+The field IntroductionPagePom.signInLink is not visible
+dsDropdown cannot be resolved or is not a field
+dsDropdown cannot be resolved or is not a field
+The method clickDropdownItemArray() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemLinkedList() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemStack() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemQueue() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemTree() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemGraph() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnLinkedListGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnStackGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnQueueGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnTreeGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnGraphGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+
+at StepDefinitions.Step_HomePage.<init>(Step_HomePage.java:22)
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.core.exception.CucumberException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7aaca91a]" started-at="2025-03-21T12:20:04 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-21T12:20:16 GMT-04:00" duration-ms="11921" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user able to see warning message while selecting Linked List from the drop down without Sign in"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["DSportal App HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.core.exception.CucumberException">
+            <message>
+              <![CDATA[Failed to instantiate class StepDefinitions.Step_HomePage]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class StepDefinitions.Step_HomePage
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
+at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
+at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
+at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:74)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
+... 27 more
+Caused by: java.lang.Error: Unresolved compilation problems: 
+The constructor HomePom() is undefined
+The constructor IntroductionPagePom() is undefined
+The field HomePom.contentHeader is not visible
+The field HomePom.contentText is not visible
+The field HomePom.getStartedButton is not visible
+The field IntroductionPagePom.registerLink is not visible
+The field IntroductionPagePom.signInLink is not visible
+dsDropdown cannot be resolved or is not a field
+dsDropdown cannot be resolved or is not a field
+The method clickDropdownItemArray() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemLinkedList() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemStack() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemQueue() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemTree() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemGraph() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnLinkedListGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnStackGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnQueueGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnTreeGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnGraphGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+
+at StepDefinitions.Step_HomePage.<init>(Step_HomePage.java:22)
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.core.exception.CucumberException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7aaca91a]" started-at="2025-03-21T12:20:04 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-21T12:20:19 GMT-04:00" duration-ms="14368" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user able to see warning message while selecting Arrays from the drop down without Sign in"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["DSportal App HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.core.exception.CucumberException">
+            <message>
+              <![CDATA[Failed to instantiate class StepDefinitions.Step_HomePage]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class StepDefinitions.Step_HomePage
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
+at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
+at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
+at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:74)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
+... 27 more
+Caused by: java.lang.Error: Unresolved compilation problems: 
+The constructor HomePom() is undefined
+The constructor IntroductionPagePom() is undefined
+The field HomePom.contentHeader is not visible
+The field HomePom.contentText is not visible
+The field HomePom.getStartedButton is not visible
+The field IntroductionPagePom.registerLink is not visible
+The field IntroductionPagePom.signInLink is not visible
+dsDropdown cannot be resolved or is not a field
+dsDropdown cannot be resolved or is not a field
+The method clickDropdownItemArray() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemLinkedList() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemStack() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemQueue() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemTree() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemGraph() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnLinkedListGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnStackGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnQueueGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnTreeGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnGraphGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+
+at StepDefinitions.Step_HomePage.<init>(Step_HomePage.java:22)
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.core.exception.CucumberException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7aaca91a]" started-at="2025-03-21T12:20:04 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-21T12:20:17 GMT-04:00" duration-ms="12432" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user able to see warning message while selecting Stack from the drop down without Sign in"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["DSportal App HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.core.exception.CucumberException">
+            <message>
+              <![CDATA[Failed to instantiate class StepDefinitions.Step_HomePage]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class StepDefinitions.Step_HomePage
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
+at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
+at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
+at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:74)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
+... 27 more
+Caused by: java.lang.Error: Unresolved compilation problems: 
+The constructor HomePom() is undefined
+The constructor IntroductionPagePom() is undefined
+The field HomePom.contentHeader is not visible
+The field HomePom.contentText is not visible
+The field HomePom.getStartedButton is not visible
+The field IntroductionPagePom.registerLink is not visible
+The field IntroductionPagePom.signInLink is not visible
+dsDropdown cannot be resolved or is not a field
+dsDropdown cannot be resolved or is not a field
+The method clickDropdownItemArray() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemLinkedList() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemStack() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemQueue() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemTree() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemGraph() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnLinkedListGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnStackGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnQueueGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnTreeGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnGraphGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+
+at StepDefinitions.Step_HomePage.<init>(Step_HomePage.java:22)
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.core.exception.CucumberException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7aaca91a]" started-at="2025-03-21T12:20:04 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-21T12:20:17 GMT-04:00" duration-ms="12307" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user able to see warning message on clicking Get Started buttons of Data Structures-Introduction on the home page without Sign in"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["DSportal App HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.core.exception.CucumberException">
+            <message>
+              <![CDATA[Failed to instantiate class StepDefinitions.Step_HomePage]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class StepDefinitions.Step_HomePage
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
+at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
+at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
+at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:74)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
+... 27 more
+Caused by: java.lang.Error: Unresolved compilation problems: 
+The constructor HomePom() is undefined
+The constructor IntroductionPagePom() is undefined
+The field HomePom.contentHeader is not visible
+The field HomePom.contentText is not visible
+The field HomePom.getStartedButton is not visible
+The field IntroductionPagePom.registerLink is not visible
+The field IntroductionPagePom.signInLink is not visible
+dsDropdown cannot be resolved or is not a field
+dsDropdown cannot be resolved or is not a field
+The method clickDropdownItemArray() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemLinkedList() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemStack() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemQueue() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemTree() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemGraph() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnLinkedListGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnStackGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnQueueGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnTreeGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnGraphGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+
+at StepDefinitions.Step_HomePage.<init>(Step_HomePage.java:22)
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.core.exception.CucumberException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7aaca91a]" started-at="2025-03-21T12:20:04 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-21T12:20:17 GMT-04:00" duration-ms="12864" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to open the dsAlgo Portal-home page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["DSportal App HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.core.exception.CucumberException">
+            <message>
+              <![CDATA[Failed to instantiate class StepDefinitions.Step_HomePage]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class StepDefinitions.Step_HomePage
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
+at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
+at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
+at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:74)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
+... 27 more
+Caused by: java.lang.Error: Unresolved compilation problems: 
+The constructor HomePom() is undefined
+The constructor IntroductionPagePom() is undefined
+The field HomePom.contentHeader is not visible
+The field HomePom.contentText is not visible
+The field HomePom.getStartedButton is not visible
+The field IntroductionPagePom.registerLink is not visible
+The field IntroductionPagePom.signInLink is not visible
+dsDropdown cannot be resolved or is not a field
+dsDropdown cannot be resolved or is not a field
+The method clickDropdownItemArray() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemLinkedList() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemStack() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemQueue() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemTree() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemGraph() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnLinkedListGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnStackGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnQueueGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnTreeGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnGraphGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+
+at StepDefinitions.Step_HomePage.<init>(Step_HomePage.java:22)
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.core.exception.CucumberException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7aaca91a]" started-at="2025-03-21T12:20:16 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-21T12:20:55 GMT-04:00" duration-ms="38279" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user able to see warning message on clicking Get Started buttons of Array on the home page without Sign in"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["DSportal App HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.core.exception.CucumberException">
+            <message>
+              <![CDATA[Failed to instantiate class StepDefinitions.Step_HomePage]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class StepDefinitions.Step_HomePage
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
+at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
+at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
+at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:74)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
+... 27 more
+Caused by: java.lang.Error: Unresolved compilation problems: 
+The constructor HomePom() is undefined
+The constructor IntroductionPagePom() is undefined
+The field HomePom.contentHeader is not visible
+The field HomePom.contentText is not visible
+The field HomePom.getStartedButton is not visible
+The field IntroductionPagePom.registerLink is not visible
+The field IntroductionPagePom.signInLink is not visible
+dsDropdown cannot be resolved or is not a field
+dsDropdown cannot be resolved or is not a field
+The method clickDropdownItemArray() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemLinkedList() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemStack() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemQueue() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemTree() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemGraph() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnLinkedListGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnStackGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnQueueGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnTreeGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnGraphGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+
+at StepDefinitions.Step_HomePage.<init>(Step_HomePage.java:22)
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.core.exception.CucumberException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7aaca91a]" started-at="2025-03-21T12:20:17 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-21T12:20:32 GMT-04:00" duration-ms="15762" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user able to see warning message on clicking Get Started buttons of Linked List on the home page without Sign in"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["DSportal App HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.core.exception.CucumberException">
+            <message>
+              <![CDATA[Failed to instantiate class StepDefinitions.Step_HomePage]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class StepDefinitions.Step_HomePage
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
+at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
+at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
+at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:74)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
+... 27 more
+Caused by: java.lang.Error: Unresolved compilation problems: 
+The constructor HomePom() is undefined
+The constructor IntroductionPagePom() is undefined
+The field HomePom.contentHeader is not visible
+The field HomePom.contentText is not visible
+The field HomePom.getStartedButton is not visible
+The field IntroductionPagePom.registerLink is not visible
+The field IntroductionPagePom.signInLink is not visible
+dsDropdown cannot be resolved or is not a field
+dsDropdown cannot be resolved or is not a field
+The method clickDropdownItemArray() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemLinkedList() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemStack() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemQueue() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemTree() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemGraph() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnLinkedListGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnStackGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnQueueGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnTreeGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnGraphGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+
+at StepDefinitions.Step_HomePage.<init>(Step_HomePage.java:22)
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.core.exception.CucumberException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7aaca91a]" started-at="2025-03-21T12:20:17 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-21T12:20:38 GMT-04:00" duration-ms="21589" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user able to see warning message on clicking Get Started buttons of Stack on the home page without Sign in"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["DSportal App HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.core.exception.CucumberException">
+            <message>
+              <![CDATA[Failed to instantiate class StepDefinitions.Step_HomePage]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class StepDefinitions.Step_HomePage
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
+at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
+at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
+at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:74)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
+... 27 more
+Caused by: java.lang.Error: Unresolved compilation problems: 
+The constructor HomePom() is undefined
+The constructor IntroductionPagePom() is undefined
+The field HomePom.contentHeader is not visible
+The field HomePom.contentText is not visible
+The field HomePom.getStartedButton is not visible
+The field IntroductionPagePom.registerLink is not visible
+The field IntroductionPagePom.signInLink is not visible
+dsDropdown cannot be resolved or is not a field
+dsDropdown cannot be resolved or is not a field
+The method clickDropdownItemArray() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemLinkedList() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemStack() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemQueue() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemTree() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemGraph() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnLinkedListGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnStackGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnQueueGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnTreeGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnGraphGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+
+at StepDefinitions.Step_HomePage.<init>(Step_HomePage.java:22)
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.core.exception.CucumberException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7aaca91a]" started-at="2025-03-21T12:20:17 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-21T12:20:41 GMT-04:00" duration-ms="23769" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user able to see warning message on clicking Get Started buttons of Queue on the home page without Sign in"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["DSportal App HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.core.exception.CucumberException">
+            <message>
+              <![CDATA[Failed to instantiate class StepDefinitions.Step_HomePage]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class StepDefinitions.Step_HomePage
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
+at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
+at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
+at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:74)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
+... 27 more
+Caused by: java.lang.Error: Unresolved compilation problems: 
+The constructor HomePom() is undefined
+The constructor IntroductionPagePom() is undefined
+The field HomePom.contentHeader is not visible
+The field HomePom.contentText is not visible
+The field HomePom.getStartedButton is not visible
+The field IntroductionPagePom.registerLink is not visible
+The field IntroductionPagePom.signInLink is not visible
+dsDropdown cannot be resolved or is not a field
+dsDropdown cannot be resolved or is not a field
+The method clickDropdownItemArray() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemLinkedList() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemStack() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemQueue() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemTree() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemGraph() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnLinkedListGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnStackGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnQueueGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnTreeGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnGraphGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+
+at StepDefinitions.Step_HomePage.<init>(Step_HomePage.java:22)
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.core.exception.CucumberException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7aaca91a]" started-at="2025-03-21T12:20:17 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-21T12:20:41 GMT-04:00" duration-ms="24124" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user able to see warning message on clicking Get Started buttons of Tree on the home page without Sign in"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["DSportal App HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.core.exception.CucumberException">
+            <message>
+              <![CDATA[Failed to instantiate class StepDefinitions.Step_HomePage]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class StepDefinitions.Step_HomePage
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
+at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
+at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
+at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:74)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
+... 27 more
+Caused by: java.lang.Error: Unresolved compilation problems: 
+The constructor HomePom() is undefined
+The constructor IntroductionPagePom() is undefined
+The field HomePom.contentHeader is not visible
+The field HomePom.contentText is not visible
+The field HomePom.getStartedButton is not visible
+The field IntroductionPagePom.registerLink is not visible
+The field IntroductionPagePom.signInLink is not visible
+dsDropdown cannot be resolved or is not a field
+dsDropdown cannot be resolved or is not a field
+The method clickDropdownItemArray() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemLinkedList() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemStack() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemQueue() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemTree() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemGraph() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnLinkedListGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnStackGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnQueueGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnTreeGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnGraphGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+
+at StepDefinitions.Step_HomePage.<init>(Step_HomePage.java:22)
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.core.exception.CucumberException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7aaca91a]" started-at="2025-03-21T12:20:17 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-21T12:20:41 GMT-04:00" duration-ms="24044" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user able to see warning message on clicking Get Started buttons of Graph on the home page without Sign in"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["DSportal App HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.core.exception.CucumberException">
+            <message>
+              <![CDATA[Failed to instantiate class StepDefinitions.Step_HomePage]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class StepDefinitions.Step_HomePage
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
+at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
+at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
+at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:74)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
+... 27 more
+Caused by: java.lang.Error: Unresolved compilation problems: 
+The constructor HomePom() is undefined
+The constructor IntroductionPagePom() is undefined
+The field HomePom.contentHeader is not visible
+The field HomePom.contentText is not visible
+The field HomePom.getStartedButton is not visible
+The field IntroductionPagePom.registerLink is not visible
+The field IntroductionPagePom.signInLink is not visible
+dsDropdown cannot be resolved or is not a field
+dsDropdown cannot be resolved or is not a field
+The method clickDropdownItemArray() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemLinkedList() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemStack() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemQueue() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemTree() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickDropdownItemGraph() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnLinkedListGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnStackGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnQueueGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnTreeGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+The method clickOnGraphGetStartedBtn() is undefined for the type IntroductionPagePom
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+authenticationMsg cannot be resolved or is not a field
+
+at StepDefinitions.Step_HomePage.<init>(Step_HomePage.java:22)
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.core.exception.CucumberException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7aaca91a]" started-at="2025-03-21T12:20:18 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-21T12:20:42 GMT-04:00" duration-ms="23979" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user receives error message for all empty fields during registration"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Registration"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.core.exception.CucumberException">
+            <message>
+              <![CDATA[Failed to instantiate class StepDefinitions.Step_RegisterPage]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class StepDefinitions.Step_RegisterPage
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
+at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
+at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
+at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:74)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
+... 27 more
+Caused by: java.lang.Error: Unresolved compilation problems: 
+The constructor IntroductionPagePom() is undefined
+The constructor HomePom() is undefined
+The method getPageTitle() is undefined for the type IntroductionPagePom
+
+at StepDefinitions.Step_RegisterPage.<init>(Step_RegisterPage.java:18)
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.core.exception.CucumberException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7aaca91a]" started-at="2025-03-21T12:20:18 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-21T12:20:42 GMT-04:00" duration-ms="23598" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user receives error message for empty Password and Password confirmation fields during registration"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Registration"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.core.exception.CucumberException">
+            <message>
+              <![CDATA[Failed to instantiate class StepDefinitions.Step_RegisterPage]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class StepDefinitions.Step_RegisterPage
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
+at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
+at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
+at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:74)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
+... 27 more
+Caused by: java.lang.Error: Unresolved compilation problems: 
+The constructor IntroductionPagePom() is undefined
+The constructor HomePom() is undefined
+The method getPageTitle() is undefined for the type IntroductionPagePom
+
+at StepDefinitions.Step_RegisterPage.<init>(Step_RegisterPage.java:18)
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.core.exception.CucumberException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7aaca91a]" started-at="2025-03-21T12:20:19 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-21T12:21:00 GMT-04:00" duration-ms="41264" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user receives error message for empty Password Confirmation field during registration"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Registration"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.core.exception.CucumberException">
+            <message>
+              <![CDATA[Failed to instantiate class StepDefinitions.Step_RegisterPage]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class StepDefinitions.Step_RegisterPage
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
+at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
+at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
+at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:74)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
+... 27 more
+Caused by: java.lang.Error: Unresolved compilation problems: 
+The constructor IntroductionPagePom() is undefined
+The constructor HomePom() is undefined
+The method getPageTitle() is undefined for the type IntroductionPagePom
+
+at StepDefinitions.Step_RegisterPage.<init>(Step_RegisterPage.java:18)
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.core.exception.CucumberException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7aaca91a]" started-at="2025-03-21T12:20:29 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-21T12:20:54 GMT-04:00" duration-ms="25590" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user receives error message for invalid username field during registration"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Registration"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.core.exception.CucumberException">
+            <message>
+              <![CDATA[Failed to instantiate class StepDefinitions.Step_RegisterPage]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class StepDefinitions.Step_RegisterPage
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
+at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
+at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
+at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:74)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
+... 27 more
+Caused by: java.lang.Error: Unresolved compilation problems: 
+The constructor IntroductionPagePom() is undefined
+The constructor HomePom() is undefined
+The method getPageTitle() is undefined for the type IntroductionPagePom
+
+at StepDefinitions.Step_RegisterPage.<init>(Step_RegisterPage.java:18)
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.core.exception.CucumberException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7aaca91a]" started-at="2025-03-21T12:20:32 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-21T12:21:00 GMT-04:00" duration-ms="27872" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user receives error message for invalid password field during registration"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Registration"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.core.exception.CucumberException">
+            <message>
+              <![CDATA[Failed to instantiate class StepDefinitions.Step_RegisterPage]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class StepDefinitions.Step_RegisterPage
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
+at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
+at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
+at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:74)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
+... 27 more
+Caused by: java.lang.Error: Unresolved compilation problems: 
+The constructor IntroductionPagePom() is undefined
+The constructor HomePom() is undefined
+The method getPageTitle() is undefined for the type IntroductionPagePom
+
+at StepDefinitions.Step_RegisterPage.<init>(Step_RegisterPage.java:18)
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.core.exception.CucumberException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7aaca91a]" started-at="2025-03-21T12:20:38 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-21T12:20:58 GMT-04:00" duration-ms="19261" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user receives error message for Password field less than eight characters during registration"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Registration"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.core.exception.CucumberException">
+            <message>
+              <![CDATA[Failed to instantiate class StepDefinitions.Step_RegisterPage]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class StepDefinitions.Step_RegisterPage
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
+at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
+at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
+at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:74)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
+... 27 more
+Caused by: java.lang.Error: Unresolved compilation problems: 
+The constructor IntroductionPagePom() is undefined
+The constructor HomePom() is undefined
+The method getPageTitle() is undefined for the type IntroductionPagePom
+
+at StepDefinitions.Step_RegisterPage.<init>(Step_RegisterPage.java:18)
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.core.exception.CucumberException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7aaca91a]" started-at="2025-03-21T12:20:41 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-21T12:20:58 GMT-04:00" duration-ms="17257" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user receives error message for mismatched Password and Password Confirmation field during registration"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Registration"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.core.exception.CucumberException">
+            <message>
+              <![CDATA[Failed to instantiate class StepDefinitions.Step_RegisterPage]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class StepDefinitions.Step_RegisterPage
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
+at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
+at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
+at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:74)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
+... 27 more
+Caused by: java.lang.Error: Unresolved compilation problems: 
+The constructor IntroductionPagePom() is undefined
+The constructor HomePom() is undefined
+The method getPageTitle() is undefined for the type IntroductionPagePom
+
+at StepDefinitions.Step_RegisterPage.<init>(Step_RegisterPage.java:18)
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.core.exception.CucumberException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7aaca91a]" started-at="2025-03-21T12:20:41 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-21T12:20:58 GMT-04:00" duration-ms="17164" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to successfully register using valid username and password details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Registration"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.core.exception.CucumberException">
+            <message>
+              <![CDATA[Failed to instantiate class StepDefinitions.Step_RegisterPage]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class StepDefinitions.Step_RegisterPage
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
+at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
+at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
+at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:74)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
+... 27 more
+Caused by: java.lang.Error: Unresolved compilation problems: 
+The constructor IntroductionPagePom() is undefined
+The constructor HomePom() is undefined
+The method getPageTitle() is undefined for the type IntroductionPagePom
+
+at StepDefinitions.Step_RegisterPage.<init>(Step_RegisterPage.java:18)
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.core.exception.CucumberException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7aaca91a]" started-at="2025-03-21T12:20:41 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-21T12:20:59 GMT-04:00" duration-ms="17465" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to click on login link from Registration page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Registration"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.core.exception.CucumberException">
+            <message>
+              <![CDATA[Failed to instantiate class StepDefinitions.Step_RegisterPage]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class StepDefinitions.Step_RegisterPage
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
+at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
+at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
+at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:74)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
+... 27 more
+Caused by: java.lang.Error: Unresolved compilation problems: 
+The constructor IntroductionPagePom() is undefined
+The constructor HomePom() is undefined
+The method getPageTitle() is undefined for the type IntroductionPagePom
+
+at StepDefinitions.Step_RegisterPage.<init>(Step_RegisterPage.java:18)
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.core.exception.CucumberException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7aaca91a]" started-at="2025-03-21T12:20:42 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-21T12:21:00 GMT-04:00" duration-ms="18313" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to click on Sign in link from Registration page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Registration"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.core.exception.CucumberException">
+            <message>
+              <![CDATA[Failed to instantiate class StepDefinitions.Step_RegisterPage]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class StepDefinitions.Step_RegisterPage
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
+at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
+at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
+at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:74)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
+... 27 more
+Caused by: java.lang.Error: Unresolved compilation problems: 
+The constructor IntroductionPagePom() is undefined
+The constructor HomePom() is undefined
+The method getPageTitle() is undefined for the type IntroductionPagePom
+
+at StepDefinitions.Step_RegisterPage.<init>(Step_RegisterPage.java:18)
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.core.exception.CucumberException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@7aaca91a]" started-at="2025-03-21T12:21:00 GMT-04:00" name="tearDownClass" finished-at="2025-03-21T12:21:03 GMT-04:00" duration-ms="2889" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- Runner.TestRunner -->
+      </class> <!-- runner.TestRunner -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
