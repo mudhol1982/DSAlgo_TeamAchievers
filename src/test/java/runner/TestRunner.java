@@ -10,7 +10,7 @@ import org.testng.annotations.Parameters;
 import Utilities.ConfigReader;
 
 @CucumberOptions(
-	features =   "src/test/resources/features", 
+	features =   "src/test/resources/features/UC04_dataStructureIntro.feature", 
 		   //"src/test/resources/features/UC02_registerPage.feature",
            //"src/test/resources/features/UC03_loginPage.feature"},      // Specify multiple features
  
@@ -30,6 +30,7 @@ import Utilities.ConfigReader;
         
 )
 public class TestRunner extends AbstractTestNGCucumberTests {
+	
 
 	///////////////////////
 	//use this code for cross browser testing
@@ -42,7 +43,7 @@ public class TestRunner extends AbstractTestNGCucumberTests {
 /////////////////////
 	
     @Override
-    @DataProvider(parallel = false) // Run tests in parallel with true 
+    @DataProvider(parallel = true) // Run tests in parallel with true 
     public Object[][] scenarios() {
         return super.scenarios(); // Get the scenarios from Cucumber
     }
