@@ -56,4 +56,7 @@ public class Driver_SetUp {
     public static synchronized WebDriver getDriver() {
         return threadDriver.get();
     }
+
+	
 }
+

@@ -1,0 +1,600 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Mar 20, 2025 08:37:46 pm</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Data Structures-Introduction</p>
+            <p class="text-sm">
+              <span>8:37:49 pm</span> / <span>00:00:01:051</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Data Structures-Introduction</h5>
+<span class='badge badge-success'>03.20.2025 8:37:49 pm</span>
+<span class='badge badge-danger'>03.20.2025 8:37:50 pm</span>
+<span class='badge badge-default'>00:00:01:051</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>Verify that user does not get any error message  when clicked on Run button without any code</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="StepDefinitions.Step_DataStructurePage.the_user_is_in_the_try_editor_page_of_time_complexity_page()">
+                <span>Given The user is in the tryEditor page of Time Complexity page</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getTitle()" because "this.driver" is null
+	at PageObjectModel.IntroductionPagePom.getPageTitle(IntroductionPagePom.java:325)
+	at StepDefinitions.Step_DataStructurePage.the_user_is_in_the_try_editor_page_of_time_complexity_page(Step_DataStructurePage.java:120)
+	at ✽.The user is in the tryEditor page of Time Complexity page(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC04_dataStructureIntro.feature:23)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefinitions.Step_DataStructurePage.the_user_clicks_the_run_button_without_entering_the_code_in_the_text_area_editor()">
+                <span>When The user clicks the Run button without entering the code in the text area editor</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefinitions.Step_DataStructurePage.the_user_does_not_see_any_error_message_displayed()">
+                <span>Then The user does not see any error message displayed</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="3"><span class="badge log fail-bg mr-2">Fail</span>Verify that user is able to navigate to Data Structures - Introduction page</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="StepDefinitions.Step_DataStructurePage.the_user_is_landed_on_the_home_page_after_sign_in()">
+                <span>Given The user is landed on the home page after sign-in</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
+	at PageObjectModel.HomePom.openURL(HomePom.java:39)
+	at StepDefinitions.Step_DataStructurePage.the_user_is_landed_on_the_home_page_after_sign_in(Step_DataStructurePage.java:48)
+	at ✽.The user is landed on the home page after sign-in(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC04_dataStructureIntro.feature:5)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefinitions.Step_DataStructurePage.the_user_clicks_the_get_started_button_of_data_structure_introduction_section()">
+                <span>When The user clicks the Get Started button of Data Structure Introduction section</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefinitions.Step_DataStructurePage.the_user_should_be_directed_to_data_structure_introduction_page()">
+                <span>Then The user should be directed to  Data Structure introduction Page</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="4"><span class="badge log fail-bg mr-2">Fail</span>Verify that user is able to navigate to Practice Questions page</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="StepDefinitions.Step_DataStructurePage.the_user_clicks_practice_questions_link_of_ds_page()">
+                <span>When The user clicks Practice Questions link of DS page</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
+	at PageObjectModel.HomePom.openPracticeQnsPageUrl(HomePom.java:55)
+	at StepDefinitions.Step_DataStructurePage.the_user_clicks_practice_questions_link_of_ds_page(Step_DataStructurePage.java:192)
+	at ✽.The user clicks Practice Questions link of DS page(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC04_dataStructureIntro.feature:51)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefinitions.Step_DataStructurePage.the_user_should_be_redirected_to_practice_questions_page_of_ds()">
+                <span>Then The user should be redirected to Practice Questions page  of DS</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="5"><span class="badge log fail-bg mr-2">Fail</span>Verify that user receives error message in the alert window for invalid python code</div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="6"><span class="badge log fail-bg mr-2">Fail</span>Verify that user receives error message in the alert window for invalid python code</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given The user is in the tryEditor page of Time Complexity page</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getTitle()" because "this.driver" is null
+	at PageObjectModel.IntroductionPagePom.getPageTitle(IntroductionPagePom.java:325)
+	at StepDefinitions.Step_DataStructurePage.the_user_is_in_the_try_editor_page_of_time_complexity_page(Step_DataStructurePage.java:120)
+	at ✽.The user is in the tryEditor page of Time Complexity page(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC04_dataStructureIntro.feature:29)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When The user clicks Run button with invalidcode from sheetname "tryEditorCode" and row 1</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then The user should able to see an error message in alert window</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="7"><span class="badge log fail-bg mr-2">Fail</span>Verify that user is able to see output for valid python code</div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="8"><span class="badge log fail-bg mr-2">Fail</span>Verify that user is able to see output for valid python code</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given The user is in the tryEditor page of Time Complexity page</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getTitle()" because "this.driver" is null
+	at PageObjectModel.IntroductionPagePom.getPageTitle(IntroductionPagePom.java:325)
+	at StepDefinitions.Step_DataStructurePage.the_user_is_in_the_try_editor_page_of_time_complexity_page(Step_DataStructurePage.java:120)
+	at ✽.The user is in the tryEditor page of Time Complexity page(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC04_dataStructureIntro.feature:39)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When The user clicks Run button with valid code from sheetname "tryEditorCode" and row 0</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then The user should able to see output in the console</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="9"><span class="badge log fail-bg mr-2">Fail</span>Verify that user is able to navigate to  Time Complexity page of DS Introduction page</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="StepDefinitions.Step_DataStructurePage.the_user_is_on_the_data_structure_introduction_page_of_ds_algo_portal_after_sign_in()">
+                <span>Given The user is on the Data Structure introduction Page of ds algo portal after sign in</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
+	at PageObjectModel.HomePom.openDSIntroductionUrl(HomePom.java:51)
+	at StepDefinitions.Step_DataStructurePage.the_user_is_on_the_data_structure_introduction_page_of_ds_algo_portal_after_sign_in(Step_DataStructurePage.java:75)
+	at ✽.The user is on the Data Structure introduction Page of ds algo portal after sign in(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC04_dataStructureIntro.feature:11)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefinitions.Step_DataStructurePage.the_user_clicks_on_time_complexity_link_of_ds_introduction_page()">
+                <span>When The user clicks on Time Complexity link of DS Introduction page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefinitions.Step_DataStructurePage.the_user_should_be_directed_to_time_complexity_page_of_ds_intro_page()">
+                <span>Then The user should be directed to Time Complexity page of DS Intro page</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="12"><span class="badge log fail-bg mr-2">Fail</span>Verify that user is able to navigate to Try Editor from Time Complexity page for DS Introduction page</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="StepDefinitions.Step_DataStructurePage.the_user_is_on_the_time_complexity_page_of_ds_introduction_page()">
+                <span>Given The user is on the Time Complexity Page of DS Introduction page</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getTitle()" because "this.driver" is null
+	at StepDefinitions.Step_DataStructurePage.the_user_is_on_the_time_complexity_page_of_ds_introduction_page(Step_DataStructurePage.java:95)
+	at ✽.The user is on the Time Complexity Page of DS Introduction page(file:///C:/Users/Lavanya%20Yelakala/eclipse-workspace/DSAlgo_TeamAchievers/src/test/resources/features/UC04_dataStructureIntro.feature:17)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefinitions.Step_DataStructurePage.the_user_clicks_on_try_here_button_of_time_complexity_page()">
+                <span>When The user clicks on Try here button of Time Complexity Page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefinitions.Step_DataStructurePage.the_user_should_be_directed_to_a_page_having_editor_with_run_button()">
+                <span>Then The user should be directed to a page having Editor with run button</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>7</span>
+</span>
+<p class="name">java.lang.NullPointerException</p>
+<p class="duration text-sm">7 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>java.lang.NullPointerException</h4>
+<span status="fail" class='badge log badge-danger'>7 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>20:37:49 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='17'>Given The user is on the Time Complexity Page of DS Introduction page</a>
+<div class="">
+<span class="badge badge-default">Data Structures-Introduction.Verify that user is able to navigate to Try Editor from Time Complexity page for DS Introduction page.Given The user is on the Time Complexity Page of DS Introduction page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>20:37:49 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='16'>Given The user is on the Data Structure introduction Page of ds algo portal after sign in</a>
+<div class="">
+<span class="badge badge-default">Data Structures-Introduction.Verify that user is able to navigate to Time Complexity page of DS Introduction page.Given The user is on the Data Structure introduction Page of ds algo portal after sign in</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>20:37:49 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='11'>When The user clicks Practice Questions link of DS page</a>
+<div class="">
+<span class="badge badge-default">Data Structures-Introduction.Verify that user is able to navigate to Practice Questions page.When The user clicks Practice Questions link of DS page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>20:37:49 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='13'>Given The user is in the tryEditor page of Time Complexity page</a>
+<div class="">
+<span class="badge badge-default">Data Structures-Introduction.Verify that user does not get any error message when clicked on Run button without any code.Given The user is in the tryEditor page of Time Complexity page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>20:37:49 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='14'>Given The user is landed on the home page after sign-in</a>
+<div class="">
+<span class="badge badge-default">Data Structures-Introduction.Verify that user is able to navigate to Data Structures - Introduction page.Given The user is landed on the home page after sign-in</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>20:37:49 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='10'>Given The user is in the tryEditor page of Time Complexity page</a>
+<div class="">
+<span class="badge badge-default">Data Structures-Introduction.Verify that user receives error message in the alert window for invalid python code.Given The user is in the tryEditor page of Time Complexity page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>20:37:49 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='15'>Given The user is in the tryEditor page of Time Complexity page</a>
+<div class="">
+<span class="badge badge-default">Data Structures-Introduction.Verify that user is able to see output for valid python code.Given The user is in the tryEditor page of Time Complexity page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Mar 20, 2025 08:37:46 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Mar 20, 2025 08:37:50 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>0</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'>
+<b>0</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='100%'><b>1</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'><b>0</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='100%'><b>7</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'><b>0</b> steps passed</small></div>
+<div>
+<small data-tooltip='35%'><b>7</b> steps failed,
+<b>13</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Data Structures-Introduction":1.051
+};
+</script>
+<div class="row">
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 0,
+failParent: 1,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 7,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 7,
+warningGrandChild: 0,
+skipGrandChild: 13,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c05cd28cde1617b9d0c05a831daff6cb97fd9fd5/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

@@ -1,15 +1,22 @@
 package AppHooks;
 
+import java.io.ByteArrayInputStream;
+
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
 import DriverManager.Driver_SetUp;
 import Utilities.ConfigReader;
 import io.cucumber.java.After;
 import io.cucumber.java.BeforeAll;
+import io.cucumber.java.Scenario;
+import io.qameta.allure.Allure;
 
 public class Hooks {
 	
 	private static WebDriver driver;
+	
 	
 	// This hook runs before all scenarios to initialize the WebDriver
     @BeforeAll
@@ -35,20 +42,31 @@ public class Hooks {
         // Navigate to the base URL
         driver.get(url);
     }
+    
 
-    // This hook runs after each scenario to quit the WebDriver
+    // to run after each scenario to quit the WebDriver
+    
     @After
-    public void tearDown() {
-        if (driver != null) {
-            // Close the browser after the test
-            Driver_SetUp.closeDriver();
-        }
-    }
+    public void tearDown(Scenario scenario) {
+    	 if (scenario.isFailed()) {
+             // Capture screenshot if the scenario failed
+             byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+             
+             // Attach the screenshot to the Allure report
+             Allure.addAttachment(scenario.getName() + " - Screenshot", new ByteArrayInputStream(screenshot));
+         }
 
+         if (driver != null) {
+             // Close the browser after the test
+             Driver_SetUp.closeDriver();
+         }
+     }
     // Getter for WebDriver (useful in step definitions)
     public static WebDriver getDriver() {
         return driver;
     }
+    
+    
 }
-
-
+    
+   
