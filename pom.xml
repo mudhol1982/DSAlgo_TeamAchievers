@@ -160,6 +160,9 @@
 </dependency>
 
 	</dependencies>
+
+</project>
+
 	
 	<build>
     <pluginManagement>
