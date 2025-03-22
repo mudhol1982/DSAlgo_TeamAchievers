@@ -2,6 +2,7 @@ package StepDefinitions;
 
 import static org.testng.Assert.assertFalse;
 import org.testng.Assert;
+import org.testng.annotations.Parameters;
 
 import com.fasterxml.jackson.databind.exc.InvalidFormatException;
 
@@ -16,6 +17,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.picocontainer.annotations.Inject;
 
 import DriverManager.Driver_SetUp;
 import PageObjectModel.DataStructureIntroPom;
@@ -25,34 +27,75 @@ import PageObjectModel.IntroductionPagePom;
 import PageObjectModel.LoginPom;
 import PageObjectModel.RegisterPom;
 import PageObjectModel.TryEditorPage;
+import io.cucumber.java.Before;
+import io.cucumber.java.Scenario;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class Step_GraphPage {
 	
-	
+	public static WebDriver driver ;
 GraphPom graphPage = new GraphPom();
 TryEditorPage tryEditor = new TryEditorPage();
-public HomePom hp = new HomePom();
-public LoginPom login = new LoginPom();
-public IntroductionPagePom ip = new IntroductionPagePom();
+//public HomePom hp = new HomePom(browser);
+public LoginPom login = new LoginPom(driver);
+public IntroductionPagePom ip = new IntroductionPagePom(driver);
 public RegisterPom regPage = new RegisterPom();
 public DataStructureIntroPom dsintropage = new DataStructureIntroPom();
-
-	public WebDriver driver = Driver_SetUp.getDriver();
-	
-	
-	@Given("the user is in the Home page after signing in")
-	public void the_user_is_in_the_home_page_after_signing_in() throws InvalidFormatException, IOException, OpenXML4JException, InterruptedException {
-	    // Write code here that turns the phrase above into concrete actions
-		hp.openURL();
-        hp.ClickHomePageGetStartedButton();
-        ip.clickOnSignInlink();
-        login.enterLoginFormFields("login", 6);
-	     login.clickloginBtn();
-
+HomePom hp;
+public Step_GraphPage() {
+	 
 	}
+
+//	@Before
+//    public void setUpGraph() throws Exception {
+//        String browser = System.getProperty("browser");  // Default browser is Chrome
+//        driver = Driver_SetUp.initializeBrowser(browser);  // Initialize the browser
+//        hp = new HomePom(browser);  // Initialize HomePom
+//        ip = new IntroductionPagePom(driver);  // Initialize IntroductionPagePom
+//    }
+	
+	
+//	
+//	@Parameters("browser") // This will receive the browser parameter from TestNG
+//	@Before
+//	public void setUpGraph(String browser) throws Exception {
+//	    driver = Driver_SetUp.initializeBrowser(browser);  // Pass it to Driver_SetUp
+//	    hp = new HomePom(browser);  // You can initialize HomePom with browser if needed
+//	    ip = new IntroductionPagePom(driver);  // Initialize IntroductionPagePom
+//	}
+
+
+@Before
+public void setUpGraph() throws Exception {
+    // You can log or handle scenario-specific logic if needed
+  
+    // Now handle the browser initialization as needed
+    String browser = System.getProperty("browser"); 
+     driver = Driver_SetUp.getDriver();
+    System.out.println(driver+"driver is");
+   // driver = Driver_SetUp.initializeBrowser(browser);
+    hp = new HomePom(browser);
+    ip = new IntroductionPagePom(driver);
+}
+
+	//this.driver=Driver_SetUp.getDriver();
+	//}
+
+	
+	
+	
+//	@Given("the user is in the Home page after signing in")
+//	public void the_user_is_in_the_home_page_after_signing_in() throws InvalidFormatException, IOException, OpenXML4JException, InterruptedException {
+//	    // Write code here that turns the phrase above into concrete actions
+//		hp.openURL();
+//        hp.ClickHomePageGetStartedButton();
+//        ip.clickOnSignInlink();
+//        login.enterLoginFormFields("login", 6);
+//	     login.clickloginBtn();
+//
+//	}
 
 	@When("the user clicks the Get Started button in the Graph Panel")
 	public void the_user_clicks_the_get_started_button_in_the_graph_panel() throws InterruptedException {

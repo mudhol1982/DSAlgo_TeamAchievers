@@ -9,17 +9,39 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
+import org.testng.annotations.Parameters;
+
+import DriverManager.Driver_SetUp;
 import PageObjectModel.HomePom;
 import PageObjectModel.IntroductionPagePom;
+import io.cucumber.java.Before;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When; 
 
 
-public class Step_HomePage {
 
-	public HomePom hp = new HomePom();
-	public IntroductionPagePom ip = new IntroductionPagePom();
+public class Step_HomePage {
+	 //HomePom hp;
+    WebDriver driver;
+    HomePom hp;
+   // IntroductionPagePom ip;
+
+    // Constructor
+    public Step_HomePage() {
+    }
+
+
+    
+    @Before
+    public void setUp() throws Exception {
+        String browser = System.getProperty("browser");  
+        driver = Driver_SetUp.initializeBrowser(browser);  // Initialize the browser
+        hp = new HomePom(browser);  // Initialize HomePom
+        ip = new IntroductionPagePom(driver);  // Initialize IntroductionPagePom
+    }
+
+	public IntroductionPagePom ip = new IntroductionPagePom(driver);
 
 
 	//TC01

@@ -7,6 +7,7 @@ import java.util.Properties;
 public class ConfigReader {
 
     private static Properties properties = new Properties();
+    private static String browserType = null;
 
     // Load the config.properties file from the classpath
     public static void loadConfig() throws IOException {
@@ -21,9 +22,13 @@ public class ConfigReader {
         // Load the properties from the file
         properties.load(inputStream);
     }
+//    public static void setBrowserType(String browser) {
+//		 browserType = browser;
+//	}
 
     // Get the browser type from the config file
     public static String getBrowserType() {
+    	
         return properties.getProperty("browser");
     }
 

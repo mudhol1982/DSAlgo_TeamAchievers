@@ -38,6 +38,14 @@ public class LoginPom {
 	
 	public By alertMsg = By.cssSelector(".alert.alert-primary");
 	
+	
+	
+	public LoginPom(WebDriver driver)
+	{
+		this.driver = Driver_SetUp.getDriver();
+	}
+	
+	
 	//enter user name text box 
 	public void enterUsernameTxt(String username) {
 		driver.findElement(usernameTextBox).sendKeys(username);
@@ -58,6 +66,7 @@ public class LoginPom {
 	    	driver.findElement(passwordTextBox).sendKeys(password);
 	    	driver.findElement(loginBtn).click();
 	    }
+	 
 	 
 	public void passwordTextField(String password) {
 			driver.findElement(passwordTextBox).sendKeys(password);

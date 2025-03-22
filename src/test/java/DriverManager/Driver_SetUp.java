@@ -9,7 +9,8 @@ import org.openqa.selenium.edge.EdgeDriver;
 public class Driver_SetUp {
 
     // ThreadLocal to store browser instance for each thread (parallel execution)
-    private static ThreadLocal<WebDriver> threadDriver = new ThreadLocal<>();
+    private static final ThreadLocal<WebDriver> threadDriver = new ThreadLocal<>();
+    public static WebDriver driver;
 
     // Method to initialize the WebDriver based on the browser name
     public static WebDriver initializeBrowser(String browser) throws Exception {
@@ -19,8 +20,8 @@ public class Driver_SetUp {
             return threadDriver.get();  // Return the already initialized driver if it exists
         }
 
-        WebDriver driver = null;
-
+     driver = null;
+       // WebDriver driver ;
         // Initialize WebDriver based on the specified browser
         if (browser.equalsIgnoreCase("chrome")) {
             driver = new ChromeDriver();
@@ -57,3 +58,7 @@ public class Driver_SetUp {
         return threadDriver.get();
     }
 }
+
+
+
+

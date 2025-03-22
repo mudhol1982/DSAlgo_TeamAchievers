@@ -1,5 +1,6 @@
 package PageObjectModel;
 
+import org.testng.annotations.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.NoAlertPresentException;
@@ -117,7 +118,8 @@ WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(100));
     }
     
  // Test method for valid Python code execution
-    public void testValidCodeExecution() throws IOException, InterruptedException {
+    @Test
+	public void testValidCodeExecution() throws IOException, InterruptedException {
         // Read valid Python code from Excel
         String validCode = ExcelReader.getCodeFromExcel("src/test/resources/TestData.xlsx", "Sheet1", 1, 0);
         
@@ -152,7 +154,8 @@ WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(100));
     }
 
     // Test method for invalid Python code execution
-    public void testInvalidCodeExecution() throws IOException, InterruptedException {
+    @Test
+	public void testInvalidCodeExecution() throws IOException, InterruptedException {
         // Read invalid Python code from Excel
         String invalidCode = ExcelReader.getCodeFromExcel("src/test/resources/TestData.xlsx", "Sheet1", 2, 0);
         System.out.println("inalidcode"+invalidCode);

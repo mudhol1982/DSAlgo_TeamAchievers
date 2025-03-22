@@ -10,7 +10,7 @@ import org.testng.annotations.Parameters;
 
 
 @CucumberOptions(
-        features = "src/test/resources/features", // Path to your feature files
+        features = "src/test/resources/features/UC01_homePage.feature", // Path to your feature files
         //glue = "StepDefinitions", // Path to your step definition classes
         glue = {"StepDefinitions", "AppHooks"}, // Package containing step definitions
         //glue = {"com.yourproject.StepDefinitions"},
@@ -25,7 +25,7 @@ import org.testng.annotations.Parameters;
 public class TestRunner extends AbstractTestNGCucumberTests {
 
     @Override
-    @DataProvider(parallel = false) // Run tests in parallel
+    @DataProvider(parallel = true) // Run tests in parallel
     public Object[][] scenarios() {
         return super.scenarios(); // Get the scenarios from Cucumber
     }

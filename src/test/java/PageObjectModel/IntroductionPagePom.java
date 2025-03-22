@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import DriverManager.Driver_SetUp;
 import Utilities.LoggerLoad;
 
-public class IntroductionPagePom {
+public class IntroductionPagePom extends Driver_SetUp {
 
 	public WebDriver driver = Driver_SetUp.getDriver();
 
@@ -60,6 +60,13 @@ public class IntroductionPagePom {
 
 	// Authentication page on Introduction Home page before log in
 	public By authenticationmsg = By.cssSelector("div.alert.alert-primary");
+	
+	
+	
+	public IntroductionPagePom(WebDriver driver)
+	{
+		this.driver = Driver_SetUp.getDriver();
+	}
 
 	// Method to click on the dropdown toggle
 	public void clickDropdownToggle() {
